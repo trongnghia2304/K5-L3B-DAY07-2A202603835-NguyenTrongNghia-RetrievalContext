@@ -22,7 +22,7 @@ Lệnh này xác nhận mỗi câu có ít nhất một evidence nằm trọn tr
 
 ## Nguồn câu hỏi
 
-**Dev (15 câu có đáp án):** lấy nguyên 15 câu dev của benchmark bài 6. Học viên đã duyệt các câu này ở bài 6. Có một thay đổi:
+**Dev (15 câu có đáp án):** lấy nguyên 15 câu dev của benchmark bài 6. Có một thay đổi:
 - `q01`: thêm evidence thay thế ở trang 6 ("the World Bank Group committed $117.5 billion"). Bài 6 cho thấy evidence gốc ở trang 8 bị tách qua hai chunk, nên không chunk nào chứa trọn nó.
 - Đây là thay đổi trên **dev**, có ghi lại, và không đụng tới test.
 

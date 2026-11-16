@@ -33,6 +33,21 @@
 > ```
 >
 > `starter/data/` (toàn văn các chunk, giấy phép NoDerivatives) không được commit; bước 3 sẽ tạo lại. Không commit `.env`.
+>
+> **Thử thách nâng cao (bonus):** *World Bank Annual Report 2022* (116 trang). Test đạt **30/30**. Chi tiết trong [advanced/results/README.md](advanced/results/README.md).
+>
+> Cần thêm thư viện `pymupdf` và `pdfplumber`, và file `AR2022EN.pdf` (tải từ Open Knowledge Repository của World Bank, đặt vào `advanced/data/`):
+>
+> ```bash
+> .venv\Scripts\python -m pip install pymupdf pdfplumber
+> .venv\Scripts\python advanced/src/ingest.py              # text theo trang + manifest
+> .venv\Scripts\python advanced/src/describe_visuals.py    # vision mô tả bảng và hình (gọi API)
+> .venv\Scripts\python advanced/src/describe_visuals.py --recheck   # đối chiếu số liệu với lớp text
+> .venv\Scripts\python advanced/src/build_index.py         # chunk + pgvector adv_chunks_384d
+> .venv\Scripts\python advanced/src/make_benchmark.py; .venv\Scripts\python advanced/src/verify_benchmark.py
+> .venv\Scripts\python advanced/src/run_adv.py --split dev --tag loopfix_catalog --loop-fix --catalog
+> .venv\Scripts\python advanced/src/run_adv.py --split test --tag final --loop-fix --catalog
+> ```
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 

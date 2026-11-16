@@ -1,0 +1,915 @@
+[
+ {
+  "id": "d01",
+  "split": "dev",
+  "answerable": true,
+  "group": "table",
+  "question": "How much did IBRD disburse to Latin America and the Caribbean in fiscal 2022?",
+  "expected_answer": "$8,911 million",
+  "evidence": [
+   {
+    "page": 103,
+    "kind": "table",
+    "locator": "TABLE 19, row Latin America and the Caribbean, column FY22",
+    "values": [
+     "8,911"
+    ]
+   },
+   {
+    "page": 38,
+    "kind": "table",
+    "locator": "TABLE 10 (alternative), IBRD disbursements FY22",
+    "values": [
+     "8,911"
+    ]
+   }
+  ],
+  "evidence_mode": "any"
+ },
+ {
+  "id": "d02",
+  "split": "dev",
+  "answerable": true,
+  "group": "table",
+  "question": "What were IDA commitments to the Transportation sector in fiscal 2022, and what were they in fiscal 2021?",
+  "expected_answer": "$5,167 million in FY22 (up from $2,367 million in FY21)",
+  "evidence": [
+   {
+    "page": 107,
+    "kind": "table",
+    "locator": "TABLE 26, row Transportation, columns FY21 and FY22",
+    "values": [
+     "2,367",
+     "5,167"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d03",
+  "split": "dev",
+  "answerable": true,
+  "group": "table",
+  "question": "What were IBRD's total assets at the end of fiscal 2022?",
+  "expected_answer": "$317,542 million",
+  "evidence": [
+   {
+    "page": 105,
+    "kind": "table",
+    "locator": "TABLE 23, row Total assets, column FY22",
+    "values": [
+     "317,542"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d04",
+  "split": "dev",
+  "answerable": true,
+  "group": "table",
+  "question": "What were IFC's commitments in fiscal 2022 according to the table of World Bank Group commitments?",
+  "expected_answer": "$22,229 million",
+  "evidence": [
+   {
+    "page": 17,
+    "kind": "table",
+    "locator": "TABLE 1, IFC Commitments row, column 2022",
+    "values": [
+     "22,229"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d05",
+  "split": "dev",
+  "answerable": true,
+  "group": "image_diagram",
+  "question": "In the IBRD business model diagram, where does IBRD's income flow?",
+  "expected_answer": "Income flows to IDA and trust funds",
+  "evidence": [
+   {
+    "page": 105,
+    "kind": "diagram",
+    "locator": "FIGURE 9: 'Income' bar points to the 'IDA and trust funds' bar (right side)",
+    "values": [],
+    "quote": "IDA and trust funds"
+   }
+  ]
+ },
+ {
+  "id": "d06",
+  "split": "dev",
+  "answerable": true,
+  "group": "image_diagram",
+  "question": "On the Commitment to Results map, what result is reported for the Maldives?",
+  "expected_answer": "Since 2020, automated weather stations increased from 36 to 63",
+  "evidence": [
+   {
+    "page": 113,
+    "kind": "map",
+    "locator": "Results map, numbered callout 19 (Maldives)",
+    "values": [
+     "36",
+     "63"
+    ],
+    "quote": "automated weather stations increased from 36 to 63"
+   }
+  ]
+ },
+ {
+  "id": "d07",
+  "split": "dev",
+  "answerable": true,
+  "group": "image_diagram",
+  "question": "In the 2022 summary results globe graphic, what amount is shown for Africa?",
+  "expected_answer": "$38.5 billion",
+  "evidence": [
+   {
+    "page": 19,
+    "kind": "infographic",
+    "locator": "Globe callout 'AFRICA'",
+    "values": [
+     "38.5"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d08",
+  "split": "dev",
+  "answerable": true,
+  "group": "chart",
+  "question": "Which sector received the largest share of IBRD and IDA lending in Eastern and Southern Africa in fiscal 2022, and what was that share?",
+  "expected_answer": "Public Administration, 18% (of $18.2 billion)",
+  "evidence": [
+   {
+    "page": 23,
+    "kind": "chart",
+    "locator": "FIGURE 1 pie chart, slice 'Public Administration'",
+    "values": [
+     "18%",
+     "18.2"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d09",
+  "split": "dev",
+  "answerable": true,
+  "group": "chart",
+  "question": "What share of IBRD and IDA lending in Latin America and the Caribbean in fiscal 2022 went to Health?",
+  "expected_answer": "18% (of $10.4 billion)",
+  "evidence": [
+   {
+    "page": 39,
+    "kind": "chart",
+    "locator": "FIGURE 5 pie chart, slice 'Health'",
+    "values": [
+     "18%",
+     "10.4"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d10",
+  "split": "dev",
+  "answerable": true,
+  "group": "chart",
+  "question": "What share of fiscal 2022 IBRD and IDA lending in Latin America and the Caribbean went to Information and Communications Technologies?",
+  "expected_answer": "0%",
+  "evidence": [
+   {
+    "page": 39,
+    "kind": "chart",
+    "locator": "FIGURE 5 pie chart, slice 'Information and Communications Technologies'",
+    "values": [
+     "0%"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "d11",
+  "split": "dev",
+  "answerable": true,
+  "group": "multi_hop",
+  "question": "What were combined IBRD and IDA commitments to Agriculture, Fishing, and Forestry in fiscal 2022?",
+  "expected_answer": "$7,619 million (IBRD $3,611 million + IDA $4,008 million)",
+  "evidence": [
+   {
+    "page": 103,
+    "kind": "table",
+    "locator": "TABLE 20, row Agriculture, Fishing, and Forestry, FY22",
+    "values": [
+     "3,611"
+    ]
+   },
+   {
+    "page": 107,
+    "kind": "table",
+    "locator": "TABLE 26, row Agriculture, Fishing, and Forestry, FY22",
+    "values": [
+     "4,008"
+    ]
+   }
+  ],
+  "calc": "3,611 + 4,008 = 7,619 (US$ millions)"
+ },
+ {
+  "id": "d12",
+  "split": "dev",
+  "answerable": true,
+  "group": "multi_hop",
+  "question": "What were combined IBRD and IDA commitments to the Education sector in fiscal 2022?",
+  "expected_answer": "$3,425 million (IBRD $1,090 million + IDA $2,335 million)",
+  "evidence": [
+   {
+    "page": 103,
+    "kind": "table",
+    "locator": "TABLE 20, row Education, FY22",
+    "values": [
+     "1,090"
+    ]
+   },
+   {
+    "page": 107,
+    "kind": "table",
+    "locator": "TABLE 26, row Education, FY22",
+    "values": [
+     "2,335"
+    ]
+   }
+  ],
+  "calc": "1,090 + 2,335 = 3,425 (US$ millions)"
+ },
+ {
+  "id": "d13",
+  "split": "dev",
+  "answerable": true,
+  "group": "text",
+  "question": "How much has IBRD raised from private investors since its first bond, and in what year was that first bond issued?",
+  "expected_answer": "Over $1 trillion since its first bond in 1947",
+  "evidence": [
+   {
+    "page": 76,
+    "kind": "text",
+    "locator": "paragraph on mobilizing finance",
+    "values": [],
+    "quote": "raising over $1 trillion from private investors since its first bond in 1947"
+   }
+  ]
+ },
+ {
+  "id": "d14",
+  "split": "dev",
+  "answerable": true,
+  "group": "text",
+  "question": "How much did IFC commit in trade finance in fiscal 2022, and roughly what share went to IDA and FCV-affected countries?",
+  "expected_answer": "$9.7 billion (highest ever); nearly 75 percent",
+  "evidence": [
+   {
+    "page": 9,
+    "kind": "text",
+    "locator": "Message from the President",
+    "values": [],
+    "quote": "commitments reached $9.7 billion in trade finance, the highest level ever; nearly 75 percent of this was invested in IDA countries and countries affected by FCV"
+   }
+  ]
+ },
+ {
+  "id": "d15",
+  "split": "dev",
+  "answerable": true,
+  "group": "text",
+  "question": "What gender-equality workplace certification level did the World Bank Group earn in fiscal 2022?",
+  "expected_answer": "The second level of EDGE certification, EDGE Move",
+  "evidence": [
+   {
+    "page": 88,
+    "kind": "text",
+    "locator": "staff diversity paragraph",
+    "values": [],
+    "quote": "earned the second level of Economic Dividends for Gender Equality (EDGE) certification, EDGE Move"
+   }
+  ]
+ },
+ {
+  "id": "du1",
+  "split": "dev",
+  "answerable": false,
+  "group": "no_evidence",
+  "question": "How much did the World Bank commit to Vietnam in fiscal 2022?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Vietnam appears only on p10 (country climate report), p31 (support to the electricity company, no amount) and as a map label (p113); it is not in the IBRD or IDA top-borrower tables (p104, p108). Checked by search of both text layers and all visual descriptions.",
+  "near_topic_pages": [
+   10,
+   31,
+   104,
+   108,
+   113
+  ]
+ },
+ {
+  "id": "du2",
+  "split": "dev",
+  "answerable": false,
+  "group": "no_evidence",
+  "question": "What was IBRD's equity-to-loans ratio in fiscal 2017?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "TABLE 23 covers FY18-FY22 only; 'FY17'/'fiscal 2017' occurs nowhere in the report. Checked by search.",
+  "near_topic_pages": [
+   105
+  ]
+ },
+ {
+  "id": "du3",
+  "split": "dev",
+  "answerable": false,
+  "group": "no_evidence",
+  "question": "How much did Japan pledge to the IDA20 replenishment?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Japan appears only as an Executive Director's country (p13) and as host of the final IDA20 pledging session (p80); no Japan pledge amount is given. Checked by search for 'Japan'.",
+  "near_topic_pages": [
+   13,
+   80,
+   111
+  ]
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "answerable": true,
+  "group": "table",
+  "question": "Which country was IBRD's largest borrower in fiscal 2022, and how much were its commitments?",
+  "expected_answer": "India, $3,986 million",
+  "evidence": [
+   {
+    "page": 104,
+    "kind": "table",
+    "locator": "TABLE 22, first row",
+    "values": [
+     "3,986"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "answerable": true,
+  "group": "table",
+  "question": "How much did IDA disburse in Eastern and Southern Africa in fiscal 2022?",
+  "expected_answer": "$7,133 million",
+  "evidence": [
+   {
+    "page": 107,
+    "kind": "table",
+    "locator": "TABLE 25, row Eastern and Southern Africa, column FY22",
+    "values": [
+     "7,133"
+    ]
+   },
+   {
+    "page": 22,
+    "kind": "table",
+    "locator": "TABLE 2 (alternative), IDA disbursements FY22",
+    "values": [
+     "7,133"
+    ]
+   }
+  ],
+  "evidence_mode": "any"
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "answerable": true,
+  "group": "table",
+  "question": "What was the World Bank's (IBRD/IDA) total full-time staff in fiscal 2022, and by how much did it change from fiscal 2020?",
+  "expected_answer": "12,778 in FY22, up 384 from 12,394 in FY20",
+  "evidence": [
+   {
+    "page": 89,
+    "kind": "table",
+    "locator": "TABLE 16, row Total full-time staff, FY20 and FY22",
+    "values": [
+     "12,394",
+     "12,778"
+    ]
+   }
+  ],
+  "calc": "12,778 - 12,394 = 384"
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "answerable": true,
+  "group": "table",
+  "question": "What was IDA's deployable strategic capital ratio in fiscal 2022, and what was it in fiscal 2021?",
+  "expected_answer": "26.4% in FY22 (30.4% in FY21)",
+  "evidence": [
+   {
+    "page": 110,
+    "kind": "table",
+    "locator": "TABLE 29, row Deployable strategic capital ratio (%), FY21 and FY22",
+    "values": [
+     "30.4",
+     "26.4"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "answerable": true,
+  "group": "table",
+  "question": "In the Latin America and the Caribbean regional snapshot, what share of the population had access to electricity in 2000 and in the current data?",
+  "expected_answer": "91% in 2000 and 98% in the current data",
+  "evidence": [
+   {
+    "page": 40,
+    "kind": "table",
+    "locator": "TABLE 11, row Access to electricity (% of population), columns 2000 and CURRENT DATA",
+    "values": [
+     "91",
+     "98"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t06",
+  "split": "test",
+  "answerable": true,
+  "group": "table",
+  "question": "What were IBRD commitments to the Health sector in fiscal 2022, and how much higher were they than in fiscal 2021?",
+  "expected_answer": "$6,252 million in FY22, $3,646 million more than $2,606 million in FY21",
+  "evidence": [
+   {
+    "page": 103,
+    "kind": "table",
+    "locator": "TABLE 20, row Health, FY21 and FY22",
+    "values": [
+     "2,606",
+     "6,252"
+    ]
+   }
+  ],
+  "calc": "6,252 - 2,606 = 3,646"
+ },
+ {
+  "id": "t07",
+  "split": "test",
+  "answerable": true,
+  "group": "image_diagram",
+  "question": "In the IDA business model diagram, which activity is financed from Borrowings?",
+  "expected_answer": "Non-concessional lending",
+  "evidence": [
+   {
+    "page": 109,
+    "kind": "diagram",
+    "locator": "FIGURE 10: arrow from 'Borrowings' to 'Non-concessional lending'",
+    "values": [],
+    "quote": "Non-concessional lending"
+   }
+  ]
+ },
+ {
+  "id": "t08",
+  "split": "test",
+  "answerable": true,
+  "group": "image_diagram",
+  "question": "In the diagram of committees of the Board of Executive Directors, which committee was established in 2003 and what does it consider?",
+  "expected_answer": "The Ethics Committee; matters relating to the interpretation or application of the Code of Conduct for Board Officials",
+  "evidence": [
+   {
+    "page": 95,
+    "kind": "diagram",
+    "locator": "FIGURE 8, box 'Ethics Committee'",
+    "values": [
+     "2003"
+    ],
+    "quote": "Code of Conduct for Board Officials"
+   }
+  ]
+ },
+ {
+  "id": "t09",
+  "split": "test",
+  "answerable": true,
+  "group": "image_diagram",
+  "question": "On the Commitment to Results map, which country is marked by callout 27 and what result is reported?",
+  "expected_answer": "Yemen: between 2018 and 2022, more than 91,000 households (about a fifth headed by women) received access to affordable solar energy systems",
+  "evidence": [
+   {
+    "page": 113,
+    "kind": "map",
+    "locator": "Results map, numbered callout 27",
+    "values": [
+     "91,000"
+    ],
+    "quote": "more than 91,000 households, about a fifth of them headed by women, received access to affordable solar energy systems"
+   }
+  ]
+ },
+ {
+  "id": "t10",
+  "split": "test",
+  "answerable": true,
+  "group": "image_diagram",
+  "question": "In the 'Supporting Country Outcomes in Times of Crisis' infographic, how many students benefited from direct learning interventions?",
+  "expected_answer": "296 million",
+  "evidence": [
+   {
+    "page": 4,
+    "kind": "infographic",
+    "locator": "'Rebuilding better' row, graduation-cap icon",
+    "values": [
+     "296"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t11",
+  "split": "test",
+  "answerable": true,
+  "group": "image_diagram",
+  "question": "In the Global Commitments graphic, which region's callout shows $17.4 billion, and what overall total is displayed?",
+  "expected_answer": "Latin America and the Caribbean; $104.4 billion in total",
+  "evidence": [
+   {
+    "page": 18,
+    "kind": "map",
+    "locator": "Globe callout and total box",
+    "values": [
+     "17.4",
+     "104.4"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t12",
+  "split": "test",
+  "answerable": true,
+  "group": "chart",
+  "question": "What share of IBRD and IDA lending in Western and Central Africa in fiscal 2022 went to Transportation, and what was the total lending?",
+  "expected_answer": "13% of $12.6 billion",
+  "evidence": [
+   {
+    "page": 27,
+    "kind": "chart",
+    "locator": "FIGURE 2 pie chart, slice 'Transportation'",
+    "values": [
+     "13%",
+     "12.6"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t13",
+  "split": "test",
+  "answerable": true,
+  "group": "chart",
+  "question": "Which sector had the largest share of IBRD and IDA lending in East Asia and Pacific in fiscal 2022, and what was its share?",
+  "expected_answer": "Public Administration, 26% (of $7.2 billion)",
+  "evidence": [
+   {
+    "page": 31,
+    "kind": "chart",
+    "locator": "FIGURE 3 pie chart, slice 'Public Administration'",
+    "values": [
+     "26%",
+     "7.2"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t14",
+  "split": "test",
+  "answerable": true,
+  "group": "chart",
+  "question": "What share of IBRD and IDA lending in Europe and Central Asia in fiscal 2022 went to Energy and Extractives?",
+  "expected_answer": "15% (of $8.5 billion)",
+  "evidence": [
+   {
+    "page": 35,
+    "kind": "chart",
+    "locator": "FIGURE 4 pie chart, slice 'Energy and Extractives'",
+    "values": [
+     "15%",
+     "8.5"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t15",
+  "split": "test",
+  "answerable": true,
+  "group": "chart",
+  "question": "Which sector received the largest share of IBRD and IDA lending in the Middle East and North Africa in fiscal 2022, and what share was it?",
+  "expected_answer": "Social Protection, 27% (of $4.9 billion)",
+  "evidence": [
+   {
+    "page": 43,
+    "kind": "chart",
+    "locator": "FIGURE 6 pie chart, slice 'Social Protection'",
+    "values": [
+     "27%",
+     "4.9"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t16",
+  "split": "test",
+  "answerable": true,
+  "group": "chart",
+  "question": "In South Asia's fiscal 2022 IBRD and IDA lending by sector, what were the shares of Transportation and of Health?",
+  "expected_answer": "Transportation 24% and Health 19% (of $9.0 billion)",
+  "evidence": [
+   {
+    "page": 47,
+    "kind": "chart",
+    "locator": "FIGURE 7 pie chart, slices 'Transportation' and 'Health'",
+    "values": [
+     "24%",
+     "19%"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t17",
+  "split": "test",
+  "answerable": true,
+  "group": "multi_hop",
+  "question": "In fiscal 2022, how much more did IDA commit to the Transportation sector than IBRD did?",
+  "expected_answer": "$2,131 million more (IDA $5,167 million vs IBRD $3,036 million)",
+  "evidence": [
+   {
+    "page": 107,
+    "kind": "table",
+    "locator": "TABLE 26, row Transportation, FY22",
+    "values": [
+     "5,167"
+    ]
+   },
+   {
+    "page": 103,
+    "kind": "table",
+    "locator": "TABLE 20, row Transportation, FY22",
+    "values": [
+     "3,036"
+    ]
+   }
+  ],
+  "calc": "5,167 - 3,036 = 2,131 (US$ millions)"
+ },
+ {
+  "id": "t18",
+  "split": "test",
+  "answerable": true,
+  "group": "multi_hop",
+  "question": "Which countries were the largest IBRD borrower and the largest IDA borrower in fiscal 2022, and how much larger was the IBRD top borrower's commitment?",
+  "expected_answer": "India (IBRD, $3,986 million) and Nigeria (IDA, $2,400 million); India's was $1,586 million larger",
+  "evidence": [
+   {
+    "page": 104,
+    "kind": "table",
+    "locator": "TABLE 22, first row",
+    "values": [
+     "3,986"
+    ]
+   },
+   {
+    "page": 108,
+    "kind": "table",
+    "locator": "TABLE 28, first row",
+    "values": [
+     "2,400"
+    ]
+   }
+  ],
+  "calc": "3,986 - 2,400 = 1,586 (US$ millions)"
+ },
+ {
+  "id": "t19",
+  "split": "test",
+  "answerable": true,
+  "group": "multi_hop",
+  "question": "What was the net (loss) income of IBRD and of IDA in fiscal 2022?",
+  "expected_answer": "IBRD $3,990 million; IDA $12 million",
+  "evidence": [
+   {
+    "page": 105,
+    "kind": "table",
+    "locator": "TABLE 23, row Net (loss) income, FY22",
+    "values": [
+     "3,990"
+    ]
+   },
+   {
+    "page": 110,
+    "kind": "table",
+    "locator": "TABLE 29, row Net (loss) income, FY22",
+    "values": [
+     "12"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t20",
+  "split": "test",
+  "answerable": true,
+  "group": "multi_hop",
+  "question": "Which region received the largest IDA commitments in fiscal 2022, and what share of that region's fiscal 2022 IBRD and IDA lending went to Health?",
+  "expected_answer": "Eastern and Southern Africa ($15,266 million of IDA commitments); Health was 13% of its $18.2 billion lending",
+  "evidence": [
+   {
+    "page": 106,
+    "kind": "table",
+    "locator": "TABLE 24, FY22 column (largest row: Eastern and Southern Africa)",
+    "values": [
+     "15,266"
+    ]
+   },
+   {
+    "page": 23,
+    "kind": "chart",
+    "locator": "FIGURE 1 pie chart, slice 'Health'",
+    "values": [
+     "13%"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "t21",
+  "split": "test",
+  "answerable": true,
+  "group": "text",
+  "question": "What is the size of the IDA20 financing envelope, which fiscal years does it cover, and how much do member countries contribute?",
+  "expected_answer": "$93 billion for fiscal 2023-25, supported by $23.5 billion in contributions from 52 member countries",
+  "evidence": [
+   {
+    "page": 111,
+    "kind": "text",
+    "locator": "IDA20 replenishment paragraph",
+    "values": [],
+    "quote": "financing envelope of $93 billion. This envelope, covering fiscal 2023–25, is supported by $23.5 billion in contributions from 52 member countries"
+   }
+  ]
+ },
+ {
+  "id": "t22",
+  "split": "test",
+  "answerable": true,
+  "group": "text",
+  "question": "How much climate finance did the Bank provide to developing countries in fiscal 2022, and how did that compare with fiscal 2019?",
+  "expected_answer": "$26.2 billion, an 83 percent increase from $14.2 billion in fiscal 2019",
+  "evidence": [
+   {
+    "page": 57,
+    "kind": "text",
+    "locator": "climate action plan paragraph",
+    "values": [],
+    "quote": "the Bank provided $26.2 billion of climate finance to developing countries, an 83 percent increase from $14.2 billion in fiscal 2019"
+   }
+  ]
+ },
+ {
+  "id": "t23",
+  "split": "test",
+  "answerable": true,
+  "group": "text",
+  "question": "How much did MIGA issue in guarantees in fiscal 2022?",
+  "expected_answer": "$4.9 billion",
+  "evidence": [
+   {
+    "page": 9,
+    "kind": "text",
+    "locator": "Message from the President",
+    "values": [],
+    "quote": "MIGA issued $4.9 billion in guarantees"
+   },
+   {
+    "page": 17,
+    "kind": "table",
+    "locator": "TABLE 1 (alternative), MIGA Gross issuance, 2022",
+    "values": [
+     "4,935"
+    ]
+   }
+  ],
+  "evidence_mode": "any"
+ },
+ {
+  "id": "t24",
+  "split": "test",
+  "answerable": true,
+  "group": "text",
+  "question": "Through June 2022, how many grants had the Health Emergency Preparedness and Response Program awarded, and for what total amount?",
+  "expected_answer": "34 grants amounting to $117 million",
+  "evidence": [
+   {
+    "page": 56,
+    "kind": "text",
+    "locator": "Health Emergency Preparedness and Response Program paragraph",
+    "values": [],
+    "quote": "Through June 2022, the program has awarded 34 grants amounting to $117 million"
+   }
+  ]
+ },
+ {
+  "id": "tu1",
+  "split": "test",
+  "answerable": false,
+  "group": "no_evidence",
+  "question": "What is the Gini index of income inequality for Latin America and the Caribbean?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "The regional snapshot (TABLE 11, p40) has no inequality indicator; 'Gini' occurs nowhere in the report. Checked by search.",
+  "near_topic_pages": [
+   40
+  ]
+ },
+ {
+  "id": "tu2",
+  "split": "test",
+  "answerable": false,
+  "group": "no_evidence",
+  "question": "How many staff did IFC employ in fiscal 2022?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "TABLE 16 (p89) reports IBRD/IDA staff only; no IFC staff count appears anywhere. Checked by search for IFC near 'staff'.",
+  "near_topic_pages": [
+   89
+  ]
+ },
+ {
+  "id": "tu3",
+  "split": "test",
+  "answerable": false,
+  "group": "no_evidence",
+  "question": "How much MIGA guarantee issuance went to Ukraine in fiscal 2022?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "MIGA's total ($4.9 billion, p9; TABLE 1 p17) is not broken down by country and MIGA is never mentioned with Ukraine; Ukraine support on p37 is Bank financing. Checked by search.",
+  "near_topic_pages": [
+   9,
+   17,
+   37
+  ]
+ },
+ {
+  "id": "tu4",
+  "split": "test",
+  "answerable": false,
+  "group": "no_evidence",
+  "question": "What were IDA's net commitments in fiscal 2023?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "TABLE 29 (p110) and TABLE 24 (p106) end at FY22; fiscal 2023 appears only as the IDA20 period (p8, p106, p109, p111) without commitment figures. Checked by search.",
+  "near_topic_pages": [
+   106,
+   110,
+   111
+  ]
+ },
+ {
+  "id": "tu5",
+  "split": "test",
+  "answerable": false,
+  "group": "no_evidence",
+  "question": "What share of South Asia's IBRD and IDA lending went to Health in fiscal 2021?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "FIGURE 7 (p47) shows fiscal 2022 only; sector tables (TABLE 20, 26) are not broken down by region. Checked by reading p46-47 and p103, p107.",
+  "near_topic_pages": [
+   46,
+   47,
+   103,
+   107
+  ]
+ },
+ {
+  "id": "tu6",
+  "split": "test",
+  "answerable": false,
+  "group": "no_evidence",
+  "question": "What is the under-5 mortality rate in Nigeria?",
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Under-5 mortality appears only as regional aggregates in the regional snapshot tables (p24, 28, 32, 36, 40, 44, 48); no country-level value for Nigeria. Checked by search.",
+  "near_topic_pages": [
+   26,
+   28
+  ]
+ }
+]

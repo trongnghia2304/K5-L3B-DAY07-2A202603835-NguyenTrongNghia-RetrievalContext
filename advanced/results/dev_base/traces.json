@@ -1,0 +1,5197 @@
+[
+ {
+  "query_id": "d01",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "How much did IBRD disburse to Latin America and the Caribbean in fiscal 2022?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "IBRD disbursed **$8,911 million (about $8.9 billion)** to Latin America and the Caribbean in fiscal 2022 [wb-ar-2022:p103:v1] [wb-ar-2022:p103:view1], consistent with the regional table [wb-ar-2022:p038:v0].",
+  "citations": [
+   "wb-ar-2022:p103:v1",
+   "wb-ar-2022:p103:view1",
+   "wb-ar-2022:p038:v0"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD disbursements Latin America and the Caribbean fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.097,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p038:t07",
+      "page": 38,
+      "score": 0.032522,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p038:v0",
+      "page": 38,
+      "score": 0.032002,
+      "kind": "table"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p039:v0",
+      "page": 39,
+      "score": 0.030886,
+      "kind": "chart"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p103:t02",
+      "page": 103,
+      "score": 0.03055,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p107:t00",
+      "page": 107,
+      "score": 0.029469,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD disbursements by region table fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.077,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p003:v0.1",
+      "page": 3,
+      "score": 0.029116,
+      "kind": "table"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p103:t02",
+      "page": 103,
+      "score": 0.028595,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p103:v1",
+      "page": 103,
+      "score": 0.027651,
+      "kind": "table"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p034:v0",
+      "page": 34,
+      "score": 0.026387,
+      "kind": "table"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p107:t00",
+      "page": 107,
+      "score": 0.026044,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 103,
+    "question": "In Table 19 IBRD disbursements by region, what is the FY22 value for Latin America and the Caribbean?",
+    "seconds": 2.25,
+    "result_id": "wb-ar-2022:p103:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p038:t07",
+    "text": "TABLE 10 LATIN AMERICA AND THE CARIBBEAN REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22 COMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS) FY20 FY21 FY22 FY20 FY21 FY22 IBRD 6,798 9,464 9,407 5,799 8,741 8,911 IDA 1,030 Portfolio of operations under implementation as of June 30, 2022: $33.8 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 38,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032522,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p038:v0",
+    "text": "[TABLE on page 38] TABLE 10 LATIN AMERICA AND THE CARIBBEAN REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22\nCOMMITMENTS ($ MILLIONS): FY20, FY21, FY22 | DISBURSEMENTS ($ MILLIONS): FY20, FY21, FY22\nIBRD: Commitments FY20 6,798; FY21 9,464; FY22 9,407. Disbursements FY20 5,799; FY21 8,741; FY22 8,911.\nIDA: Commitments FY20 978; FY21 769; FY22 1,030. Disbursements FY20 466; FY21 495; FY22 510. Notes: Portfolio of operations under implementation as of June 30, 2022: $33.8 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 38,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 10",
+     "title": "LATIN AMERICA AND THE CARIBBEAN REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.032002,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p039:v0",
+    "text": "[CHART on page 39] FIGURE 5 LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)\nPie chart of IBRD and IDA lending by sector, fiscal 2022, share of total of $10.4 billion. Categories and shares as printed: Public Administration 23%; Health 18%; Agriculture, Fishing, and Forestry 12%; Transportation 10%; Social Protection 10%; Energy and Extractives 10%; Financial Sector 6%; Education 5%; Industry, Trade, and Services 5%; Water, Sanitation, and Waste Management 1%; Information and Communications Technologies 0%. Notes: Subtitle line reads 'SHARE OF TOTAL OF $10.4 BILLION'. No other footnotes visible.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 39,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 5",
+     "title": "LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030886,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p103:t02",
+    "text": "TABLE 19 IBRD DISBURSEMENTS, BY REGION, FISCAL 2018–22 MILLIONS OF DOLLARS REGION FY18 FY19 FY20 FY21 FY22 Eastern and Southern Africa 2,441 Western and Central Africa East Asia and Pacific 3,476 5,048 4,679 4,439 5,439 Europe and Central Asia 4,134 2,209 3,100 3,625 4,580 Latin America and the Caribbean 4,066 4,847 5,799 8,741 8,911 Middle East and North Africa 3,281 4,790 2,415 2,764 3,407 South Asia 1,698 2,598 3,158 3,665 3,129 Total 17,389 20,182 20,238 23,691 28,168 TABLE 20 IBRD",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 103,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.03055,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p107:t00",
+    "text": "DEPLOYING RESOURCES STRATEGICALLY TABLE 25 IDA DISBURSEMENTS BY REGION, FISCAL 2018–22 MILLIONS OF DOLLARS REGION FY18 FY19 FY20 FY21 FY22 Eastern and Southern Africa 4,695 6,168 7,904 8,081 7,133 Western and Central Africa 3,511 4,022 5,469 6,045 6,544 East Asia and Pacific 1,252 1,282 1,589 1,297 1,502 Europe and Central Asia Latin America and the Caribbean Middle East and North Africa South Asia 3,835 4,159 5,235 5,744 4,202 Total 14,383 17,549 21,179a 22,921a 21,214a a. Excludes",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 107,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029469,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p003:v0.1",
+    "text": "[TABLE on page 3]  Contents\nfiscal year commitments and disbursements per audited figures in IBRD and IDA Financial Statements and Management's Discussion and Analysis for fiscal 2022; as a result of rounding, numbers in tables may not add to totals and percentages in figures may not add to 100. Background watermark shows a list of country names.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 3,
+    "metadata": {
+     "modality": "table",
+     "label": "",
+     "title": "Contents",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.029116,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p103:v1",
+    "text": "[TABLE on page 103] TABLE 19 IBRD DISBURSEMENTS, BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)\nColumns: REGION | FY18 | FY19 | FY20 | FY21 | FY22. Rows: Eastern and Southern Africa: 210, 159, 932, 325, 2,441; Western and Central Africa: 524, 531, 155, 132, 261; East Asia and Pacific: 3,476, 5,048, 4,679, 4,439, 5,439; Europe and Central Asia: 4,134, 2,209, 3,100, 3,625, 4,580; Latin America and the Caribbean: 4,066, 4,847, 5,799, 8,741, 8,911; Middle East and North Africa: 3,281, 4,790, 2,415, 2,764, 3,407; South Asia: 1,698, 2,598, 3,158, 3,665, 3,129; Total: 17,389, 20,182, 20,238, 23,691, 28,168.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 103,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 19",
+     "title": "IBRD DISBURSEMENTS, BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.027651,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p034:v0",
+    "text": "[TABLE on page 34] TABLE 8 EUROPE AND CENTRAL ASIA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22\nColumns: COMMITMENTS ($ MILLIONS): FY20, FY21, FY22; DISBURSEMENTS ($ MILLIONS): FY20, FY21, FY22.\nIBRD: Commitments FY20 5,699; FY21 4,559; FY22 5,974. Disbursements FY20 3,100; FY21 3,625; FY22 4,580.\nIDA: Commitments FY20 1,497; FY21 1,315; FY22 2,511. Disbursements FY20 365; FY21 880; FY22 764. Notes: Portfolio of operations under implementation as of June 30, 2022: $35.9 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 34,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 8",
+     "title": "EUROPE AND CENTRAL ASIA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.026387,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p103:view1",
+    "text": "8,911 (MILLIONS OF DOLLARS) — Latin America and the Caribbean, FY22, Table 19 IBRD DISBURSEMENTS, BY REGION, FISCAL 2018–22.",
+    "page": 103,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "In Table 19 IBRD disbursements by region, what is the FY22 value for Latin America and the Caribbean?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6371,
+   "completion_tokens": 263,
+   "prompt_cache_hit_tokens": 3712,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 1011,
+   "completion_tokens": 179,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 7.37,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   38,
+   103
+  ],
+  "evidence_pages": [
+   103
+  ]
+ },
+ {
+  "query_id": "d02",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "What were IDA commitments to the Transportation sector in fiscal 2022, and what were they in fiscal 2021?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "Per Table 26 (IDA Commitments by Sector, Fiscal 2018–22, millions of dollars):\n\n- **Fiscal 2022:** $5,167 million (≈$5.17 billion)\n- **Fiscal 2021:** $2,367 million (≈$2.37 billion)\n\nThat is an increase of $2,800 million (5,167 − 2,367) year over year [wb-ar-2022:p107:v1][wb-ar-2022:p107:view1].",
+  "citations": [
+   "wb-ar-2022:p107:v1",
+   "wb-ar-2022:p107:view1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IDA commitments by sector Transportation fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.079,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p035:v0",
+      "page": 35,
+      "score": 0.031281,
+      "kind": "chart"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p023:t08",
+      "page": 23,
+      "score": 0.031054,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p108:t00",
+      "page": 108,
+      "score": 0.030886,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p023:v0",
+      "page": 23,
+      "score": 0.027151,
+      "kind": "chart"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p035:t09",
+      "page": 35,
+      "score": 0.026736,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "lending by sector table transportation IDA fiscal 2021 2022",
+    "top_k": 5,
+    "seconds": 0.071,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p035:v0",
+      "page": 35,
+      "score": 0.031054,
+      "kind": "chart"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p023:t08",
+      "page": 23,
+      "score": 0.030331,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p108:t00",
+      "page": 108,
+      "score": 0.029206,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p027:v0",
+      "page": 27,
+      "score": 0.028787,
+      "kind": "chart"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p023:v0",
+      "page": 23,
+      "score": 0.026688,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "commitments by sector table IDA IBRD total transportation millions fiscal 2022 2021",
+    "top_k": 5,
+    "seconds": 0.099,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p039:v0",
+      "page": 39,
+      "score": 0.029437,
+      "kind": "chart"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p043:v0",
+      "page": 43,
+      "score": 0.028543,
+      "kind": "chart"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p023:t08",
+      "page": 23,
+      "score": 0.028531,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p035:v0",
+      "page": 35,
+      "score": 0.028158,
+      "kind": "chart"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p023:v0",
+      "page": 23,
+      "score": 0.027673,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "\"Transportation\" sector commitments IDA fiscal 2021 fiscal 2022 table billions",
+    "top_k": 5,
+    "seconds": 0.092,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p108:t00",
+      "page": 108,
+      "score": 0.02879,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p023:t08",
+      "page": 23,
+      "score": 0.027222,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p035:v0",
+      "page": 35,
+      "score": 0.026398,
+      "kind": "chart"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p031:t09",
+      "page": 31,
+      "score": 0.025206,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p039:v0",
+      "page": 39,
+      "score": 0.024706,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "appendix commitments by sector table fiscal 2018-2022 IDA transportation",
+    "top_k": 5,
+    "seconds": 0.094,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p110:v0.1",
+      "page": 110,
+      "score": 0.029907,
+      "kind": "table"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p107:v2",
+      "page": 107,
+      "score": 0.029418,
+      "kind": "table"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p107:t04",
+      "page": 107,
+      "score": 0.029236,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p046:v0",
+      "page": 46,
+      "score": 0.028175,
+      "kind": "table"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p107:v1",
+      "page": 107,
+      "score": 0.027623,
+      "kind": "table"
+     }
+    ]
+   },
+   {
+    "event": "tool_rejected",
+    "name": "search",
+    "raw": "{\"query\": \"IDA commitments sector transportation fiscal 2021 amount\"}"
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 107,
+    "question": "In Table 26 IDA Commitments by Sector, what are the Transportation values for FY21 and FY22 in millions of dollars?",
+    "seconds": 2.57,
+    "result_id": "wb-ar-2022:p107:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 5,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p035:v0",
+    "text": "[CHART on page 35] FIGURE 4 EUROPE AND CENTRAL ASIA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $8.5 BILLION\nPie chart of IBRD and IDA lending by sector, fiscal 2022, shares of total of $8.5 billion. Categories and values as printed: Public Administration 32%; Energy and Extractives 15%; Health 12%; Social Protection 10%; Agriculture, Fishing, and Forestry 9%; Transportation 6%; Water, Sanitation, and Waste Management 5%; Industry, Trade, and Services 4%; Education 3%; Financial Sector 3%; Information and Communications Technologies 1%. Notes: No footnotes; the values are printed beside each labelled slice around the pie (left-side labels: Water, Sanitation, and Waste Management 5%, Transportation 6%, Social Protection 10%, Public Administration 32%; right-side labels: Agriculture, Fishing, and Forestry 9%, Education 3%, Energy and Extractives 15%, Financial Sector 3%, Health 12%, Industry, Trade, and Services 4%, Information and Communications Technologies 1%).",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 35,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 4",
+     "title": "EUROPE AND CENTRAL ASIA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $8.5 BILLION",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.031281,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p023:t08",
+    "text": "FIGURE 1 EASTERN AND SOUTHERN AFRICA IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 SHARE OF TOTAL OF $18.2 BILLION Water, Sanitation, and Waste Management Agriculture, Fishing, and Forestry 9% 11% Public Administration 18% Transportation 8% Social Protection 12% Information and Communications Technologies 3% Education 6% Energy and Extractives 11% Financial Sector 5% Health 13% Industry, Trade, and Services 4%",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 23,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031054,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p108:t00",
+    "text": "In fiscal 2022, 74 countries were eligible for IDA assistance. New IDA lending commitments for the year amounted to $37.7 billion for 305 operations, of which 12 were IBRD and IDA blended operations. These commitments included $24.5 billion in credits and $13.2 billion in grants. In addition, 23 projects and sub-projects, for a total of $1.1 billion, were approved for support from the IDA19 IDA-IFC-MIGA Private Sector Window (PSW) during the fiscal year.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 108,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030886,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p023:v0",
+    "text": "[CHART on page 23] FIGURE 1 EASTERN AND SOUTHERN AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $18.2 BILLION)\nPie chart, share of total of $18.2 billion, by sector: Water, Sanitation, and Waste Management 9%; Agriculture, Fishing, and Forestry 11%; Transportation 8%; Education 6%; Social Protection 12%; Energy and Extractives 11%; Public Administration 18%; Financial Sector 5%; Information and Communications Technologies 3%; Health 13%; Industry, Trade, and Services 4%. Notes: No footnotes; all sector labels and percentage values legible.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 23,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 1",
+     "title": "EASTERN AND SOUTHERN AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $18.2 BILLION)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.027151,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p035:t09",
+    "text": "Water, Sanitation, and Waste Management Agriculture, Fishing, and Forestry 5% 9% Transportation 6% Social Protection 10% Public Administration 32% Education 3% Energy and Extractives 15% Financial Sector 3% Health 12% Information and Communications Technologies 1% Industry, Trade, and Services 4% FIGURE 4 EUROPE AND CENTRAL ASIA IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 SHARE OF TOTAL OF $8.5 BILLION",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 35,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.026736,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p027:v0",
+    "text": "[CHART on page 27] FIGURE 2 WESTERN AND CENTRAL AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $12.6 BILLION\nPie chart showing shares of total lending of $12.6 billion by sector: Water, Sanitation, and Waste Management 5%; Agriculture, Fishing, and Forestry 16%; Education 7%; Energy and Extractives 8%; Financial Sector 1%; Health 14%; Industry, Trade, and Services 6%; Information and Communications Technologies 4%; Public Administration 10%; Social Protection 16%; Transportation 13%.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 27,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 2",
+     "title": "WESTERN AND CENTRAL AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $12.6 BILLION",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.028787,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p039:v0",
+    "text": "[CHART on page 39] FIGURE 5 LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)\nPie chart of IBRD and IDA lending by sector, fiscal 2022, share of total of $10.4 billion. Categories and shares as printed: Public Administration 23%; Health 18%; Agriculture, Fishing, and Forestry 12%; Transportation 10%; Social Protection 10%; Energy and Extractives 10%; Financial Sector 6%; Education 5%; Industry, Trade, and Services 5%; Water, Sanitation, and Waste Management 1%; Information and Communications Technologies 0%. Notes: Subtitle line reads 'SHARE OF TOTAL OF $10.4 BILLION'. No other footnotes visible.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 39,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 5",
+     "title": "LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.029437,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p043:v0",
+    "text": "[CHART on page 43] FIGURE 6 MIDDLE EAST AND NORTH AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $4.9 BILLION)\nPie chart showing share of total of $4.9 billion by sector. Categories and percentages as printed: Water, Sanitation, and Waste Management 1%; Agriculture, Fishing, and Forestry 12%; Transportation 7%; Education 3%; Social Protection 27%; Energy and Extractives 3%; Financial Sector 3%; Public Administration 16%; Health 12%; Information and Communications Technologies 3%; Industry, Trade, and Services 13%. Total: $4.9 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 43,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 6",
+     "title": "MIDDLE EAST AND NORTH AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $4.9 BILLION)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.028543,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p031:t09",
+    "text": "Water, Sanitation, and Waste Management Agriculture, Fishing, and Forestry 10% 13% Transportation 14% Social Protection 4% Public Administration 26% Education 3% Energy and Extractives 5% Financial Sector 1% Health 17% Information and Communications Technologies 3% Industry, Trade, and Services 4% FIGURE 3 EAST ASIA AND PACIFIC IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 SHARE OF TOTAL OF $7.2 BILLION",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 31,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.025206,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p110:v0.1",
+    "text": "[TABLE on page 110] TABLE 29 IDA KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES\nCommitments, gross disbursements, and net disbursements exclude IDA-IFC-MIGA PSW activities. c. Includes associated derivatives. Page footer: 106 THE WORLD BANK ANNUAL REPORT 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 110,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 29",
+     "title": "IDA KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.029907,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p107:v2",
+    "text": "[TABLE on page 107] TABLE 27 IDA COMMITMENTS BY THEME, FISCAL 2018-22 — MILLIONS OF DOLLARS\nColumns: THEME | FY18 | FY19 | FY20 | FY21 | FY22\nEconomic Policy: 468 | 1,073 | 1,192 | 1,972 | 2,236\nEnvironment and Natural Resources Management: 9,491 | 9,680 | 11,141 | 13,019 | 15,228\nFinance: 1,642 | 2,418 | 2,680 | 6,161 | 5,760\nHuman Development and Gender: 7,509 | 7,860 | 15,974 | 26,353 | 22,846\nPrivate Sector Development: 4,240ᵃ | 5,145ᵃ | 7,232ᵃ | 8,523 | 8,244\nPublic Sector Management: 3,827 | 2,513 | 4,158 | 4,698 | 5,192\nSocial Development and Protection: 2,980 | 2,722 | 4,738 | 8,114 | 6,568\nUrban and Rural Development: 8,654 | 7,866 | 8,899 | 11,647 | 19,375\nUnits: millions of dollars Notes: Note: Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year. Because lending commitments for individual operations can be applied to multiple theme categories, figures organized by theme do not add up to fiscal year commitment totals, and therefore should not be summed. Visit projects.worldbank.org/theme for more information. a. Excludes IDA-IFC-MIGA PSW activities. (Note: table has no Total row.)",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 107,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 27",
+     "title": "IDA COMMITMENTS BY THEME, FISCAL 2018-22 — MILLIONS OF DOLLARS",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.029418,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p107:t04",
+    "text": "TABLE 27 IDA COMMITMENTS BY THEME, FISCAL 2018–22 MILLIONS OF DOLLARS THEME FY18 FY19 FY20 FY21 FY22 Economic Policy 1,073 1,192 1,972 2,236 Environment and Natural Resources Management 9,491 9,680 11,141 13,019 15,228 Finance 1,642 2,418 2,680 6,161 5,760 Human Development and Gender 7,509 7,860 15,974 26,353 22,846 Private Sector Development 4,240a 5,145a 7,232a 8,523 8,244 Public Sector Management 3,827 2,513 4,158 4,698 5,192 Social Development and Protection 2,980 2,722 4,738 8,114 6,568",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 107,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029236,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p046:v0",
+    "text": "[TABLE on page 46] TABLE 14 SOUTH ASIA — REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22\nColumn headers: COMMITMENTS ($ MILLIONS): FY20, FY21, FY22; DISBURSEMENTS ($ MILLIONS): FY20, FY21, FY22.\nRow IBRD: Commitments FY20 = 5,565; FY21 = 3,746; FY22 = 4,781; Disbursements FY20 = 3,158; FY21 = 3,665; FY22 = 3,129.\nRow IDA: Commitments FY20 = 6,092; FY21 = 7,127; FY22 = 4,217; Disbursements FY20 = 5,235; FY21 = 5,744; FY22 = 4,202. Notes: Footnote below table: Portfolio of operations under implementation as of June 30, 2022: $57.4 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 46,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 14",
+     "title": "SOUTH ASIA — REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.028175,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p107:v1",
+    "text": "[TABLE on page 107] TABLE 26 IDA COMMITMENTS BY SECTOR, FISCAL 2018-22 — MILLIONS OF DOLLARS\nColumns: SECTOR | FY18 | FY19 | FY20 | FY21 | FY22\nAgriculture, Fishing, and Forestry: 1,442 | 2,796 | 1,978 | 2,912 | 4,008\nEducation: 2,836 | 1,767 | 4,037 | 3,585 | 2,335\nEnergy and Extractives: 4,028 | 3,468 | 3,218 | 3,801 | 3,696\nFinancial Sector: 546 | 870 | 534 | 1,910 | 1,346\nHealth: 2,062 | 1,736 | 4,295 | 3,840 | 4,269\nIndustry, Trade, and Services: 1,991 | 1,963 | 2,712 | 2,174 | 2,317\nInformation and Communications Technologies: 419 | 779 | 1,202 | 1,151 | 1,245\nPublic Administration: 5,013 | 3,109 | 4,252 | 5,572 | 6,194\nSocial Protection: 2,112 | 2,163 | 4,185 | 6,352 | 4,792\nTransportation: 1,455 | 1,709 | 2,132 | 2,367 | 5,167\nWater, Sanitation, and Waste Management: 2,105 | 1,572 | 1,820 | 2,365 | 2,357\nTotalᵃ: 24,010 | 21,932 | 30,365 | 36,028 | 37,727\nUnits: millions of dollars Notes: Note: Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year. Numbers may not add to totals because of rounding. Visit projects.worldbank.org/sector for more information. a. Excludes IDA-IFC-MIGA PSW activities.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 107,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 26",
+     "title": "IDA COMMITMENTS BY SECTOR, FISCAL 2018-22 — MILLIONS OF DOLLARS",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.027623,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p107:view1",
+    "text": "**Table 26 — IDA Commitments by Sector, Fiscal 2018–22 (Millions of Dollars)**  \n**Transportation — FY21:** 2,367  \n**Transportation — FY22:** 5,167",
+    "page": 107,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "In Table 26 IDA Commitments by Sector, what are the Transportation values for FY21 and FY22 in millions of dollars?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 19727,
+   "completion_tokens": 525,
+   "prompt_cache_hit_tokens": 14080,
+   "calls": 5
+  },
+  "vision_usage": {
+   "prompt_tokens": 1013,
+   "completion_tokens": 267,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 9.86,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   107
+  ],
+  "evidence_pages": [
+   107
+  ]
+ },
+ {
+  "query_id": "d03",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "What were IBRD's total assets at the end of fiscal 2022?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "IBRD's total assets at the end of fiscal 2022 (June 30, 2022) were **$317,542 million (about $317.5 billion)**, up from $317,301 million in fiscal 2021 [wb-ar-2022:p105:v1.1] [wb-ar-2022:p105:view2].",
+  "citations": [
+   "wb-ar-2022:p105:v1.1",
+   "wb-ar-2022:p105:view2"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD total assets end of fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.134,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p076:t05",
+      "page": 76,
+      "score": 0.02879,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p039:v0",
+      "page": 39,
+      "score": 0.028205,
+      "kind": "chart"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p085:t04",
+      "page": 85,
+      "score": 0.027888,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p043:v0",
+      "page": 43,
+      "score": 0.027444,
+      "kind": "chart"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p031:v0",
+      "page": 31,
+      "score": 0.026847,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD balance sheet total assets",
+    "top_k": 5,
+    "seconds": 0.109,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p076:t05",
+      "page": 76,
+      "score": 0.028006,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p039:v0",
+      "page": 39,
+      "score": 0.027651,
+      "kind": "chart"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p031:v0",
+      "page": 31,
+      "score": 0.026501,
+      "kind": "chart"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p047:v0",
+      "page": 47,
+      "score": 0.025206,
+      "kind": "chart"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p043:v0",
+      "page": 43,
+      "score": 0.025193,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD total assets billion June 30 2022",
+    "top_k": 5,
+    "seconds": 0.091,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p106:t04",
+      "page": 106,
+      "score": 0.032787,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p053:t06",
+      "page": 53,
+      "score": 0.031054,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p034:t09",
+      "page": 34,
+      "score": 0.028694,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p109:t03",
+      "page": 109,
+      "score": 0.028169,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p031:v0",
+      "page": 31,
+      "score": 0.025729,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD statement of assets liabilities June 30 2022 2021",
+    "top_k": 5,
+    "seconds": 0.084,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p106:t04",
+      "page": 106,
+      "score": 0.032002,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p003:t01",
+      "page": 3,
+      "score": 0.030579,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p053:t06",
+      "page": 53,
+      "score": 0.029911,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p034:t09",
+      "page": 34,
+      "score": 0.028043,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p105:v1.1",
+      "page": 105,
+      "score": 0.026876,
+      "kind": "table"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 106,
+    "question": "What are IBRD's total assets at end of fiscal 2022? Is there a balance sheet or total assets figure?",
+    "seconds": 2.96,
+    "result_id": "wb-ar-2022:p106:view1"
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 105,
+    "question": "What is IBRD's total assets for fiscal 2022 (and 2021)? List the total assets row values.",
+    "seconds": 3.57,
+    "result_id": "wb-ar-2022:p105:view2"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 4,
+  "views": 2,
+  "context": [
+   {
+    "id": "wb-ar-2022:p076:t05",
+    "text": "Supporting climate action and conservation through capital markets In fiscal 2022, IBRD engaged with bond investors about the Bank’s efforts to mainstream climate action and integrate climate and sustainability throughout all of our operations and sectors. IBRD executed five benchmark and larger issuances as well as numerous smaller transactions for a total of over $12 billion equivalent. We also engaged with investors on development priorities such as water, gender equality, nutrition, and",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 76,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.02879,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p039:v0",
+    "text": "[CHART on page 39] FIGURE 5 LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)\nPie chart of IBRD and IDA lending by sector, fiscal 2022, share of total of $10.4 billion. Categories and shares as printed: Public Administration 23%; Health 18%; Agriculture, Fishing, and Forestry 12%; Transportation 10%; Social Protection 10%; Energy and Extractives 10%; Financial Sector 6%; Education 5%; Industry, Trade, and Services 5%; Water, Sanitation, and Waste Management 1%; Information and Communications Technologies 0%. Notes: Subtitle line reads 'SHARE OF TOTAL OF $10.4 BILLION'. No other footnotes visible.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 39,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 5",
+     "title": "LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.028205,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p085:t04",
+    "text": "At the end of fiscal 2022, $12.1 billion was held in trust funds and $27.9 billion in FIFs. Trust funds finance about two-thirds of the World Bank’s advisory services and analytics, with 74 percent ($14.8 billion) of total trust fund disbursements going to client countries over fiscal 2018–22. Of this amount, over $8.6 billion was disbursed to IDA and blend countries (countries that are eligible for IDA loans but also eligible for IBRD loans because they are financially creditworthy).",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 85,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.027888,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p043:v0",
+    "text": "[CHART on page 43] FIGURE 6 MIDDLE EAST AND NORTH AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $4.9 BILLION)\nPie chart showing share of total of $4.9 billion by sector. Categories and percentages as printed: Water, Sanitation, and Waste Management 1%; Agriculture, Fishing, and Forestry 12%; Transportation 7%; Education 3%; Social Protection 27%; Energy and Extractives 3%; Financial Sector 3%; Public Administration 16%; Health 12%; Information and Communications Technologies 3%; Industry, Trade, and Services 13%. Total: $4.9 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 43,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 6",
+     "title": "MIDDLE EAST AND NORTH AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $4.9 BILLION)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.027444,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p031:v0",
+    "text": "[CHART on page 31] FIGURE 3 EAST ASIA AND PACIFIC — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $7.2 billion)\nPie chart, share of total of $7.2 billion. Categories and shares as printed: Public Administration 26%; Health 17%; Transportation 14%; Agriculture, Fishing, and Forestry 13%; Water, Sanitation, and Waste Management 10%; Energy and Extractives 5%; Social Protection 4%; Industry, Trade, and Services 4%; Education 3%; Information and Communications Technologies 3%; Financial Sector 1%. Total: $7.2 billion. Notes: Sector labels are connected to pie slices with leader lines; percentages printed in bold beside the labels.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 31,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 3",
+     "title": "EAST ASIA AND PACIFIC — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $7.2 billion)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.026847,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p047:v0",
+    "text": "[CHART on page 47] FIGURE 7 SOUTH ASIA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $9.0 BILLION\nPie chart categories and shares: Water, Sanitation, and Waste Management 6%; Agriculture, Fishing, and Forestry 2%; Transportation 24%; Education 5%; Energy and Extractives 11%; Social Protection 4%; Financial Sector 11%; Public Administration 5%; Health 19%; Information and Communications Technologies 3%; Industry, Trade, and Services 10%. Total: $9.0 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 47,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 7",
+     "title": "SOUTH ASIA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $9.0 BILLION",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.025206,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:t04",
+    "text": "line with its financial and risk outlook. As of June 30, 2022, this ratio stood at 22.0 percent, and the cumulative subscribed capital of IBRD totaled $307.1 billion, including $20.5 billion in paid-in capital.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 106,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032787,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p053:t06",
+    "text": "The IDA20 replenishment builds on this support, allocating over $30 billion for FCV settings between July 2022 and June 2025. The share of the IBRD portfolio under implementation in FCV-affected countries also more than doubled since fiscal 2016, standing at $6.4 billion in fiscal 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 53,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031054,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p034:t09",
+    "text": "2020–22 COMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS) FY20 FY21 FY22 FY20 FY21 FY22 IBRD 5,699 4,559 5,974 3,100 3,625 4,580 IDA 1,497 1,315 2,511 Portfolio of operations under implementation as of June 30, 2022: $35.9 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 34,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028694,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p109:t03",
+    "text": "These moves enabled IDA to sustain the scale of financing at $35 billion for both fiscal 2021 and 2022, excluding the PSW. The remaining amount of about $11 billion is being carried over into IDA20. As of June 30, 2022, $36.1 billion was committed on concessional terms, $1.6 billion on non-concessional terms (through the Scale-Up Window), and $1.1 billion through the PSW. IDA administrative expenses are recovered primarily through net charges and interest paid by recipient countries.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 109,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028169,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p003:t01",
+    "text": "Oversight and Accountability 95 Deploying Resources Strategically 108 Commitment to Results KEY TABLES 101 IBRD Key Financial Indicators, Fiscal 2018–22 106 IDA Key Financial Indicators, Fiscal 2018–22 This annual report, which covers the period from July 1, 2021, to June 30, 2022, has been prepared by the Executive Directors of both the International Bank for Reconstruction and Development (IBRD) and the International Development Association (IDA)—collectively known as the World Bank—in",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 3,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030579,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p105:v1.1",
+    "text": "[TABLE on page 105] TABLE 23 IBRD KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES\nAmounts include guarantee commitments and guarantee facilities that have been approved by the Executive Directors (referred to as 'the Board' in this document) and are net of full terminations and cancellations relating to commitments approved in the same fiscal year. b. Includes associated derivatives. c. The June 30, 2022, amount represents the transfer to the General Reserve from fiscal 2022 net income, which was approved by the Board on August 4, 2022. d. On January 25, 2021, the Board of Governors approved a transfer of $331 million to IDA from Surplus, which was made on February 1, 2021. e. Excludes amounts associated with unrealized mark-to-market gains/losses on non-trading portfolios, net and related cumulative translation adjustments. f. Usable equity includes the transfer to the General Reserve from fiscal 2022 net income, which was approved by the Board on August 4, 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 105,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 23",
+     "title": "IBRD KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.026876,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:view1",
+    "text": "NOT ON THIS PAGE",
+    "page": 106,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What are IBRD's total assets at end of fiscal 2022? Is there a balance sheet or total assets figure?"
+    }
+   },
+   {
+    "id": "wb-ar-2022:p105:view2",
+    "text": "**Total assets** row (from TABLE 23, units: **MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES**):\n\n- **FY21:** **317,301**\n- **FY22:** **317,542**\n\nFull row as printed: **FY18 263,800; FY19 283,031; FY20 296,804; FY21 317,301; FY22 317,542**.",
+    "page": 105,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What is IBRD's total assets for fiscal 2022 (and 2021)? List the total assets row values."
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 13220,
+   "completion_tokens": 450,
+   "prompt_cache_hit_tokens": 9600,
+   "calls": 5
+  },
+  "vision_usage": {
+   "prompt_tokens": 2024,
+   "completion_tokens": 784,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 12.47,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   105
+  ],
+  "evidence_pages": [
+   105
+  ]
+ },
+ {
+  "query_id": "d04",
+  "split": "dev",
+  "group": "table",
+  "answerable": true,
+  "question": "What were IFC's commitments in fiscal 2022 according to the table of World Bank Group commitments?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "IFC's commitments in fiscal 2022 were **$22,229 million** (i.e., $22.2 billion), with IFC disbursements of $13,198 million [wb-ar-2022:p017:v0.0] [wb-ar-2022:p017:view1].",
+  "citations": [
+   "wb-ar-2022:p017:v0.0",
+   "wb-ar-2022:p017:view1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "World Bank Group commitments table IFC fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.054,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p017:v0.1",
+      "page": 17,
+      "score": 0.032522,
+      "kind": "table"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p017:v0.0",
+      "page": 17,
+      "score": 0.031746,
+      "kind": "table"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p110:v0.1",
+      "page": 110,
+      "score": 0.030214,
+      "kind": "table"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p018:t01",
+      "page": 18,
+      "score": 0.030118,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p034:v0",
+      "page": 34,
+      "score": 0.029324,
+      "kind": "table"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 17,
+    "question": "What is IFC's commitments value for fiscal 2022 in Table 1? Also give IFC disbursements for 2022.",
+    "seconds": 2.71,
+    "result_id": "wb-ar-2022:p017:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p017:v0.1",
+    "text": "[TABLE on page 17] TABLE 1 WORLD BANK GROUP COMMITMENTS, DISBURSEMENTS, AND GROSS ISSUANCE BY FISCAL YEAR, MILLIONS OF DOLLARS\nIncludes long-term commitments for IFC's own account and short-term finance commitments. Does not include funds mobilized from other investors.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 17,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 1",
+     "title": "WORLD BANK GROUP COMMITMENTS, DISBURSEMENTS, AND GROSS ISSUANCE BY FISCAL YEAR, MILLIONS OF DOLLARS",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.032522,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p017:v0.0",
+    "text": "[TABLE on page 17] TABLE 1 WORLD BANK GROUP COMMITMENTS, DISBURSEMENTS, AND GROSS ISSUANCE BY FISCAL YEAR, MILLIONS OF DOLLARS\nColumns: 2018 | 2019 | 2020 | 2021 | 2022 (millions of dollars)\nWORLD BANK GROUP\nCommitments^a: 74,265 | 68,105 | 83,547 | 98,830 | 104,370\nDisbursements^b: 45,724 | 49,395 | 54,367 | 60,596 | 67,041\nIBRD\nCommitments^c: 23,002 | 23,191 | 27,976 | 30,523 | 33,072\nDisbursements: 17,389 | 20,182 | 20,238 | 23,691 | 28,168\nIDA\nCommitments^c,d: 24,010 | 21,932 | 30,365 | 36,028 | 37,727\nDisbursements: 14,383 | 17,549 | 21,179^d | 22,921^d | 21,214^d\nIFC\nCommitments^e: 19,027 | 14,684 | 17,604 | 20,669 | 22,229\nDisbursements: 11,149 | 9,074 | 10,518 | 11,438 | 13,198\nMIGA\nGross issuance: 5,251 | 5,548 | 3,961 | 5,199 | 4,935\nRECIPIENT-EXECUTED TRUST FUNDS\nCommitments: 2,976 | 2,749 | 3,641 | 6,411 | 6,407\nDisbursements: 2,803 | 2,590 | 2,433 | 2,546 | 4,461 Notes: a. Includes IBRD, IDA, IFC, Recipient-Executed Trust Fund (RETF) commitments, and MIGA gross issuance. RETF commitments include all recipient-executed grants; hence, total World Bank Group commitments differ from the amount reported in the Corporate Scorecard, which includes only a subset of trust-funded activities.\nb. Includes IBRD, IDA, IFC, and RETF disbursements.\nc. Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year.\nd. Commitments and disbursements exclude IDA-IFC-MIGA Private Sector Window (PSW) activities.\ne.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 17,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 1",
+     "title": "WORLD BANK GROUP COMMITMENTS, DISBURSEMENTS, AND GROSS ISSUANCE BY FISCAL YEAR, MILLIONS OF DOLLARS",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.031746,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p110:v0.1",
+    "text": "[TABLE on page 110] TABLE 29 IDA KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES\nCommitments, gross disbursements, and net disbursements exclude IDA-IFC-MIGA PSW activities. c. Includes associated derivatives. Page footer: 106 THE WORLD BANK ANNUAL REPORT 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 110,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 29",
+     "title": "IDA KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030214,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p018:t01",
+    "text": "Total includes multiregional and global operations. In fiscal 2022, IFC changed its mapping of countries to regions. Regional totals reflect IFC commitments that were recalculated to match the World Bank’s regional classifications by aggregating country-level commitments within each World Bank region. $104.4 BILLION",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 18,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030118,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p034:v0",
+    "text": "[TABLE on page 34] TABLE 8 EUROPE AND CENTRAL ASIA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22\nColumns: COMMITMENTS ($ MILLIONS): FY20, FY21, FY22; DISBURSEMENTS ($ MILLIONS): FY20, FY21, FY22.\nIBRD: Commitments FY20 5,699; FY21 4,559; FY22 5,974. Disbursements FY20 3,100; FY21 3,625; FY22 4,580.\nIDA: Commitments FY20 1,497; FY21 1,315; FY22 2,511. Disbursements FY20 365; FY21 880; FY22 764. Notes: Portfolio of operations under implementation as of June 30, 2022: $35.9 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 34,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 8",
+     "title": "EUROPE AND CENTRAL ASIA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.029324,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p017:view1",
+    "text": "In Table 1, under **IFC** for **2022**:\n\n- **IFC Commitmentsᵉ: 22,229** — in **MILLIONS OF DOLLARS**\n- **IFC Disbursements: 13,198** — in **MILLIONS OF DOLLARS**",
+    "page": 17,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What is IFC's commitments value for fiscal 2022 in Table 1? Also give IFC disbursements for 2022."
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4422,
+   "completion_tokens": 208,
+   "prompt_cache_hit_tokens": 2816,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 1014,
+   "completion_tokens": 403,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 5.75,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   17
+  ],
+  "evidence_pages": [
+   17
+  ]
+ },
+ {
+  "query_id": "d05",
+  "split": "dev",
+  "group": "image_diagram",
+  "answerable": true,
+  "question": "In the IBRD business model diagram, where does IBRD's income flow?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "In Figure 9 (IBRD Business Model), IBRD's income flows to **IDA and trust funds**: the Income box receives arrows from Loans, Investments, and Other development activities, and its outgoing arrow points to the \"IDA and trust funds\" box [wb-ar-2022:p105:v0] [wb-ar-2022:p105:view1]. This is consistent with the text noting that of fiscal 2022 allocable net income, $117 million was recommended for transfer to IDA [wb-ar-2022:p106:t01].",
+  "citations": [
+   "wb-ar-2022:p105:v0",
+   "wb-ar-2022:p105:view1",
+   "wb-ar-2022:p106:t01"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD business model diagram income flow",
+    "top_k": 5,
+    "seconds": 0.069,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p105:v0",
+      "page": 105,
+      "score": 0.032787,
+      "kind": "diagram"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p104:t04",
+      "page": 104,
+      "score": 0.031514,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p106:t01",
+      "page": 106,
+      "score": 0.029762,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p109:v0",
+      "page": 109,
+      "score": 0.02886,
+      "kind": "diagram"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p102:t08",
+      "page": 102,
+      "score": 0.028624,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 105,
+    "question": "In Figure 9 IBRD Business Model, where does the Income box's arrow point to? Describe the flow into and out of Income.",
+    "seconds": 7.88,
+    "result_id": "wb-ar-2022:p105:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p105:v0",
+    "text": "[DIAGRAM on page 105] FIGURE 9 IBRD BUSINESS MODEL\nBoxes: Equity (top, green); Borrowings (left, red vertical); Loans; Investments; Other development activities (three grey center boxes); Income (right, green vertical); IDA and trust funds (far right, orange vertical). Connections: Equity points down into the center block; Borrowings points right into Loans, Investments, and Other development activities; Loans, Investments, and Other development activities point right into Income; Income points right into IDA and trust funds.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 105,
+    "metadata": {
+     "modality": "diagram",
+     "label": "FIGURE 9",
+     "title": "IBRD BUSINESS MODEL",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.032787,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p104:t04",
+    "text": "IBRD financial resources and financial model IBRD finances its loans from its own equity and from money borrowed in the capital markets through the issuance of IBRD bonds to fund development projects in member countries. IBRD is rated Aaa by Moody’s and AAA by Standard & Poor’s, and investors view its bonds as high-quality securities. Against the backdrop of a global liquidity crisis and the challenges presented by COVID-19, IBRD’s funding approach continues to be aimed at achieving the best",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 104,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031514,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:t01",
+    "text": "As a cooperative institution, IBRD seeks not to maximize profit but to earn enough income to ensure the long-term financial capacity necessary to sustain its development activities. Of fiscal 2022 allocable net income, the Executive Directors approved the allocation of $589 million to the General Reserve and recommended to the Board of Governors the transfer of $117 million to IDA and of $100 million to the surplus.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 106,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029762,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p109:v0",
+    "text": "[DIAGRAM on page 109] FIGURE 10 IDA BUSINESS MODEL\nLeft column: Equity (teal) and Borrowings (red). Equity has two right-pointing arrowheads connected to Grants and to Concessional lending and investments. Borrowings has one right-pointing arrowhead connected to Non-concessional lending. Middle column boxes: Grants; Concessional lending and investments; Non-concessional lending. Right vertical bar: Reflows and operating results. Concessional lending and investments and Non-concessional lending have right-pointing arrowheads into the Reflows and operating results bar. A top green arrow points left from the Reflows and operating results bar above Grants toward Equity; a bottom green arrow points left from the Reflows and operating results bar below Non-concessional lending toward Borrowings. Notes: No figure-specific footnotes.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 109,
+    "metadata": {
+     "modality": "diagram",
+     "label": "FIGURE 10",
+     "title": "IDA BUSINESS MODEL",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.02886,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p102:t08",
+    "text": "support our clients. IBRD financial commitments and services IBRD is a global development cooperative owned by its 189 member countries. As the largest multilateral development bank in the world, it provides loans, guarantees, risk management products, and advisory services to middle-income and creditworthy low-income countries, and coordinates responses to regional and global challenges.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 102,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028624,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p105:view1",
+    "text": "In Figure 9, the **“Income”** box’s arrow points to the orange vertical box labeled **“IDA and trust funds.”**\n\nFlow into **“Income”**: arrows come from the three grey boxes labeled **“Loans,” “Investments,”** and **“Other development activities.”**\n\nFlow out of **“Income”**: the arrow goes to **“IDA and trust funds.”**\n\nNo numbers or units are printed in Figure 9 for these flows.",
+    "page": 105,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "In Figure 9 IBRD Business Model, where does the Income box's arrow point to? Describe the flow into and out of Income."
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3569,
+   "completion_tokens": 256,
+   "prompt_cache_hit_tokens": 2432,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 1015,
+   "completion_tokens": 1208,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 11.67,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   105,
+   106
+  ],
+  "evidence_pages": [
+   105
+  ]
+ },
+ {
+  "query_id": "d06",
+  "split": "dev",
+  "group": "image_diagram",
+  "answerable": true,
+  "question": "On the Commitment to Results map, what result is reported for the Maldives?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The map on page 113 is titled \"Countries with active IBRD or IDA operations in fiscal 2022\" (not \"Commitment to Results\"), but it reports for the Maldives (item 19): since 2020, automated weather stations increased from 36 to 63, improving climate data collection, management, forecasting, and disaster preparedness [wb-ar-2022:p113:view1][wb-ar-2022:p113:t04].",
+  "citations": [
+   "wb-ar-2022:p113:view1",
+   "wb-ar-2022:p113:t04"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Commitment to Results map Maldives",
+    "top_k": 5,
+    "seconds": 0.067,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p062:t01",
+      "page": 62,
+      "score": 0.031099,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p018:v0",
+      "page": 18,
+      "score": 0.028665,
+      "kind": "map"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p113:t04",
+      "page": 113,
+      "score": 0.026491,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p113:t06",
+      "page": 113,
+      "score": 0.024869,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p053:t00",
+      "page": 53,
+      "score": 0.022472,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "\"Commitment to Results\" map results countries",
+    "top_k": 5,
+    "seconds": 0.109,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p019:v0",
+      "page": 19,
+      "score": 0.030835,
+      "kind": "infographic"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p004:t00",
+      "page": 4,
+      "score": 0.030679,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p004:v0.1",
+      "page": 4,
+      "score": 0.029877,
+      "kind": "infographic"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p018:v0",
+      "page": 18,
+      "score": 0.028177,
+      "kind": "map"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p004:t02",
+      "page": 4,
+      "score": 0.016393,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "map results reported by country Maldives automated weather stations",
+    "top_k": 5,
+    "seconds": 0.069,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p113:t04",
+      "page": 113,
+      "score": 0.032787,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p113:v0.1",
+      "page": 113,
+      "score": 0.029762,
+      "kind": "map"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p049:t03",
+      "page": 49,
+      "score": 0.027826,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p019:v0",
+      "page": 19,
+      "score": 0.026748,
+      "kind": "infographic"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p062:t01",
+      "page": 62,
+      "score": 0.0262,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 113,
+    "question": "What is the title of the map on this page, and what result is reported for the Maldives (item 19)?",
+    "seconds": 4.34,
+    "result_id": "wb-ar-2022:p113:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 3,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p062:t01",
+    "text": "for SMEs and women. And in the Maldives, the COVID-19 Emergency Income Support Project provided temporary income support for workers who lost a job or income as a result of the pandemic; the project also helped strengthen the country’s social protection system to prepare for future crises. Close to 23,000 workers received financial support, including nearly 9,000 women, more than two-thirds of them self-employed.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 62,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031099,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p018:v0",
+    "text": "[MAP on page 18]  Global Commitments\nGlobe map with callout: LATIN AMERICA AND THE CARIBBEAN — $17.4 BILLION (callout line points to South America). Infographic total: $104.4 BILLION in loans, grants, equity investments, and guarantees to partner countries and private businesses. Notes: Total includes multiregional and global operations. In fiscal 2022, IFC changed its mapping of countries to regions. Regional totals reflect IFC commitments that were recalculated to match the World Bank's regional classifications by aggregating country-level commitments within each World Bank region.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 18,
+    "metadata": {
+     "modality": "map",
+     "label": "",
+     "title": "Global Commitments",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.028665,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p113:t04",
+    "text": "19 \u0007Maldives: Since 2020, automated weather stations increased from 36 to 63, improv- ing climate data collection, management, forecasting, and disaster preparedness. 20 \u0007Mongolia: Since 2020, about 1.2 million people have been vaccinated against COVID-19, and more than 1,700 health care workers received training on preventing COVID-19. 21 \u0007Niger: Between 2020 and 2021, about 2.8 million people benefited from emergency cash transfers to help cope with the impacts of COVID-19.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 113,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.026491,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p113:t06",
+    "text": "Cambodia Vietnam Sri Lanka Maldives Mauritius Mongolia Kiribati Samoa Tonga Argentina Chile Uruguay Paraguay Bolivia Brazil Peru Ecuador Colombia Guyana Suriname Mexico Haiti Jamaica Belize Guatemala El Salvador Costa Rica Panama Nicaragua Honduras Madagascar Seychelles Comoros Lesotho South Africa Eswatini Botswana Mozambique Malawi Zambia Zimbabwe Angola Namibia Dem. Rep. of Congo Rwanda Burundi Tanzania Kenya Uganda Ethiopia Sudan I. R. of Iran Gabon Rep. of Congo Central African Rep.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 113,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.024869,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p053:t00",
+    "text": "WORKING TOWARD DEVELOPMENT GOALS AMID CRISES The Bank Group is helping countries respond to these challenges under the guidance of our FCV Strategy, released in February 2020, which outlines our commitment to preventing conflict, remaining engaged during conflict and crisis, helping countries transition out of fragility, and mitigating spillover effects. It informs our other strategies, initiatives, and commitments, with innovative approaches to financing, operations, and analytics being",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 53,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.022472,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p019:v0",
+    "text": "[INFOGRAPHIC on page 19]  2022 SUMMARY RESULTS — regional figures in billions of dollars (world globe with labelled callout boxes)\nGlobe/map of the world with callout boxes connected by lines to regions: EUROPE AND CENTRAL ASIA $15.3 BILLION; EAST ASIA AND PACIFIC $12.7 BILLION; MIDDLE EAST AND NORTH AFRICA $6.7 BILLION; SOUTH ASIA $13.5 BILLION; AFRICA $38.5 BILLION. No total is printed on the page. Notes: Page footer reads '2022 SUMMARY RESULTS   15'. No footnotes or source notes printed; no values given for other regions.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 19,
+    "metadata": {
+     "modality": "infographic",
+     "label": "",
+     "title": "2022 SUMMARY RESULTS — regional figures in billions of dollars (world globe with labelled callout boxes)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030835,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p004:t00",
+    "text": "Amid multiple overlapping crises, we continue to work with countries to help them realize good outcomes and achieve their development goals. Below are select results from the most recent World Bank Corporate Scorecard, showing outcomes supported by Bank activities.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 4,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030679,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p004:v0.1",
+    "text": "[INFOGRAPHIC on page 4]  Supporting Country Outcomes in Times of Crisis\nFor more information and results, visit the World Bank Group Corporate Scorecard: https://scorecard.worldbank.org/",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 4,
+    "metadata": {
+     "modality": "infographic",
+     "label": "",
+     "title": "Supporting Country Outcomes in Times of Crisis",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.029877,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p004:t02",
+    "text": "women reached with financial services Select results reported by client countries implementing Bank-supported operations from fiscal 2019 to 2021. For more information and results, visit the World Bank Group Corporate Scorecard:",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 4,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.016393,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p113:v0.1",
+    "text": "[MAP on page 113]  Countries with active IBRD or IDA operations in fiscal 2022\n18 Malaysia: Between 2017 and 2019, remittance costs in the Sabah region decreased from 4.5 to 2.2 percent, saving migrant workers over $31 million. 19 Maldives: Since 2020, automated weather stations increased from 36 to 63, improving climate data collection, management, forecasting, and disaster preparedness. 20 Mongolia: Since 2020, about 1.2 million people have been vaccinated against COVID-19, and more than 1,700 health care workers received training on preventing COVID-19. 21 Niger: Between 2020 and 2021, about 2.8 million people benefited from emergency cash transfers to help cope with the impacts of COVID-19. 22 Peru: In 2020, contingent credit lines mobilized $1.2 billion to help the government better respond to disaster impacts. 23 Philippines: Since 2020, 13 community projects in Mindanao improved roads, water systems, and post-harvest facilities, benefiting about 32,000 people, half of them women. 24 Somalia: Between 2018 and 2020, the debt-to-GDP decreased from 113 to 70 percent. 25 Tanzania: Between 2017 and 2022, more than 4.5 million people gained access to electricity. 26 Uzbekistan: Between 2012-2022, more than 268,000 people in the districts of Alat and Karakul gained access to clean drinking water. 27 Yemen: Between 2018 and 2022, more than 91,000 households, about a fifth of them headed by women, received access to affordable solar energy systems.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 113,
+    "metadata": {
+     "modality": "map",
+     "label": "",
+     "title": "Countries with active IBRD or IDA operations in fiscal 2022",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.029762,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p049:t03",
+    "text": "In addition, solar panels and rainwater receptacles ensure a supply of electricity and water. Outside of the cyclone season, these facilities are a vibrant community focal point, serving as meeting places, polling stations, and medical offices. They include accessibility ramps for people with disabilities.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 49,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.027826,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p113:view1",
+    "text": "Map title/legend: **“Countries with active IBRD or IDA operations in fiscal 2022”**\n\n**19 Maldives:** “Since 2020, automated weather stations increased from 36 to 63, improving climate data collection, management, forecasting, and disaster preparedness.”",
+    "page": 113,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What is the title of the map on this page, and what result is reported for the Maldives (item 19)?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 9653,
+   "completion_tokens": 316,
+   "prompt_cache_hit_tokens": 7040,
+   "calls": 5
+  },
+  "vision_usage": {
+   "prompt_tokens": 1081,
+   "completion_tokens": 733,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 11.01,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   113
+  ],
+  "evidence_pages": [
+   113
+  ]
+ },
+ {
+  "query_id": "d07",
+  "split": "dev",
+  "group": "image_diagram",
+  "answerable": true,
+  "question": "In the 2022 summary results globe graphic, what amount is shown for Africa?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "Africa is shown as $38.5 billion [wb-ar-2022:p019:v0] [wb-ar-2022:p019:view1].",
+  "citations": [
+   "wb-ar-2022:p019:v0",
+   "wb-ar-2022:p019:view1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "2022 summary results globe graphic Africa amount",
+    "top_k": 5,
+    "seconds": 0.075,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p019:v0",
+      "page": 19,
+      "score": 0.030282,
+      "kind": "infographic"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p019:t00",
+      "page": 19,
+      "score": 0.027365,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p018:v0",
+      "page": 18,
+      "score": 0.027364,
+      "kind": "map"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p106:v0",
+      "page": 106,
+      "score": 0.016393,
+      "kind": "table"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p103:v0",
+      "page": 103,
+      "score": 0.016129,
+      "kind": "table"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 19,
+    "question": "What amount is shown for Africa in the globe graphic?",
+    "seconds": 1.85,
+    "result_id": "wb-ar-2022:p019:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p019:v0",
+    "text": "[INFOGRAPHIC on page 19]  2022 SUMMARY RESULTS — regional figures in billions of dollars (world globe with labelled callout boxes)\nGlobe/map of the world with callout boxes connected by lines to regions: EUROPE AND CENTRAL ASIA $15.3 BILLION; EAST ASIA AND PACIFIC $12.7 BILLION; MIDDLE EAST AND NORTH AFRICA $6.7 BILLION; SOUTH ASIA $13.5 BILLION; AFRICA $38.5 BILLION. No total is printed on the page. Notes: Page footer reads '2022 SUMMARY RESULTS   15'. No footnotes or source notes printed; no values given for other regions.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 19,
+    "metadata": {
+     "modality": "infographic",
+     "label": "",
+     "title": "2022 SUMMARY RESULTS — regional figures in billions of dollars (world globe with labelled callout boxes)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030282,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p019:t00",
+    "text": "EUROPE AND CENTRAL ASIA $15.3 BILLION EAST ASIA AND PACIFIC $12.7 BILLION SOUTH ASIA AFRICA $13.5 BILLION 2022 SUMMARY RESULTS MIDDLE EAST AND NORTH AFRICA $6.7 BILLION $38.5 BILLION",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 19,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.027365,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p018:v0",
+    "text": "[MAP on page 18]  Global Commitments\nGlobe map with callout: LATIN AMERICA AND THE CARIBBEAN — $17.4 BILLION (callout line points to South America). Infographic total: $104.4 BILLION in loans, grants, equity investments, and guarantees to partner countries and private businesses. Notes: Total includes multiregional and global operations. In fiscal 2022, IFC changed its mapping of countries to regions. Regional totals reflect IFC commitments that were recalculated to match the World Bank's regional classifications by aggregating country-level commitments within each World Bank region.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 18,
+    "metadata": {
+     "modality": "map",
+     "label": "",
+     "title": "Global Commitments",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.027364,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:v0",
+    "text": "[TABLE on page 106] TABLE 24 IDA COMMITMENTS BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)\nColumns: REGION | FY18 | FY19 | FY20 | FY21 | FY22\nEastern and Southern Africa: 8,067 | 7,512 | 9,581 | 14,089 | 15,266\nWestern and Central Africa: 7,344 | 6,675 | 9,514 | 10,955 | 12,213\nEast Asia and Pacific: 631 | 1,272 | 2,500 | 1,115 | 1,673\nEurope and Central Asia: 957 | 583 | 1,497 | 1,315 | 2,511\nLatin America and the Caribbean: 428 | 430 | 978 | 769 | 1,030\nMiddle East and North Africa: 430 | 611 | 203 | 658 | 817\nSouth Asia: 6,153 | 4,849 | 6,092 | 7,127 | 4,217\nTotalᵃ: 24,010 | 21,932 | 30,365 | 36,028 | 37,727\nUnits: millions of dollars Notes: Note: Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year. a. Excludes IDA-IFC-MIGA PSW activities.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 106,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 24",
+     "title": "IDA COMMITMENTS BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.016393,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p103:v0",
+    "text": "[TABLE on page 103] TABLE 18 IBRD COMMITMENTS, BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)\nColumns: REGION | FY18 | FY19 | FY20 | FY21 | FY22. Rows: Eastern and Southern Africa: 470, 315, 1,716, 1,525, 2,907; Western and Central Africa: 650, 505, 9, 500, 386; East Asia and Pacific: 3,981, 4,030, 4,770, 6,753, 5,482; Europe and Central Asia: 3,550, 3,749, 5,699, 4,559, 5,974; Latin America and the Caribbean: 3,898, 5,709, 6,798, 9,464, 9,407; Middle East and North Africa: 5,945, 4,872, 3,419, 3,976, 4,135; South Asia: 4,508, 4,011, 5,565, 3,746, 4,781; Total: 23,002, 23,191, 27,976, 30,523, 33,072. Notes: Note: Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 103,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 18",
+     "title": "IBRD COMMITMENTS, BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.016129,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p019:view1",
+    "text": "$38.5 BILLION — AFRICA",
+    "page": 19,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What amount is shown for Africa in the globe graphic?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4275,
+   "completion_tokens": 137,
+   "prompt_cache_hit_tokens": 2688,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 997,
+   "completion_tokens": 135,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 5.07,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   19
+  ],
+  "evidence_pages": [
+   19
+  ]
+ },
+ {
+  "query_id": "d08",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "Which sector received the largest share of IBRD and IDA lending in Eastern and Southern Africa in fiscal 2022, and what was that share?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "**Public Administration** received the largest share of IBRD and IDA lending in Eastern and Southern Africa in fiscal 2022, at **18%** of the total $18.2 billion [wb-ar-2022:p023:view1][wb-ar-2022:p023:t08].",
+  "citations": [
+   "wb-ar-2022:p023:view1",
+   "wb-ar-2022:p023:t08"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD IDA lending Eastern and Southern Africa fiscal 2022 sector share largest",
+    "top_k": 5,
+    "seconds": 0.074,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p023:t08",
+      "page": 23,
+      "score": 0.032266,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p023:v0",
+      "page": 23,
+      "score": 0.032258,
+      "kind": "chart"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p027:v0",
+      "page": 27,
+      "score": 0.031545,
+      "kind": "chart"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p022:t03",
+      "page": 22,
+      "score": 0.03101,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p043:v0",
+      "page": 43,
+      "score": 0.03055,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Eastern and Southern Africa lending by sector fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.058,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p022:t03",
+      "page": 22,
+      "score": 0.031754,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p027:v0",
+      "page": 27,
+      "score": 0.030798,
+      "kind": "chart"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p022:t08",
+      "page": 22,
+      "score": 0.030769,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p023:t08",
+      "page": 23,
+      "score": 0.030092,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p022:t00",
+      "page": 22,
+      "score": 0.028531,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 23,
+    "question": "In Figure 1, Eastern and Southern Africa IBRD and IDA lending by sector fiscal 2022, which sector has the largest share and what is its percentage? List all sector percentages.",
+    "seconds": 7.76,
+    "result_id": "wb-ar-2022:p023:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p023:t08",
+    "text": "FIGURE 1 EASTERN AND SOUTHERN AFRICA IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 SHARE OF TOTAL OF $18.2 BILLION Water, Sanitation, and Waste Management Agriculture, Fishing, and Forestry 9% 11% Public Administration 18% Transportation 8% Social Protection 12% Information and Communications Technologies 3% Education 6% Energy and Extractives 11% Financial Sector 5% Health 13% Industry, Trade, and Services 4%",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 23,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032266,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p023:v0",
+    "text": "[CHART on page 23] FIGURE 1 EASTERN AND SOUTHERN AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $18.2 BILLION)\nPie chart, share of total of $18.2 billion, by sector: Water, Sanitation, and Waste Management 9%; Agriculture, Fishing, and Forestry 11%; Transportation 8%; Education 6%; Social Protection 12%; Energy and Extractives 11%; Public Administration 18%; Financial Sector 5%; Information and Communications Technologies 3%; Health 13%; Industry, Trade, and Services 4%. Notes: No footnotes; all sector labels and percentage values legible.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 23,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 1",
+     "title": "EASTERN AND SOUTHERN AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $18.2 BILLION)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.032258,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p027:v0",
+    "text": "[CHART on page 27] FIGURE 2 WESTERN AND CENTRAL AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $12.6 BILLION\nPie chart showing shares of total lending of $12.6 billion by sector: Water, Sanitation, and Waste Management 5%; Agriculture, Fishing, and Forestry 16%; Education 7%; Energy and Extractives 8%; Financial Sector 1%; Health 14%; Industry, Trade, and Services 6%; Information and Communications Technologies 4%; Public Administration 10%; Social Protection 16%; Transportation 13%.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 27,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 2",
+     "title": "WESTERN AND CENTRAL AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $12.6 BILLION",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.031545,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p022:t03",
+    "text": "World Bank assistance In fiscal 2022, the Bank approved $18.2 billion in lending to Eastern and Southern Africa for 100 operations, including $2.9 billion in IBRD commitments and $15.3 billion in IDA commitments. Revenue from Reimbursable Advisory Services agreements with five countries was $7 million. We are helping countries respond to the impacts of the pandemic; roll out COVID-19 vaccines; build connectivity in energy, transport, and digital development;",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 22,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.03101,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p043:v0",
+    "text": "[CHART on page 43] FIGURE 6 MIDDLE EAST AND NORTH AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $4.9 BILLION)\nPie chart showing share of total of $4.9 billion by sector. Categories and percentages as printed: Water, Sanitation, and Waste Management 1%; Agriculture, Fishing, and Forestry 12%; Transportation 7%; Education 3%; Social Protection 27%; Energy and Extractives 3%; Financial Sector 3%; Public Administration 16%; Health 12%; Information and Communications Technologies 3%; Industry, Trade, and Services 13%. Total: $4.9 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 43,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 6",
+     "title": "MIDDLE EAST AND NORTH AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (SHARE OF TOTAL OF $4.9 BILLION)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.03055,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p022:t08",
+    "text": "EASTERN AND SOUTHERN AFRICA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22 COMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS) FY20 FY21 FY22 FY20 FY21 FY22 IBRD 1,716 1,525 2,907 2,441 IDA 9,581 14,089 15,266 7,904 8,081 7,133 Portfolio of operations under implementation as of June 30, 2022: $64.1 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 22,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030769,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p022:t00",
+    "text": "Eastern and Southern Africa Growth in Eastern and Southern Africa is projected to decelerate from 4.1 percent in 2021 to 3.1 percent in 2022 and is estimated at 3.4 percent and 3.8 percent in 2023 and 2024, respectively. The growth deceleration in 2022 reflects short-term headwinds, the slowdown in the global economy, lingering effects of the pandemic, higher inflation, rising financial risks tied to unsustainably high public debt, ongoing supply disruptions, and impacts of the war in Ukraine.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 22,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028531,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p023:view1",
+    "text": "The largest share is **Public Administration — 18%**.\n\nAll sector percentages in Figure 1 (“SHARE OF TOTAL OF $18.2 BILLION”):\n\n- Public Administration — **18%**\n- Health — **13%**\n- Social Protection — **12%**\n- Agriculture, Fishing, and Forestry — **11%**\n- Energy and Extractives — **11%**\n- Water, Sanitation, and Waste Management — **9%**\n- Transportation — **8%**\n- Education — **6%**\n- Financial Sector — **5%**\n- Industry, Trade, and Services — **4%**\n- Information and Communications Technologies — **3%**",
+    "page": 23,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "In Figure 1, Eastern and Southern Africa IBRD and IDA lending by sector fiscal 2022, which sector has the largest share and what is its percentage? List all sector percentages."
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5360,
+   "completion_tokens": 277,
+   "prompt_cache_hit_tokens": 3456,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 1026,
+   "completion_tokens": 1359,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 10.65,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   23
+  ],
+  "evidence_pages": [
+   23
+  ]
+ },
+ {
+  "query_id": "d09",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "What share of IBRD and IDA lending in Latin America and the Caribbean in fiscal 2022 went to Health?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "**18%** of IBRD and IDA lending in Latin America and the Caribbean in fiscal 2022 went to Health (out of a total of $10.4 billion) [wb-ar-2022:p039:v0] [wb-ar-2022:p039:view1].",
+  "citations": [
+   "wb-ar-2022:p039:v0",
+   "wb-ar-2022:p039:view1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Latin America and Caribbean IBRD IDA lending fiscal 2022 Health share",
+    "top_k": 5,
+    "seconds": 0.2,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p039:v0",
+      "page": 39,
+      "score": 0.032787,
+      "kind": "chart"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p023:t08",
+      "page": 23,
+      "score": 0.030798,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p038:v0",
+      "page": 38,
+      "score": 0.030777,
+      "kind": "table"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p038:t07",
+      "page": 38,
+      "score": 0.03055,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p027:v0",
+      "page": 27,
+      "score": 0.030415,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Latin America Caribbean lending by sector Health percent fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.319,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p039:v0",
+      "page": 39,
+      "score": 0.032258,
+      "kind": "chart"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p038:t07",
+      "page": 38,
+      "score": 0.031258,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p018:t00",
+      "page": 18,
+      "score": 0.030331,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p038:v0",
+      "page": 38,
+      "score": 0.029907,
+      "kind": "table"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p018:v0",
+      "page": 18,
+      "score": 0.029857,
+      "kind": "map"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 39,
+    "question": "What share of IBRD and IDA lending in Latin America and the Caribbean in fiscal 2022 went to Health? What is the total lending amount?",
+    "seconds": 2.01,
+    "result_id": "wb-ar-2022:p039:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p039:v0",
+    "text": "[CHART on page 39] FIGURE 5 LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)\nPie chart of IBRD and IDA lending by sector, fiscal 2022, share of total of $10.4 billion. Categories and shares as printed: Public Administration 23%; Health 18%; Agriculture, Fishing, and Forestry 12%; Transportation 10%; Social Protection 10%; Energy and Extractives 10%; Financial Sector 6%; Education 5%; Industry, Trade, and Services 5%; Water, Sanitation, and Waste Management 1%; Information and Communications Technologies 0%. Notes: Subtitle line reads 'SHARE OF TOTAL OF $10.4 BILLION'. No other footnotes visible.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 39,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 5",
+     "title": "LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.032787,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p023:t08",
+    "text": "FIGURE 1 EASTERN AND SOUTHERN AFRICA IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 SHARE OF TOTAL OF $18.2 BILLION Water, Sanitation, and Waste Management Agriculture, Fishing, and Forestry 9% 11% Public Administration 18% Transportation 8% Social Protection 12% Information and Communications Technologies 3% Education 6% Energy and Extractives 11% Financial Sector 5% Health 13% Industry, Trade, and Services 4%",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 23,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030798,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p038:v0",
+    "text": "[TABLE on page 38] TABLE 10 LATIN AMERICA AND THE CARIBBEAN REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22\nCOMMITMENTS ($ MILLIONS): FY20, FY21, FY22 | DISBURSEMENTS ($ MILLIONS): FY20, FY21, FY22\nIBRD: Commitments FY20 6,798; FY21 9,464; FY22 9,407. Disbursements FY20 5,799; FY21 8,741; FY22 8,911.\nIDA: Commitments FY20 978; FY21 769; FY22 1,030. Disbursements FY20 466; FY21 495; FY22 510. Notes: Portfolio of operations under implementation as of June 30, 2022: $33.8 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 38,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 10",
+     "title": "LATIN AMERICA AND THE CARIBBEAN REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030777,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p038:t07",
+    "text": "TABLE 10 LATIN AMERICA AND THE CARIBBEAN REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22 COMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS) FY20 FY21 FY22 FY20 FY21 FY22 IBRD 6,798 9,464 9,407 5,799 8,741 8,911 IDA 1,030 Portfolio of operations under implementation as of June 30, 2022: $33.8 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 38,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.03055,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p027:v0",
+    "text": "[CHART on page 27] FIGURE 2 WESTERN AND CENTRAL AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $12.6 BILLION\nPie chart showing shares of total lending of $12.6 billion by sector: Water, Sanitation, and Waste Management 5%; Agriculture, Fishing, and Forestry 16%; Education 7%; Energy and Extractives 8%; Financial Sector 1%; Health 14%; Industry, Trade, and Services 6%; Information and Communications Technologies 4%; Public Administration 10%; Social Protection 16%; Transportation 13%.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 27,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 2",
+     "title": "WESTERN AND CENTRAL AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $12.6 BILLION",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030415,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p018:t00",
+    "text": "Global Commitments In fiscal 2022, the World Bank Group conducted data collection, in-depth analysis, and research; provided much-needed financing; and partnered with governments, the private sector, and other institutions to help developing countries address urgent needs and strengthen resilience amid overlapping crises and rising fragility. LATIN AMERICA AND THE CARIBBEAN $17.4 BILLION in loans, grants, equity investments, and guarantees to partner countries and private businesses.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 18,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030331,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p018:v0",
+    "text": "[MAP on page 18]  Global Commitments\nGlobe map with callout: LATIN AMERICA AND THE CARIBBEAN — $17.4 BILLION (callout line points to South America). Infographic total: $104.4 BILLION in loans, grants, equity investments, and guarantees to partner countries and private businesses. Notes: Total includes multiregional and global operations. In fiscal 2022, IFC changed its mapping of countries to regions. Regional totals reflect IFC commitments that were recalculated to match the World Bank's regional classifications by aggregating country-level commitments within each World Bank region.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 18,
+    "metadata": {
+     "modality": "map",
+     "label": "",
+     "title": "Global Commitments",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.029857,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p039:view1",
+    "text": "Health: **18%**  \nTotal lending amount: **$10.4 BILLION**  \n(From “FIGURE 5 LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $10.4 BILLION”)",
+    "page": 39,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What share of IBRD and IDA lending in Latin America and the Caribbean in fiscal 2022 went to Health? What is the total lending amount?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5663,
+   "completion_tokens": 250,
+   "prompt_cache_hit_tokens": 3584,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 1018,
+   "completion_tokens": 281,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 5.58,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   39
+  ],
+  "evidence_pages": [
+   39
+  ]
+ },
+ {
+  "query_id": "d10",
+  "split": "dev",
+  "group": "chart",
+  "answerable": true,
+  "question": "What share of fiscal 2022 IBRD and IDA lending in Latin America and the Caribbean went to Information and Communications Technologies?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "Information and Communications Technologies received **0%** of fiscal 2022 IBRD and IDA lending in Latin America and the Caribbean (out of a total of $10.4 billion) [wb-ar-2022:p039:v0] [wb-ar-2022:p039:view1].",
+  "citations": [
+   "wb-ar-2022:p039:v0",
+   "wb-ar-2022:p039:view1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Latin America and the Caribbean lending by sector Information and Communications Technologies share",
+    "top_k": 5,
+    "seconds": 0.087,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p039:v0",
+      "page": 39,
+      "score": 0.032258,
+      "kind": "chart"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p027:v0",
+      "page": 27,
+      "score": 0.030077,
+      "kind": "chart"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p018:v0",
+      "page": 18,
+      "score": 0.028589,
+      "kind": "map"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p038:t07",
+      "page": 38,
+      "score": 0.028531,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p018:t00",
+      "page": 18,
+      "score": 0.028485,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD IDA lending by region sector table fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.076,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p108:t00",
+      "page": 108,
+      "score": 0.030798,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p035:v0",
+      "page": 35,
+      "score": 0.030214,
+      "kind": "chart"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p102:t09",
+      "page": 102,
+      "score": 0.030092,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p027:v0",
+      "page": 27,
+      "score": 0.029857,
+      "kind": "chart"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p039:v0",
+      "page": 39,
+      "score": 0.029572,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 39,
+    "question": "What share of IBRD and IDA lending in Latin America and the Caribbean went to Information and Communications Technologies in fiscal 2022? What is the total lending amount?",
+    "seconds": 2.47,
+    "result_id": "wb-ar-2022:p039:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p039:v0",
+    "text": "[CHART on page 39] FIGURE 5 LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)\nPie chart of IBRD and IDA lending by sector, fiscal 2022, share of total of $10.4 billion. Categories and shares as printed: Public Administration 23%; Health 18%; Agriculture, Fishing, and Forestry 12%; Transportation 10%; Social Protection 10%; Energy and Extractives 10%; Financial Sector 6%; Education 5%; Industry, Trade, and Services 5%; Water, Sanitation, and Waste Management 1%; Information and Communications Technologies 0%. Notes: Subtitle line reads 'SHARE OF TOTAL OF $10.4 BILLION'. No other footnotes visible.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 39,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 5",
+     "title": "LATIN AMERICA AND THE CARIBBEAN — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 (share of total of $10.4 billion)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.032258,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p027:v0",
+    "text": "[CHART on page 27] FIGURE 2 WESTERN AND CENTRAL AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $12.6 BILLION\nPie chart showing shares of total lending of $12.6 billion by sector: Water, Sanitation, and Waste Management 5%; Agriculture, Fishing, and Forestry 16%; Education 7%; Energy and Extractives 8%; Financial Sector 1%; Health 14%; Industry, Trade, and Services 6%; Information and Communications Technologies 4%; Public Administration 10%; Social Protection 16%; Transportation 13%.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 27,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 2",
+     "title": "WESTERN AND CENTRAL AFRICA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $12.6 BILLION",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030077,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p018:v0",
+    "text": "[MAP on page 18]  Global Commitments\nGlobe map with callout: LATIN AMERICA AND THE CARIBBEAN — $17.4 BILLION (callout line points to South America). Infographic total: $104.4 BILLION in loans, grants, equity investments, and guarantees to partner countries and private businesses. Notes: Total includes multiregional and global operations. In fiscal 2022, IFC changed its mapping of countries to regions. Regional totals reflect IFC commitments that were recalculated to match the World Bank's regional classifications by aggregating country-level commitments within each World Bank region.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 18,
+    "metadata": {
+     "modality": "map",
+     "label": "",
+     "title": "Global Commitments",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.028589,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p038:t07",
+    "text": "TABLE 10 LATIN AMERICA AND THE CARIBBEAN REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22 COMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS) FY20 FY21 FY22 FY20 FY21 FY22 IBRD 6,798 9,464 9,407 5,799 8,741 8,911 IDA 1,030 Portfolio of operations under implementation as of June 30, 2022: $33.8 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 38,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028531,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p018:t00",
+    "text": "Global Commitments In fiscal 2022, the World Bank Group conducted data collection, in-depth analysis, and research; provided much-needed financing; and partnered with governments, the private sector, and other institutions to help developing countries address urgent needs and strengthen resilience amid overlapping crises and rising fragility. LATIN AMERICA AND THE CARIBBEAN $17.4 BILLION in loans, grants, equity investments, and guarantees to partner countries and private businesses.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 18,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028485,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p108:t00",
+    "text": "In fiscal 2022, 74 countries were eligible for IDA assistance. New IDA lending commitments for the year amounted to $37.7 billion for 305 operations, of which 12 were IBRD and IDA blended operations. These commitments included $24.5 billion in credits and $13.2 billion in grants. In addition, 23 projects and sub-projects, for a total of $1.1 billion, were approved for support from the IDA19 IDA-IFC-MIGA Private Sector Window (PSW) during the fiscal year.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 108,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030798,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p035:v0",
+    "text": "[CHART on page 35] FIGURE 4 EUROPE AND CENTRAL ASIA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $8.5 BILLION\nPie chart of IBRD and IDA lending by sector, fiscal 2022, shares of total of $8.5 billion. Categories and values as printed: Public Administration 32%; Energy and Extractives 15%; Health 12%; Social Protection 10%; Agriculture, Fishing, and Forestry 9%; Transportation 6%; Water, Sanitation, and Waste Management 5%; Industry, Trade, and Services 4%; Education 3%; Financial Sector 3%; Information and Communications Technologies 1%. Notes: No footnotes; the values are printed beside each labelled slice around the pie (left-side labels: Water, Sanitation, and Waste Management 5%, Transportation 6%, Social Protection 10%, Public Administration 32%; right-side labels: Agriculture, Fishing, and Forestry 9%, Education 3%, Energy and Extractives 15%, Financial Sector 3%, Health 12%, Industry, Trade, and Services 4%, Information and Communications Technologies 1%).",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 35,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 4",
+     "title": "EUROPE AND CENTRAL ASIA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $8.5 BILLION",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030214,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p102:t09",
+    "text": "In fiscal 2022, new IBRD lending commitments amounted to $33.1 billion for 136 operations, of which 12 were IBRD and IDA blended operations. For more information, visit www.worldbank.org/asa. For more information, visit www.worldbank.org/smallstates.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 102,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030092,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p039:view1",
+    "text": "Information and Communications Technologies: **0%**.  \nTotal lending amount: **$10.4 BILLION** (printed as “SHARE OF TOTAL OF $10.4 BILLION”).",
+    "page": 39,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What share of IBRD and IDA lending in Latin America and the Caribbean went to Information and Communications Technologies in fiscal 2022? What is the total lending amount?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5597,
+   "completion_tokens": 265,
+   "prompt_cache_hit_tokens": 3328,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 1021,
+   "completion_tokens": 348,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 6.03,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   39
+  ],
+  "evidence_pages": [
+   39
+  ]
+ },
+ {
+  "query_id": "d11",
+  "split": "dev",
+  "group": "multi_hop",
+  "answerable": true,
+  "question": "What were the combined IBRD and IDA commitments to Eastern and Southern Africa in fiscal 2022?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "**$18,173 million (≈$18.2 billion)** in fiscal 2022.\n\nCalculation: IBRD $2,907 million + IDA $15,266 million = $18,173 million [wb-ar-2022:p022:view1] [wb-ar-2022:p022:v0], consistent with the text's \"$18.2 billion in lending to Eastern and Southern Africa for 100 operations, including $2.9 billion in IBRD commitments and $15.3 billion in IDA commitments\" [wb-ar-2022:p022:t03].",
+  "citations": [
+   "wb-ar-2022:p022:view1",
+   "wb-ar-2022:p022:v0",
+   "wb-ar-2022:p022:t03"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD and IDA commitments Eastern and Southern Africa fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.086,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p022:t08",
+      "page": 22,
+      "score": 0.032787,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p022:t03",
+      "page": 22,
+      "score": 0.031754,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p023:t08",
+      "page": 23,
+      "score": 0.031514,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p022:v0",
+      "page": 22,
+      "score": 0.030579,
+      "kind": "table"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p026:t04",
+      "page": 26,
+      "score": 0.03009,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "commitments by region table fiscal 2022 Eastern and Southern Africa",
+    "top_k": 5,
+    "seconds": 0.081,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p022:v0",
+      "page": 22,
+      "score": 0.031746,
+      "kind": "table"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p103:t00",
+      "page": 103,
+      "score": 0.030415,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p022:t08",
+      "page": 22,
+      "score": 0.030077,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p106:v0",
+      "page": 106,
+      "score": 0.030077,
+      "kind": "table"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p106:t07",
+      "page": 106,
+      "score": 0.029727,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 22,
+    "question": "In Table 2, what are the FY22 commitments for IBRD and for IDA for Eastern and Southern Africa (in $ millions)?",
+    "seconds": 2.36,
+    "result_id": "wb-ar-2022:p022:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p022:t08",
+    "text": "EASTERN AND SOUTHERN AFRICA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22 COMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS) FY20 FY21 FY22 FY20 FY21 FY22 IBRD 1,716 1,525 2,907 2,441 IDA 9,581 14,089 15,266 7,904 8,081 7,133 Portfolio of operations under implementation as of June 30, 2022: $64.1 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 22,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032787,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p022:t03",
+    "text": "World Bank assistance In fiscal 2022, the Bank approved $18.2 billion in lending to Eastern and Southern Africa for 100 operations, including $2.9 billion in IBRD commitments and $15.3 billion in IDA commitments. Revenue from Reimbursable Advisory Services agreements with five countries was $7 million. We are helping countries respond to the impacts of the pandemic; roll out COVID-19 vaccines; build connectivity in energy, transport, and digital development;",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 22,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031754,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p023:t08",
+    "text": "FIGURE 1 EASTERN AND SOUTHERN AFRICA IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 SHARE OF TOTAL OF $18.2 BILLION Water, Sanitation, and Waste Management Agriculture, Fishing, and Forestry 9% 11% Public Administration 18% Transportation 8% Social Protection 12% Information and Communications Technologies 3% Education 6% Energy and Extractives 11% Financial Sector 5% Health 13% Industry, Trade, and Services 4%",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 23,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031514,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p022:v0",
+    "text": "[TABLE on page 22] TABLE 2 EASTERN AND SOUTHERN AFRICA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22\nColumns: COMMITMENTS ($ MILLIONS): FY20, FY21, FY22; DISBURSEMENTS ($ MILLIONS): FY20, FY21, FY22.\nIBRD — Commitments: FY20 1,716; FY21 1,525; FY22 2,907. Disbursements: FY20 932; FY21 325; FY22 2,441.\nIDA — Commitments: FY20 9,581; FY21 14,089; FY22 15,266. Disbursements: FY20 7,904; FY21 8,081; FY22 7,133. Notes: Portfolio of operations under implementation as of June 30, 2022: $64.1 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 22,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 2",
+     "title": "EASTERN AND SOUTHERN AFRICA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030579,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p026:t04",
+    "text": "World Bank assistance In fiscal 2022, the Bank approved $12.6 billion in lending to Western and Central Africa for 92 operations, including $386 million in IBRD commitments and $12.2 billion in IDA commitments. More than half of these commitments went to countries affected by fragility, conflict, and violence. We also delivered 142 advisory services and analytics products in fiscal 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 26,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.03009,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p103:t00",
+    "text": "DEPLOYING RESOURCES STRATEGICALLY TABLE 18 IBRD COMMITMENTS, BY REGION, FISCAL 2018–22 MILLIONS OF DOLLARS REGION FY18 FY19 FY20 FY21 FY22 Eastern and Southern Africa 1,716 1,525 2,907 Western and Central Africa East Asia and Pacific 3,981 4,030 4,770 6,753 5,482 Europe and Central Asia 3,550 3,749 5,699 4,559 5,974 Latin America and the Caribbean 3,898 5,709 6,798 9,464 9,407 Middle East and North Africa 5,945 4,872 3,419 3,976 4,135 South Asia 4,508 4,011 5,565 3,746 4,781 Total 23,002 23,191",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 103,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030415,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:v0",
+    "text": "[TABLE on page 106] TABLE 24 IDA COMMITMENTS BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)\nColumns: REGION | FY18 | FY19 | FY20 | FY21 | FY22\nEastern and Southern Africa: 8,067 | 7,512 | 9,581 | 14,089 | 15,266\nWestern and Central Africa: 7,344 | 6,675 | 9,514 | 10,955 | 12,213\nEast Asia and Pacific: 631 | 1,272 | 2,500 | 1,115 | 1,673\nEurope and Central Asia: 957 | 583 | 1,497 | 1,315 | 2,511\nLatin America and the Caribbean: 428 | 430 | 978 | 769 | 1,030\nMiddle East and North Africa: 430 | 611 | 203 | 658 | 817\nSouth Asia: 6,153 | 4,849 | 6,092 | 7,127 | 4,217\nTotalᵃ: 24,010 | 21,932 | 30,365 | 36,028 | 37,727\nUnits: millions of dollars Notes: Note: Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year. a. Excludes IDA-IFC-MIGA PSW activities.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 106,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 24",
+     "title": "IDA COMMITMENTS BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030077,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:t07",
+    "text": "TABLE 24 IDA COMMITMENTS BY REGION, FISCAL 2018–22 MILLIONS OF DOLLARS REGION FY18 FY19 FY20 FY21 FY22 Eastern and Southern Africa 8,067 7,512 9,581 14,089 15,266 Western and Central Africa 7,344 6,675 9,514 10,955 12,213 East Asia and Pacific 1,272 2,500 1,115 1,673 Europe and Central Asia 1,497 1,315 2,511 Latin America and the Caribbean 1,030 Middle East and North Africa South Asia 6,153 4,849 6,092 7,127 4,217 Totala 24,010 21,932 30,365 36,028 37,727 Note: Amounts are net of full",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 106,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029727,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p022:view1",
+    "text": "In **TABLE 2 EASTERN AND SOUTHERN AFRICA — REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22**, under **COMMITMENTS ($ MILLIONS)**, **FY22**:\n\n- **IBRD:** **2,907**\n- **IDA:** **15,266**\n\nUnits as printed: **$ MILLIONS**.",
+    "page": 22,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "In Table 2, what are the FY22 commitments for IBRD and for IDA for Eastern and Southern Africa (in $ millions)?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6016,
+   "completion_tokens": 309,
+   "prompt_cache_hit_tokens": 3584,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 1015,
+   "completion_tokens": 290,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 6.39,
+  "auto_pass": false,
+  "missing_values": [],
+  "cited_pages": [
+   22
+  ],
+  "evidence_pages": [
+   103,
+   106
+  ]
+ },
+ {
+  "query_id": "d12",
+  "split": "dev",
+  "group": "multi_hop",
+  "answerable": true,
+  "question": "What were combined IBRD and IDA commitments to the Education sector in fiscal 2022?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "Combined IBRD + IDA commitments to Education in fiscal 2022:\n\n- IBRD: $1,090 million [wb-ar-2022:p103:view1]\n- IDA: $2,335 million [wb-ar-2022:p107:view2]\n\nTotal = 1,090 + 2,335 = **$3,425 million (about $3.4 billion)**.",
+  "citations": [
+   "wb-ar-2022:p103:view1",
+   "wb-ar-2022:p107:view2"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD IDA commitments Education sector fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.077,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p047:t10",
+      "page": 47,
+      "score": 0.032266,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p108:t00",
+      "page": 108,
+      "score": 0.031054,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p023:t08",
+      "page": 23,
+      "score": 0.029877,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p102:t09",
+      "page": 102,
+      "score": 0.02895,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p035:v0",
+      "page": 35,
+      "score": 0.028778,
+      "kind": "chart"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "commitments by sector table Education",
+    "top_k": 5,
+    "seconds": 0.056,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p107:v1",
+      "page": 107,
+      "score": 0.030579,
+      "kind": "table"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p103:v2",
+      "page": 103,
+      "score": 0.030018,
+      "kind": "table"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p107:t02",
+      "page": 107,
+      "score": 0.028021,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p017:t02",
+      "page": 17,
+      "score": 0.023393,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p027:t05",
+      "page": 27,
+      "score": 0.016393,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 103,
+    "question": "What is the IBRD Education commitment in FY22 (millions of dollars)?",
+    "seconds": 3.14,
+    "result_id": "wb-ar-2022:p103:view1"
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 107,
+    "question": "What is the IDA Education commitment in FY22 (millions of dollars)?",
+    "seconds": 1.99,
+    "result_id": "wb-ar-2022:p107:view2"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "views": 2,
+  "context": [
+   {
+    "id": "wb-ar-2022:p047:t10",
+    "text": "Education 5% Energy and Extractives 11% Financial Sector 11% Health 19% FIGURE 7 SOUTH ASIA IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 SHARE OF TOTAL OF $9.0 BILLION",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 47,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032266,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p108:t00",
+    "text": "In fiscal 2022, 74 countries were eligible for IDA assistance. New IDA lending commitments for the year amounted to $37.7 billion for 305 operations, of which 12 were IBRD and IDA blended operations. These commitments included $24.5 billion in credits and $13.2 billion in grants. In addition, 23 projects and sub-projects, for a total of $1.1 billion, were approved for support from the IDA19 IDA-IFC-MIGA Private Sector Window (PSW) during the fiscal year.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 108,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031054,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p023:t08",
+    "text": "FIGURE 1 EASTERN AND SOUTHERN AFRICA IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 SHARE OF TOTAL OF $18.2 BILLION Water, Sanitation, and Waste Management Agriculture, Fishing, and Forestry 9% 11% Public Administration 18% Transportation 8% Social Protection 12% Information and Communications Technologies 3% Education 6% Energy and Extractives 11% Financial Sector 5% Health 13% Industry, Trade, and Services 4%",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 23,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029877,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p102:t09",
+    "text": "In fiscal 2022, new IBRD lending commitments amounted to $33.1 billion for 136 operations, of which 12 were IBRD and IDA blended operations. For more information, visit www.worldbank.org/asa. For more information, visit www.worldbank.org/smallstates.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 102,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.02895,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p035:v0",
+    "text": "[CHART on page 35] FIGURE 4 EUROPE AND CENTRAL ASIA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $8.5 BILLION\nPie chart of IBRD and IDA lending by sector, fiscal 2022, shares of total of $8.5 billion. Categories and values as printed: Public Administration 32%; Energy and Extractives 15%; Health 12%; Social Protection 10%; Agriculture, Fishing, and Forestry 9%; Transportation 6%; Water, Sanitation, and Waste Management 5%; Industry, Trade, and Services 4%; Education 3%; Financial Sector 3%; Information and Communications Technologies 1%. Notes: No footnotes; the values are printed beside each labelled slice around the pie (left-side labels: Water, Sanitation, and Waste Management 5%, Transportation 6%, Social Protection 10%, Public Administration 32%; right-side labels: Agriculture, Fishing, and Forestry 9%, Education 3%, Energy and Extractives 15%, Financial Sector 3%, Health 12%, Industry, Trade, and Services 4%, Information and Communications Technologies 1%).",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 35,
+    "metadata": {
+     "modality": "chart",
+     "label": "FIGURE 4",
+     "title": "EUROPE AND CENTRAL ASIA — IBRD AND IDA LENDING BY SECTOR • FISCAL 2022 — SHARE OF TOTAL OF $8.5 BILLION",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.028778,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p107:v1",
+    "text": "[TABLE on page 107] TABLE 26 IDA COMMITMENTS BY SECTOR, FISCAL 2018-22 — MILLIONS OF DOLLARS\nColumns: SECTOR | FY18 | FY19 | FY20 | FY21 | FY22\nAgriculture, Fishing, and Forestry: 1,442 | 2,796 | 1,978 | 2,912 | 4,008\nEducation: 2,836 | 1,767 | 4,037 | 3,585 | 2,335\nEnergy and Extractives: 4,028 | 3,468 | 3,218 | 3,801 | 3,696\nFinancial Sector: 546 | 870 | 534 | 1,910 | 1,346\nHealth: 2,062 | 1,736 | 4,295 | 3,840 | 4,269\nIndustry, Trade, and Services: 1,991 | 1,963 | 2,712 | 2,174 | 2,317\nInformation and Communications Technologies: 419 | 779 | 1,202 | 1,151 | 1,245\nPublic Administration: 5,013 | 3,109 | 4,252 | 5,572 | 6,194\nSocial Protection: 2,112 | 2,163 | 4,185 | 6,352 | 4,792\nTransportation: 1,455 | 1,709 | 2,132 | 2,367 | 5,167\nWater, Sanitation, and Waste Management: 2,105 | 1,572 | 1,820 | 2,365 | 2,357\nTotalᵃ: 24,010 | 21,932 | 30,365 | 36,028 | 37,727\nUnits: millions of dollars Notes: Note: Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year. Numbers may not add to totals because of rounding. Visit projects.worldbank.org/sector for more information. a. Excludes IDA-IFC-MIGA PSW activities.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 107,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 26",
+     "title": "IDA COMMITMENTS BY SECTOR, FISCAL 2018-22 — MILLIONS OF DOLLARS",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030579,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p103:v2",
+    "text": "[TABLE on page 103] TABLE 20 IBRD COMMITMENTS BY SECTOR, FISCAL 2018–22 (MILLIONS OF DOLLARS)\nColumns: SECTOR | FY18 | FY19 | FY20 | FY21 | FY22. Rows: Agriculture, Fishing, and Forestry: 2,561, 1,025, 1,767, 1,260, 3,611; Education: 1,685, 1,875, 1,135, 2,017, 1,090; Energy and Extractives: 3,084, 2,847, 2,053, 2,379, 3,069; Financial Sector: 764, 2,299, 3,702, 3,828, 1,877; Health: 2,204, 1,674, 3,980, 2,606, 6,252; Industry, Trade, and Services: 3,416, 2,361, 2,208, 3,030, 1,916; Information and Communications Technologies: 324, 611, 886, 773, 509; Public Administration: 2,189, 5,327, 4,301, 5,666, 6,484; Social Protection: 2,091, 2,115, 4,786, 4,800, 3,446; Transportation: 2,074, 1,485, 1,323, 2,273, 3,036; Water, Sanitation, and Waste Management: 2,610, 1,571, 1,834, 1,891, 1,782; Total: 23,002, 23,191, 27,976, 30,523, 33,072. Notes: Note: Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year. Numbers may not add to totals because of rounding. Visit projects.worldbank.org/sector for more information.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 103,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 20",
+     "title": "IBRD COMMITMENTS BY SECTOR, FISCAL 2018–22 (MILLIONS OF DOLLARS)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030018,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p107:t02",
+    "text": "TABLE 26 IDA COMMITMENTS BY SECTOR, FISCAL 2018–22 MILLIONS OF DOLLARS SECTOR FY18 FY19 FY20 FY21 FY22 Agriculture, Fishing, and Forestry 1,442 2,796 1,978 2,912 4,008 Education 2,836 1,767 4,037 3,585 2,335 Energy and Extractives 4,028 3,468 3,218 3,801 3,696 Financial Sector 1,910 1,346 Health 2,062 1,736 4,295 3,840 4,269 Industry, Trade, and Services 1,991 1,963 2,712 2,174 2,317 Information and Communications Technologies 1,202 1,151 1,245 Public Administration 5,013 3,109 4,252 5,572",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 107,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028021,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p017:t02",
+    "text": "differ from the amount reported in the Corporate Scorecard, which includes only a subset of trust-funded activities. b. Includes IBRD, IDA, IFC, and RETF disbursements. c. \u0007Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year. d. \u0007Commitments and disbursements exclude IDA-IFC-MIGA Private Sector Window (PSW) activities. e. \u0007Includes long-term commitments for IFC’s own account and short-term finance commitments.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 17,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.023393,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p027:t05",
+    "text": "education strategy at a ministerial meeting in Ghana. This strategy was then endorsed by more than 40 ministers of finance and education, who also issued a joint call for action to expand reforms and build a regional coalition to improve education outcomes.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 27,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.016393,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p103:view1",
+    "text": "**TABLE 20 IBRD COMMITMENTS BY SECTOR, FISCAL 2018–22** — **MILLIONS OF DOLLARS**  \n**Education**, **FY22**: **1,090**",
+    "page": 103,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What is the IBRD Education commitment in FY22 (millions of dollars)?"
+    }
+   },
+   {
+    "id": "wb-ar-2022:p107:view2",
+    "text": "**Education** — **FY22: 2,335**  \nTable: **IDA COMMITMENTS BY SECTOR, FISCAL 2018–22**  \nUnits as printed: **MILLIONS OF DOLLARS**",
+    "page": 107,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What is the IDA Education commitment in FY22 (millions of dollars)?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6544,
+   "completion_tokens": 309,
+   "prompt_cache_hit_tokens": 3840,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 2005,
+   "completion_tokens": 626,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 8.85,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   103,
+   107
+  ],
+  "evidence_pages": [
+   103,
+   107
+  ]
+ },
+ {
+  "query_id": "d13",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "How much has IBRD raised from private investors since its first bond, and in what year was that first bond issued?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "IBRD has raised over $1 trillion from private investors since its first bond, which was issued in 1947 [wb-ar-2022:p076:t00].",
+  "citations": [
+   "wb-ar-2022:p076:t00"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD first bond private investors raised since",
+    "top_k": 5,
+    "seconds": 0.055,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p076:t00",
+      "page": 76,
+      "score": 0.032787,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p104:t06",
+      "page": 104,
+      "score": 0.031746,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p077:t00",
+      "page": 77,
+      "score": 0.03101,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p106:t00",
+      "page": 106,
+      "score": 0.03055,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p076:t02",
+      "page": 76,
+      "score": 0.029643,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "views": 0,
+  "context": [
+   {
+    "id": "wb-ar-2022:p076:t00",
+    "text": "IBRD has mobilized finance for middle-income client countries for more than 75 years, raising over $1 trillion from private investors since its first bond in 1947. IBRD engages with investors on special development themes, helping connect their investing to the Sustainable Development Goals. Investors are increasingly interested in supporting investments that incorporate environmental, social, and governance considerations, including for topics such as health, education, gender, climate, and",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 76,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032787,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p104:t06",
+    "text": "IBRD issues its securities through both global offerings and bond issues tailored to the needs of specific markets or investor types. Its bonds connect the private and public sectors to the Bank’s development goals through investors such as asset managers, insurance companies, pension funds, central banks, corporations, and bank treasuries from around the world. IBRD issues bonds for investors in various currencies, maturities, and markets, and at fixed and variable terms. It often opens new",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 104,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031746,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p077:t00",
+    "text": "PROMOTING SUSTAINABLE FINANCE AND CAPITAL MARKETS Developing sustainable capital markets IBRD pioneered the green bond market, having issued the first-ever labeled green bond in 2008; it has since issued almost $18 billion. For green bonds, IBRD allocates equivalent amounts to eligible activities that address climate change. The Bank has expanded our approach to issue sustainable development bonds that support all our activities. The Bank also helps countries reach their climate and",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 77,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.03101,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:t00",
+    "text": "markets for international investors by issuing new products or bonds in emerging market currencies. IBRD’s annual funding volumes vary from year to year. IBRD’s approach has enabled it to borrow at favorable market terms and pass the savings on to its borrowing members. Funds not immediately deployed for lending are held in IBRD’s investment portfolio to provide liquidity for its operations. In fiscal 2022, IBRD raised about $41 billion by issuing bonds in a variety of currencies.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 106,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.03055,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p076:t02",
+    "text": "In fiscal 2022, IBRD drew on its triple-A rating and strong standing in the markets to raise about $41 billion in sustainable development bonds, which were issued in a variety of structures and maturities. IBRD is the largest issuer of sustainable development bonds and uses the funds raised from capital markets to support development activities.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 76,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029643,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1907,
+   "completion_tokens": 77,
+   "prompt_cache_hit_tokens": 1024,
+   "calls": 2
+  },
+  "vision_usage": {
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 0
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.13,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   76
+  ],
+  "evidence_pages": [
+   76
+  ]
+ },
+ {
+  "query_id": "d14",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "How much did IFC commit in trade finance in fiscal 2022, and roughly what share went to IDA and FCV-affected countries?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "IFC committed **$9.7 billion** in trade finance in fiscal 2022 — its highest level ever — with **nearly 75 percent** of that invested in IDA countries and countries affected by FCV (combined; the report does not split the two shares) [wb-ar-2022:p009:t00] [wb-ar-2022:p009:view1].",
+  "citations": [
+   "wb-ar-2022:p009:t00",
+   "wb-ar-2022:p009:view1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IFC trade finance commitments fiscal 2022 IDA FCV countries share",
+    "top_k": 5,
+    "seconds": 0.083,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p009:t00",
+      "page": 9,
+      "score": 0.032266,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p053:t06",
+      "page": 53,
+      "score": 0.032018,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p008:t09",
+      "page": 8,
+      "score": 0.031514,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p018:t01",
+      "page": 18,
+      "score": 0.029644,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p108:t00",
+      "page": 108,
+      "score": 0.029631,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 9,
+    "question": "What is the IFC trade finance commitment amount in fiscal 2022 and what share went to IDA countries and FCV-affected countries?",
+    "seconds": 6.75,
+    "result_id": "wb-ar-2022:p009:view1"
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "views": 1,
+  "context": [
+   {
+    "id": "wb-ar-2022:p009:t00",
+    "text": "MESSAGE FROM THE PRESIDENT IFC’s commitments reached $9.7 billion in trade finance, the highest level ever; nearly 75 percent of this was invested in IDA countries and countries affected by FCV. In one example, Coris Bank in Burkina Faso received IFC trade finance to import rice from various countries.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 9,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032266,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p053:t06",
+    "text": "The IDA20 replenishment builds on this support, allocating over $30 billion for FCV settings between July 2022 and June 2025. The share of the IBRD portfolio under implementation in FCV-affected countries also more than doubled since fiscal 2016, standing at $6.4 billion in fiscal 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 53,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032018,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p008:t09",
+    "text": "Despite challenging economic headwinds, IFC provided strong support to the private sector with commitment volumes totaling $32.8 billion (including mobilization) in fiscal 2022, building on $31.5 billion of investments in fiscal 2021 and focusing on maximum impact. As banks cut back on trade finance, IFC is stepping in to keep import/export businesses operating despite the constraints they face. In fiscal 2022, Message from the President",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 8,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031514,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p018:t01",
+    "text": "Total includes multiregional and global operations. In fiscal 2022, IFC changed its mapping of countries to regions. Regional totals reflect IFC commitments that were recalculated to match the World Bank’s regional classifications by aggregating country-level commitments within each World Bank region. $104.4 BILLION",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 18,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029644,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p108:t00",
+    "text": "In fiscal 2022, 74 countries were eligible for IDA assistance. New IDA lending commitments for the year amounted to $37.7 billion for 305 operations, of which 12 were IBRD and IDA blended operations. These commitments included $24.5 billion in credits and $13.2 billion in grants. In addition, 23 projects and sub-projects, for a total of $1.1 billion, were approved for support from the IDA19 IDA-IFC-MIGA Private Sector Window (PSW) during the fiscal year.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 108,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029631,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p009:view1",
+    "text": "The page states: **“IFC’s commitments reached $9.7 billion in trade finance”** and **“nearly 75 percent of this was invested in IDA countries and countries affected by FCV.”**\n\nSo: **$9.7 billion in trade finance**; **nearly 75 percent** went to **IDA countries and countries affected by FCV** combined. The page does not give separate shares for IDA countries and FCV-affected countries, and it does not explicitly print “fiscal 2022” in that sentence.",
+    "page": 9,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "What is the IFC trade finance commitment amount in fiscal 2022 and what share went to IDA countries and FCV-affected countries?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3393,
+   "completion_tokens": 239,
+   "prompt_cache_hit_tokens": 2304,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 1015,
+   "completion_tokens": 1223,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 1
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 11.35,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   9
+  ],
+  "evidence_pages": [
+   9
+  ]
+ },
+ {
+  "query_id": "d15",
+  "split": "dev",
+  "group": "text",
+  "answerable": true,
+  "question": "What gender-equality workplace certification level did the World Bank Group earn in fiscal 2022?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The World Bank Group earned the second level of EDGE (Economic Dividends for Gender Equality) certification — **EDGE Move** — in fiscal 2022 [wb-ar-2022:p088:t00].",
+  "citations": [
+   "wb-ar-2022:p088:t00"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "gender equality workplace certification level fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.049,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p088:t00",
+      "page": 88,
+      "score": 0.032787,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p065:t08",
+      "page": 65,
+      "score": 0.031281,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p066:t02",
+      "page": 66,
+      "score": 0.030579,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p088:t01",
+      "page": 88,
+      "score": 0.029469,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p066:t10",
+      "page": 66,
+      "score": 0.029287,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "views": 0,
+  "context": [
+   {
+    "id": "wb-ar-2022:p088:t00",
+    "text": "Promoting staff diversity, equity, and inclusion. In fiscal 2022, the Bank Group earned the second level of Economic Dividends for Gender Equality (EDGE) certification, EDGE Move. EDGE is the leading global standard for gender equality in the workplace.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 88,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032787,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p065:t08",
+    "text": "This work is guided by our Gender Equality Strategy for 2016–23, which seeks to close gaps between men and women across four key pillars: human endowments (health, education, and social protection); jobs; assets; and voice and agency. And in January 2022, we launched a year-long #AccelerateEquality initiative to reflect on the progress made and lessons learned over the past 10 years.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 65,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031281,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p066:t02",
+    "text": "We collect and curate data through the Gender Data Portal, which provides open access to sex-disaggregated data for over 900 indicators covering demography, education, health, economic activities, assets, leadership, GBV, and more. Our Gender Innovation Labs generate knowledge and evidence to promote gender equality, identifying gaps and testing solutions. In February 2022, we published research that looks at how forced displacement impacts the lives of women and men differently, increasing",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 66,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030579,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p088:t01",
+    "text": "Certification requires rigorous external assessment of five key areas: equal pay for equivalent work, recruitment and promotion, leadership development training and mentoring, flexible working arrangements, and company culture. The certification was for headquarters and all office locations worldwide for the Bank, IFC, and MIGA.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 88,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029469,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p066:t10",
+    "text": "that laws alone are often not enough to improve gender equality. Important factors include their implementation and enforcement, as well as social, cultural, and religious norms.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 66,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029287,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1773,
+   "completion_tokens": 87,
+   "prompt_cache_hit_tokens": 1024,
+   "calls": 2
+  },
+  "vision_usage": {
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 0
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.79,
+  "auto_pass": true,
+  "missing_values": [],
+  "cited_pages": [
+   88
+  ],
+  "evidence_pages": [
+   88
+  ]
+ },
+ {
+  "query_id": "du1",
+  "split": "dev",
+  "group": "no_evidence",
+  "answerable": false,
+  "question": "How much did the World Bank commit to Vietnam in fiscal 2022?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "abstain",
+  "abstain_reason": "model_abstained",
+  "answer": "INSUFFICIENT_EVIDENCE: The report gives only regional East Asia and Pacific totals (IBRD $5,482 million and IDA $1,673 million in FY22) and no Vietnam-specific commitment figure for fiscal 2022 [wb-ar-2022:p030:v0][wb-ar-2022:p106:v0].",
+  "citations": [
+   "wb-ar-2022:p030:v0",
+   "wb-ar-2022:p106:v0"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Vietnam commitment fiscal 2022",
+    "top_k": 5,
+    "seconds": 0.074,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p031:t04",
+      "page": 31,
+      "score": 0.029907,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p031:t03",
+      "page": 31,
+      "score": 0.02904,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p010:t02",
+      "page": 10,
+      "score": 0.028629,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p105:t03",
+      "page": 105,
+      "score": 0.023393,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p030:v0",
+      "page": 30,
+      "score": 0.016393,
+      "kind": "table"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Vietnam IBRD commitment amount approved fiscal 2022 country",
+    "top_k": 5,
+    "seconds": 0.072,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p034:t02",
+      "page": 34,
+      "score": 0.030366,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p105:v1.1",
+      "page": 105,
+      "score": 0.030018,
+      "kind": "table"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p105:t03",
+      "page": 105,
+      "score": 0.028893,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p026:t04",
+      "page": 26,
+      "score": 0.028595,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p003:t01",
+      "page": 3,
+      "score": 0.028259,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 30,
+    "question": "Is Vietnam listed with a commitment amount for FY22? What is it?",
+    "seconds": 1.62,
+    "result_id": "wb-ar-2022:p030:view1"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Vietnam country lending approved operations 2022",
+    "top_k": 5,
+    "seconds": 0.053,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p034:t02",
+      "page": 34,
+      "score": 0.032787,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p042:t02",
+      "page": 42,
+      "score": 0.031746,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p046:t02",
+      "page": 46,
+      "score": 0.031514,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p026:t04",
+      "page": 26,
+      "score": 0.03125,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p022:t03",
+      "page": 22,
+      "score": 0.03031,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 31,
+    "question": "Does this page mention Vietnam with a dollar commitment amount for fiscal 2022?",
+    "seconds": 4.89,
+    "result_id": "wb-ar-2022:p031:view2"
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 34,
+    "question": "Does this page list country-level commitments for East Asia Pacific, including Vietnam's FY22 amount?",
+    "seconds": 1.82,
+    "result_id": "wb-ar-2022:p034:view3"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "\"Vietnam\" million approved project fiscal 2022 East Asia Pacific table country commitments",
+    "top_k": 5,
+    "seconds": 0.089,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p030:v0",
+      "page": 30,
+      "score": 0.032522,
+      "kind": "table"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p019:t00",
+      "page": 19,
+      "score": 0.03055,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p107:t00",
+      "page": 107,
+      "score": 0.028169,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p106:v0",
+      "page": 106,
+      "score": 0.027885,
+      "kind": "table"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p034:v0",
+      "page": 34,
+      "score": 0.027623,
+      "kind": "table"
+     }
+    ]
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "searches": 4,
+  "views": 3,
+  "context": [
+   {
+    "id": "wb-ar-2022:p031:t04",
+    "text": "Fiji, Indonesia, Lao PDR, and Vietnam.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 31,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029907,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p031:t03",
+    "text": "Mobilizing climate finance for resilient growth We are helping several countries in the region—including China, Indonesia, Malaysia, and Vietnam—prepare roadmaps and action plans for domestic carbon pricing instruments and strengthen their legal and regulatory framework. We are also helping countries accelerate the supply of credits to reduce emissions. This includes approval of a total of $216 million in emission reductions payment agreements under the Forest Carbon Partnership Facility in",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 31,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.02904,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p010:t02",
+    "text": "As of the end of July 2022, we had published the first of these reports for Türkiye, Vietnam, and the G5 Sahel region. I’m also pleased that, with this annual report, we are introducing much greater transparency in the Bank’s climate disclosures. A major consequence of the current crises is the huge buildup in government debt. For many of the poorest countries, the debt burden is unsustainable or at high risk. Deep debt reduction will be necessary to allow new investment and growth.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 10,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028629,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p105:t03",
+    "text": "a. \u0007Amounts include guarantee commitments and guarantee facilities that have been approved by the Executive Directors (referred to as “the Board” in this document) and are net of full terminations and cancellations relating to commitments approved in the same fiscal year. b. Includes associated derivatives. c. \u0007The June 30, 2022, amount represents the transfer to the General Reserve from fiscal 2022 net income, which was approved by the Board on August 4, 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 105,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.023393,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p030:v0",
+    "text": "[TABLE on page 30] TABLE 6 EAST ASIA AND PACIFIC REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22\nCOMMITMENTS ($ MILLIONS): FY20, FY21, FY22 | DISBURSEMENTS ($ MILLIONS): FY20, FY21, FY22. IBRD: 4,770; 6,753; 5,482 | 4,679; 4,439; 5,439. IDA: 2,500; 1,115; 1,673 | 1,589; 1,297; 1,502. Notes: Portfolio of operations under implementation as of June 30, 2022: $34.7 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 30,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 6",
+     "title": "EAST ASIA AND PACIFIC REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.016393,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p034:t02",
+    "text": "World Bank assistance In fiscal 2022, the World Bank approved $8.5 billion in lending to the region for 47 operations, including $6.0 billion in IBRD commitments and $2.5 billion in IDA commitments. The Bank supported 16 Reimbursable Advisory Services agreements with six countries for a total of $36 million.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 34,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030366,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p105:v1.1",
+    "text": "[TABLE on page 105] TABLE 23 IBRD KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES\nAmounts include guarantee commitments and guarantee facilities that have been approved by the Executive Directors (referred to as 'the Board' in this document) and are net of full terminations and cancellations relating to commitments approved in the same fiscal year. b. Includes associated derivatives. c. The June 30, 2022, amount represents the transfer to the General Reserve from fiscal 2022 net income, which was approved by the Board on August 4, 2022. d. On January 25, 2021, the Board of Governors approved a transfer of $331 million to IDA from Surplus, which was made on February 1, 2021. e. Excludes amounts associated with unrealized mark-to-market gains/losses on non-trading portfolios, net and related cumulative translation adjustments. f. Usable equity includes the transfer to the General Reserve from fiscal 2022 net income, which was approved by the Board on August 4, 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 105,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 23",
+     "title": "IBRD KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.030018,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p026:t04",
+    "text": "World Bank assistance In fiscal 2022, the Bank approved $12.6 billion in lending to Western and Central Africa for 92 operations, including $386 million in IBRD commitments and $12.2 billion in IDA commitments. More than half of these commitments went to countries affected by fragility, conflict, and violence. We also delivered 142 advisory services and analytics products in fiscal 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 26,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028595,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p003:t01",
+    "text": "Oversight and Accountability 95 Deploying Resources Strategically 108 Commitment to Results KEY TABLES 101 IBRD Key Financial Indicators, Fiscal 2018–22 106 IDA Key Financial Indicators, Fiscal 2018–22 This annual report, which covers the period from July 1, 2021, to June 30, 2022, has been prepared by the Executive Directors of both the International Bank for Reconstruction and Development (IBRD) and the International Development Association (IDA)—collectively known as the World Bank—in",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 3,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028259,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p030:view1",
+    "text": "NOT ON THIS PAGE.",
+    "page": 30,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "Is Vietnam listed with a commitment amount for FY22? What is it?"
+    }
+   },
+   {
+    "id": "wb-ar-2022:p042:t02",
+    "text": "World Bank assistance The World Bank approved $4.9 billion in lending to the region for 29 operations in fiscal 2022, including $4.1 billion in IBRD commitments and $817 million in IDA commitments. Another $80 million in special financing was provided for projects in the West Bank and Gaza. We also delivered 96 advisory services and analytics products.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 42,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031746,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p046:t02",
+    "text": "World Bank assistance The World Bank approved $9.0 billion in lending to the region for 44 operations in fiscal 2022, including $4.8 billion in IBRD commitments and $4.2 billion in IDA commitments. We also approved 33 advisory services and analytical products for eight countries, totaling $6 million. These provided technical advice on issues such as pandemic preparedness and vaccination, debt management, job creation, female labor force participation, air pollution, disaster risk management,",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 46,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031514,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p022:t03",
+    "text": "World Bank assistance In fiscal 2022, the Bank approved $18.2 billion in lending to Eastern and Southern Africa for 100 operations, including $2.9 billion in IBRD commitments and $15.3 billion in IDA commitments. Revenue from Reimbursable Advisory Services agreements with five countries was $7 million. We are helping countries respond to the impacts of the pandemic; roll out COVID-19 vaccines; build connectivity in energy, transport, and digital development;",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 22,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.03031,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p031:view2",
+    "text": "NOT ON THIS PAGE.\n\nVietnam is mentioned, but no Vietnam-specific dollar commitment amount for fiscal 2022 is shown. Nearby printed figures are “$216 million” for emission reductions payment agreements under the Forest Carbon Partnership Facility in “Fiji, Indonesia, Lao PDR, and Vietnam,” and “more than $220 million” in additional investment in Vietnam. “FISCAL 2022” appears only with “SHARE OF TOTAL OF $7.2 BILLION” for IBRD and IDA lending by sector.",
+    "page": 31,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "Does this page mention Vietnam with a dollar commitment amount for fiscal 2022?"
+    }
+   },
+   {
+    "id": "wb-ar-2022:p034:view3",
+    "text": "NOT ON THIS PAGE. This page covers “Europe and Central Asia” and “TABLE 8 EUROPE AND CENTRAL ASIA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22”; it does not list East Asia Pacific country-level commitments or Vietnam’s FY22 amount.",
+    "page": 34,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "Does this page list country-level commitments for East Asia Pacific, including Vietnam's FY22 amount?"
+    }
+   },
+   {
+    "id": "wb-ar-2022:p019:t00",
+    "text": "EUROPE AND CENTRAL ASIA $15.3 BILLION EAST ASIA AND PACIFIC $12.7 BILLION SOUTH ASIA AFRICA $13.5 BILLION 2022 SUMMARY RESULTS MIDDLE EAST AND NORTH AFRICA $6.7 BILLION $38.5 BILLION",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 19,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.03055,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p107:t00",
+    "text": "DEPLOYING RESOURCES STRATEGICALLY TABLE 25 IDA DISBURSEMENTS BY REGION, FISCAL 2018–22 MILLIONS OF DOLLARS REGION FY18 FY19 FY20 FY21 FY22 Eastern and Southern Africa 4,695 6,168 7,904 8,081 7,133 Western and Central Africa 3,511 4,022 5,469 6,045 6,544 East Asia and Pacific 1,252 1,282 1,589 1,297 1,502 Europe and Central Asia Latin America and the Caribbean Middle East and North Africa South Asia 3,835 4,159 5,235 5,744 4,202 Total 14,383 17,549 21,179a 22,921a 21,214a a. Excludes",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 107,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028169,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:v0",
+    "text": "[TABLE on page 106] TABLE 24 IDA COMMITMENTS BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)\nColumns: REGION | FY18 | FY19 | FY20 | FY21 | FY22\nEastern and Southern Africa: 8,067 | 7,512 | 9,581 | 14,089 | 15,266\nWestern and Central Africa: 7,344 | 6,675 | 9,514 | 10,955 | 12,213\nEast Asia and Pacific: 631 | 1,272 | 2,500 | 1,115 | 1,673\nEurope and Central Asia: 957 | 583 | 1,497 | 1,315 | 2,511\nLatin America and the Caribbean: 428 | 430 | 978 | 769 | 1,030\nMiddle East and North Africa: 430 | 611 | 203 | 658 | 817\nSouth Asia: 6,153 | 4,849 | 6,092 | 7,127 | 4,217\nTotalᵃ: 24,010 | 21,932 | 30,365 | 36,028 | 37,727\nUnits: millions of dollars Notes: Note: Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year. a. Excludes IDA-IFC-MIGA PSW activities.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 106,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 24",
+     "title": "IDA COMMITMENTS BY REGION, FISCAL 2018–22 (MILLIONS OF DOLLARS)",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.027885,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p034:v0",
+    "text": "[TABLE on page 34] TABLE 8 EUROPE AND CENTRAL ASIA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22\nColumns: COMMITMENTS ($ MILLIONS): FY20, FY21, FY22; DISBURSEMENTS ($ MILLIONS): FY20, FY21, FY22.\nIBRD: Commitments FY20 5,699; FY21 4,559; FY22 5,974. Disbursements FY20 3,100; FY21 3,625; FY22 4,580.\nIDA: Commitments FY20 1,497; FY21 1,315; FY22 2,511. Disbursements FY20 365; FY21 880; FY22 764. Notes: Portfolio of operations under implementation as of June 30, 2022: $35.9 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 34,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 8",
+     "title": "EUROPE AND CENTRAL ASIA REGIONAL COMMITMENTS AND DISBURSEMENTS FOR FISCAL 2020–22",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.027623,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 11041,
+   "completion_tokens": 433,
+   "prompt_cache_hit_tokens": 7424,
+   "calls": 5
+  },
+  "vision_usage": {
+   "prompt_tokens": 3008,
+   "completion_tokens": 1012,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 3
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 14.69,
+  "auto_pass": true
+ },
+ {
+  "query_id": "du2",
+  "split": "dev",
+  "group": "no_evidence",
+  "answerable": false,
+  "question": "What was IBRD's equity-to-loans ratio in fiscal 2017?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "abstain",
+  "abstain_reason": "model_abstained",
+  "answer": "INSUFFICIENT_EVIDENCE: The report's IBRD key financial indicators table (Table 23) covers only fiscal 2018–22, so no fiscal 2017 equity-to-loans ratio is given.",
+  "citations": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IBRD equity-to-loans ratio fiscal 2017",
+    "top_k": 5,
+    "seconds": 0.068,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p104:t04",
+      "page": 104,
+      "score": 0.03125,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p106:t04",
+      "page": 106,
+      "score": 0.031099,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p105:t00",
+      "page": 105,
+      "score": 0.02967,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p105:v1.0",
+      "page": 105,
+      "score": 0.028309,
+      "kind": "table"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p105:t02",
+      "page": 105,
+      "score": 0.027778,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "equity-to-loans ratio fiscal 2017 2016 IBRD capital adequacy",
+    "top_k": 5,
+    "seconds": 0.073,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p104:t04",
+      "page": 104,
+      "score": 0.03125,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p106:t04",
+      "page": 106,
+      "score": 0.031099,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p105:t02",
+      "page": 105,
+      "score": 0.029727,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p105:v1.0",
+      "page": 105,
+      "score": 0.02904,
+      "kind": "table"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p105:t00",
+      "page": 105,
+      "score": 0.028382,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "searches": 2,
+  "views": 0,
+  "context": [
+   {
+    "id": "wb-ar-2022:p104:t04",
+    "text": "IBRD financial resources and financial model IBRD finances its loans from its own equity and from money borrowed in the capital markets through the issuance of IBRD bonds to fund development projects in member countries. IBRD is rated Aaa by Moody’s and AAA by Standard & Poor’s, and investors view its bonds as high-quality securities. Against the backdrop of a global liquidity crisis and the challenges presented by COVID-19, IBRD’s funding approach continues to be aimed at achieving the best",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 104,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.03125,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:t04",
+    "text": "line with its financial and risk outlook. As of June 30, 2022, this ratio stood at 22.0 percent, and the cumulative subscribed capital of IBRD totaled $307.1 billion, including $20.5 billion in paid-in capital.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 106,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031099,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p105:t00",
+    "text": "DEPLOYING RESOURCES STRATEGICALLY Other development activities Investments Loans Equity Borrowings IDA and trust funds Income FIGURE 9 IBRD BUSINESS MODEL TABLE 23 IBRD KEY FINANCIAL INDICATORS, FISCAL 2018–22 MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES FY18 FY19 FY20 FY21 FY22 Lending highlights Net commitmentsa Gross disbursements Net disbursements 23,002 17,389 5,638 23,191 20,182 10,091 27,976 20,238 10,622 30,523 23,691 13,590 33,072 28,168 14,876 Reported basis Income",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 105,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.02967,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p105:v1.0",
+    "text": "[TABLE on page 105] TABLE 23 IBRD KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES\nColumns: FY18; FY19; FY20; FY21; FY22. Lending highlights — Net commitments^a: 23,002; 23,191; 27,976; 30,523; 33,072. Gross disbursements: 17,389; 20,182; 20,238; 23,691; 28,168. Net disbursements: 5,638; 10,091; 10,622; 13,590; 14,876. Reported basis — Income statements — Board of Governors-approved and other transfers: (178); (338); (340); (411); (354). Net (loss) income: 698; 505; (42); 2,039; 3,990. Balance sheet — Total assets: 263,800; 283,031; 296,804; 317,301; 317,542. Net investment portfolio: 73,492; 81,127; 82,485; 85,831; 82,057. Net loans outstanding: 183,588; 192,752; 202,158; 218,799; 227,092. Borrowing portfolio^b: 213,652; 228,763; 237,231; 253,656; 256,909. Allocable income — Allocable income: 1,161; 1,190; 1,381; 1,248; 806. Allocated as follows: General Reserve^c: 913; 831; 950; 874; 589. International Development Association: 248; 259; —; 274; 117. Surplus: —; 100; 431^d; 100; 100. Usable equity^a,f: 43,518; 45,360; 47,138; 49,997; 50,481. Capital adequacy — Equity-to-loans ratio (%): 22.9; 22.8; 22.8; 22.6; 22.0. Notes: Note: For a complete presentation of fiscal year data, see the full financial statements: www.worldbank.org/financialresults. a.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 105,
+    "metadata": {
+     "modality": "table",
+     "label": "TABLE 23",
+     "title": "IBRD KEY FINANCIAL INDICATORS, FISCAL 2018–22 — MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES",
+     "described_by": "deepseek-flash",
+     "numbers_not_in_text_layer": []
+    },
+    "score": 0.028309,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p105:t02",
+    "text": "General Reservec International Development Association Surplus 1,161 — 1,190 1,381 — 431d 1,248 Usable equitye,f 43,518 45,360 47,138 49,997 50,481 Capital adequacy Equity-to-loans ratio (%) 22.9 22.8 22.8 22.6 22.0 Note: For a complete presentation of fiscal year data, see the full financial statements: www.worldbank.org/financialresults.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 105,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.027778,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5275,
+   "completion_tokens": 146,
+   "prompt_cache_hit_tokens": 2816,
+   "calls": 3
+  },
+  "vision_usage": {
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 0
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.91,
+  "auto_pass": true
+ },
+ {
+  "query_id": "du3",
+  "split": "dev",
+  "group": "no_evidence",
+  "answerable": false,
+  "question": "How much did Japan pledge to the IDA20 replenishment?",
+  "config": {
+   "split": "dev",
+   "tag": "base",
+   "method": "hybrid_rrf",
+   "top_k": 5,
+   "max_views": 4,
+   "only": ""
+  },
+  "status": "abstain",
+  "abstain_reason": "model_abstained",
+  "answer": "INSUFFICIENT_EVIDENCE: The report states Japan hosted the final IDA20 pledging session and gives the total $23.5 billion from 52 countries, but no passage or page provides Japan's individual pledge amount.",
+  "citations": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Japan pledge IDA20 replenishment",
+    "top_k": 5,
+    "seconds": 0.061,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p111:t00",
+      "page": 111,
+      "score": 0.032787,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p012:t05",
+      "page": 12,
+      "score": 0.032258,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p008:t08",
+      "page": 8,
+      "score": 0.031025,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p080:t06",
+      "page": 80,
+      "score": 0.030579,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p053:t06",
+      "page": 53,
+      "score": 0.029911,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "IDA20 donor contributions by country table Japan",
+    "top_k": 5,
+    "seconds": 0.128,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p111:t01",
+      "page": 111,
+      "score": 0.032258,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p080:t06",
+      "page": 80,
+      "score": 0.032018,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p110:t03",
+      "page": 110,
+      "score": 0.031746,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p008:t08",
+      "page": 8,
+      "score": 0.030331,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p109:t04",
+      "page": 109,
+      "score": 0.028158,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 111,
+    "question": "Does this page list IDA20 pledges by donor country, including Japan? What amount did Japan pledge?",
+    "seconds": 2.59,
+    "result_id": "wb-ar-2022:p111:view1"
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "query": "Japan contribution IDA donors largest donor amount billion",
+    "top_k": 5,
+    "seconds": 0.057,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2022:p110:t03",
+      "page": 110,
+      "score": 0.032787,
+      "kind": "text"
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2022:p037:t07",
+      "page": 37,
+      "score": 0.031498,
+      "kind": "text"
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2022:p012:t05",
+      "page": 12,
+      "score": 0.030536,
+      "kind": "text"
+     },
+     {
+      "rank": 4,
+      "id": "wb-ar-2022:p109:t03",
+      "page": 109,
+      "score": 0.029139,
+      "kind": "text"
+     },
+     {
+      "rank": 5,
+      "id": "wb-ar-2022:p106:t05",
+      "page": 106,
+      "score": 0.02879,
+      "kind": "text"
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "view_page",
+    "page": 110,
+    "question": "Is there a table of IDA donor contributions by country? What did Japan contribute?",
+    "seconds": 2.17,
+    "result_id": "wb-ar-2022:p110:view2"
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "searches": 3,
+  "views": 2,
+  "context": [
+   {
+    "id": "wb-ar-2022:p111:t00",
+    "text": "DEPLOYING RESOURCES STRATEGICALLY IDA20 replenishment In a historic early replenishment in December 2021, IDA members agreed on the IDA20 operational and financing framework with a financing envelope of $93 billion.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 111,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032787,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p012:t05",
+    "text": "Given the immense need for financing, the IDA20 replenishment process was advanced by a year, and a $93 billion replenishment package was agreed to in December 2021. This financing is the largest ever mobilized in IDA’s 61-year history and will Message from the Executive Directors",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 12,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032258,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p008:t08",
+    "text": "advance the IDA20 replenishment by one year. Their record three-year contributions of $23.5 billion will anchor IDA’s financing of $93 billion for fiscal 2023–25 and help the poorest countries address urgent priorities—including jobs and economic transformation, human capital, the reversal in learning and literacy, gender, climate change, and fragility, conflict, and violence (FCV)—and move toward restoring growth.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 8,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031025,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p080:t06",
+    "text": "We engage with bilateral partners to exchange views and boost progress on key development issues. In September 2021, the Bank Group held high-level strategic consultations with Sweden, where we discussed priorities including climate finance architecture and mobilizing more private capital for adaptation. In December 2021, when Japan hosted the final IDA20 pledging session, President Malpass met with the president of the Japan International Cooperation Agency to reaffirm our partnership on",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 80,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.030579,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p053:t06",
+    "text": "The IDA20 replenishment builds on this support, allocating over $30 billion for FCV settings between July 2022 and June 2025. The share of the IBRD portfolio under implementation in FCV-affected countries also more than doubled since fiscal 2016, standing at $6.4 billion in fiscal 2022.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 53,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029911,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p111:t01",
+    "text": "This envelope, covering fiscal 2023–25, is supported by $23.5 billion in contributions from 52 member countries, as well as contributions to the MDRI, financing raised in capital markets, carryover from IDA19, internal resources (such as loan repayments), and transfers from IBRD. New terms were also introduced under IDA20 for eligible countries: shorter-maturity loans and 50-year credits.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 111,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.032258,
+    "rank": 1,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p110:t03",
+    "text": "Total IoCs deposited to date amount to $23.4 billion, representing 99.7 percent of the total pledge amount. IDA’s borrowing program enables it to significantly scale up its support for achieving the SDGs, while offering investors an efficient way to contribute to global development. Under IDA19, this hybrid financial model—which blends donor contributions with market debt—enables IDA to mobilize more than three dollars in IDA commitment authority for every dollar contributed by development",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 110,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031746,
+    "rank": 3,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p109:t04",
+    "text": "To support IDA19, partners are providing $23.5 billion (equivalent to SDR 17 billion) in grants, of which $0.2 billion is the grant element from concessional partner loan contributions. Partners are also providing $0.9 billion in concessional partner loans—$0.6 billion, excluding the grant element—and $3.9 billion in compensation for debt relief under the Multilateral Debt Relief Initiative (MDRI) during IDA19. As of June 30, 2022, 49 partners had submitted IDA19 Instruments of Commitment",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 109,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.028158,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p111:view1",
+    "text": "No. This page does **not** list IDA20 pledges by donor country, and it does **not** show Japan’s pledge.\n\nJapan’s pledge amount: **NOT ON THIS PAGE**.\n\nThe page only states: “a financing envelope of **$93 billion**” and “supported by **$23.5 billion** in contributions from **52 member countries**.”",
+    "page": 111,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "Does this page list IDA20 pledges by donor country, including Japan? What amount did Japan pledge?"
+    }
+   },
+   {
+    "id": "wb-ar-2022:p037:t07",
+    "text": "billion in exceptional support from IDA, with the balance supported by donor guarantees—to help the government maintain operations and finance wages amid enormous fiscal and financial pressures.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 37,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.031498,
+    "rank": 2,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p109:t03",
+    "text": "These moves enabled IDA to sustain the scale of financing at $35 billion for both fiscal 2021 and 2022, excluding the PSW. The remaining amount of about $11 billion is being carried over into IDA20. As of June 30, 2022, $36.1 billion was committed on concessional terms, $1.6 billion on non-concessional terms (through the Scale-Up Window), and $1.1 billion through the PSW. IDA administrative expenses are recovered primarily through net charges and interest paid by recipient countries.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 109,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.029139,
+    "rank": 4,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p106:t05",
+    "text": "IDA financial commitments and services IDA is the world’s largest multilateral source of concessional financing for the poorest countries. It provides financing in the form of development loans, grants, and guarantees to help these countries increase economic growth, reduce poverty, and improve living conditions for the poor.",
+    "source_id": "wb-ar-2022",
+    "source": "advanced/data/AR2022EN.pdf",
+    "page": 106,
+    "metadata": {
+     "modality": "text"
+    },
+    "score": 0.02879,
+    "rank": 5,
+    "method": "hybrid_rrf"
+   },
+   {
+    "id": "wb-ar-2022:p110:view2",
+    "text": "No. This page does **not** show a table of IDA donor contributions by country. It shows **TABLE 29 IDA KEY FINANCIAL INDICATORS, FISCAL 2018–22** with figures in **MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES**.\n\nJapan’s contribution: **NOT ON THIS PAGE**.",
+    "page": 110,
+    "source_id": "wb-ar-2022",
+    "metadata": {
+     "modality": "page_view",
+     "question": "Is there a table of IDA donor contributions by country? What did Japan contribute?"
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6363,
+   "completion_tokens": 299,
+   "prompt_cache_hit_tokens": 4096,
+   "calls": 4
+  },
+  "vision_usage": {
+   "prompt_tokens": 2010,
+   "completion_tokens": 528,
+   "prompt_cache_hit_tokens": 0,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 9.46,
+  "auto_pass": true
+ }
+]

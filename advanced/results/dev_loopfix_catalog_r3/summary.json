@@ -1,0 +1,50 @@
+{
+  "run_started_utc": "2026-11-16T05:51:03+00:00",
+  "config": {
+    "split": "dev",
+    "tag": "loopfix_catalog_r3",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "max_views": 4,
+    "only": "",
+    "catalog": true,
+    "loop_fix": true
+  },
+  "model": [
+    "deepseek-flash"
+  ],
+  "auto_pass": "18/18",
+  "auto_pass_by_group": {
+    "table": "4/4",
+    "image_diagram": "3/3",
+    "chart": "3/3",
+    "multi_hop": "2/2",
+    "text": "3/3",
+    "no_evidence": "3/3"
+  },
+  "errors": [],
+  "agent_usage": {
+    "prompt_tokens": 121768,
+    "completion_tokens": 3571,
+    "prompt_cache_hit_tokens": 105598,
+    "calls": 42
+  },
+  "vision_usage": {
+    "prompt_tokens": 18250,
+    "completion_tokens": 18948,
+    "prompt_cache_hit_tokens": 7680,
+    "calls": 18
+  },
+  "cost_usd_peak_upper_bound": 0.03572,
+  "seconds_total": 178.1,
+  "views_distribution": {
+    "1": 12,
+    "2": 3,
+    "0": 3
+  },
+  "searches_distribution": {
+    "1": 12,
+    "2": 5,
+    "4": 1
+  }
+}

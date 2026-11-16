@@ -1,0 +1,51 @@
+{
+  "run_started_utc": "2026-11-16T05:26:43+00:00",
+  "config": {
+    "split": "dev",
+    "tag": "base",
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "max_views": 4,
+    "only": ""
+  },
+  "model": [
+    "deepseek-flash"
+  ],
+  "auto_pass": "17/18",
+  "auto_pass_by_group": {
+    "table": "4/4",
+    "image_diagram": "3/3",
+    "chart": "3/3",
+    "multi_hop": "1/2",
+    "text": "3/3",
+    "no_evidence": "3/3"
+  },
+  "errors": [],
+  "agent_usage": {
+    "prompt_tokens": 120169,
+    "completion_tokens": 4846,
+    "prompt_cache_hit_tokens": 78848,
+    "calls": 61
+  },
+  "vision_usage": {
+    "prompt_tokens": 20273,
+    "completion_tokens": 9376,
+    "prompt_cache_hit_tokens": 0,
+    "calls": 20
+  },
+  "cost_usd_peak_upper_bound": 0.03602,
+  "seconds_total": 143.0,
+  "views_distribution": {
+    "1": 11,
+    "2": 3,
+    "0": 3,
+    "3": 1
+  },
+  "searches_distribution": {
+    "2": 7,
+    "5": 1,
+    "4": 2,
+    "1": 6,
+    "3": 2
+  }
+}

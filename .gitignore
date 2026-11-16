@@ -9,3 +9,7 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Advanced challenge: source PDF (CC BY-NC-ND, fetch from World Bank) and derived crops/descriptions
+advanced/data/
+advanced/work/
