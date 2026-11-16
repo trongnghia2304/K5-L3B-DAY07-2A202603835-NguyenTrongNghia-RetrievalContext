@@ -1,0 +1,2000 @@
+[
+ {
+  "method": "dense",
+  "id": "q01",
+  "split": "dev",
+  "query": "What was the total amount of World Bank Group commitments to partner countries and private businesses in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "hits": [
+   false,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p008:para500:004",
+   "wb-ar-2024:p008:para500:000",
+   "wb-ar-2024:p043:para500:019"
+  ],
+  "context_has_evidence": false,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 0.848669,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p008:para500:000",
+    "page": 8,
+    "score": 0.729606,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p043:para500:019",
+    "page": 43,
+    "score": 0.691396,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q02",
+  "split": "dev",
+  "query": "By what year does the Bank Group want yearly guarantee issuance to reach $20 billion?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "hits": [
+   false,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p044:para500:000",
+   "wb-ar-2024:p046:para500:004",
+   "wb-ar-2024:p046:para500:000"
+  ],
+  "context_has_evidence": false,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p044:para500:000",
+    "page": 44,
+    "score": 0.638271,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p046:para500:004",
+    "page": 46,
+    "score": 0.627479,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p046:para500:000",
+    "page": 46,
+    "score": 0.618829,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q03",
+  "split": "dev",
+  "query": "How many institutions make up the GEMs Consortium?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p007:para500:010",
+   "wb-ar-2024:p039:para500:002",
+   "wb-ar-2024:p008:para500:006"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p007:para500:010",
+    "page": 7,
+    "score": 0.808927,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p039:para500:002",
+    "page": 39,
+    "score": 0.468,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p008:para500:006",
+    "page": 8,
+    "score": 0.467344,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q04",
+  "split": "dev",
+  "query": "Under Climate Resilient Debt Clauses, what can small states do when a catastrophe hits?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": true,
+  "first_hit_rank": 2,
+  "hits": [
+   false,
+   true,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p037:para500:012",
+   "wb-ar-2024:p007:para500:011",
+   "wb-ar-2024:p043:para500:017"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p037:para500:012",
+    "page": 37,
+    "score": 0.78551,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p007:para500:011",
+    "page": 7,
+    "score": 0.758901,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p043:para500:017",
+    "page": 43,
+    "score": 0.712703,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q05",
+  "split": "dev",
+  "query": "How many jobs are expected to be created in the Global South over the next decade, while 1.2 billion young people reach working age?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p005:para500:000",
+   "wb-ar-2024:p023:para500:009",
+   "wb-ar-2024:p034:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p005:para500:000",
+    "page": 5,
+    "score": 0.827497,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p023:para500:009",
+    "page": 23,
+    "score": 0.659662,
+    "region": "south_asia"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p034:para500:000",
+    "page": 34,
+    "score": 0.594572,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q06",
+  "split": "dev",
+  "query": "How much climate finance did the World Bank Group provide in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p029:para500:002",
+   "wb-ar-2024:p008:para500:004",
+   "wb-ar-2024:p040:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p029:para500:002",
+    "page": 29,
+    "score": 0.739454,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 0.739121,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p040:para500:000",
+    "page": 40,
+    "score": 0.693793,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q07",
+  "split": "dev",
+  "query": "How much concessional financing did the Hydrogen for Development Partnership facilitate in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p031:para500:004",
+   "wb-ar-2024:p043:para500:004",
+   "wb-ar-2024:p047:para500:008"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p031:para500:004",
+    "page": 31,
+    "score": 0.793762,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p043:para500:004",
+    "page": 43,
+    "score": 0.642548,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p047:para500:008",
+    "page": 47,
+    "score": 0.632816,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q08",
+  "split": "dev",
+  "query": "In which countries are the recycling projects backed by IBRD's plastic waste outcome bond located?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p037:para500:000",
+   "wb-ar-2024:p037:para500:001",
+   "wb-ar-2024:p023:para500:005"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p037:para500:000",
+    "page": 37,
+    "score": 0.700087,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p037:para500:001",
+    "page": 37,
+    "score": 0.652324,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p023:para500:005",
+    "page": 23,
+    "score": 0.542057,
+    "region": "south_asia"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q09",
+  "split": "dev",
+  "query": "How much did IBRD raise through Sustainable Development Bonds in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p037:para500:003",
+   "wb-ar-2024:p037:para500:004",
+   "wb-ar-2024:p045:para500:008"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p037:para500:003",
+    "page": 37,
+    "score": 0.848791,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p037:para500:004",
+    "page": 37,
+    "score": 0.790811,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p045:para500:008",
+    "page": 45,
+    "score": 0.718793,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q10",
+  "split": "dev",
+  "query": "What target has the World Bank set for overall project preparation time, and by when?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p039:para500:001",
+   "wb-ar-2024:p006:para500:009",
+   "wb-ar-2024:p008:para500:004"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p039:para500:001",
+    "page": 39,
+    "score": 0.750007,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p006:para500:009",
+    "page": 6,
+    "score": 0.631493,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 0.621171,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q11",
+  "split": "dev",
+  "query": "How many global challenges did the World Bank identify in fiscal 2024 to prioritize in the next few years?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p043:para500:000",
+   "wb-ar-2024:p008:para500:004",
+   "wb-ar-2024:p043:para500:019"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p043:para500:000",
+    "page": 43,
+    "score": 0.830182,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 0.794971,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p043:para500:019",
+    "page": 43,
+    "score": 0.793211,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q12",
+  "split": "dev",
+  "query": "How much renewable energy capacity will the Europe and Central Asia Renewable Energy Scale-up Program provide?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p031:para500:000",
+   "wb-ar-2024:p017:para500:006",
+   "wb-ar-2024:p030:para500:002"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p031:para500:000",
+    "page": 31,
+    "score": 0.838391,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p017:para500:006",
+    "page": 17,
+    "score": 0.799588,
+    "region": "europe_central_asia"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p030:para500:002",
+    "page": 30,
+    "score": 0.693785,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q13",
+  "split": "dev",
+  "query": "How much did the World Bank approve in this region in fiscal 2024, and for how many operations?",
+  "filter": {
+   "region": "eastern_southern_africa"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p010:para500:003",
+   "wb-ar-2024:p011:para500:004",
+   "wb-ar-2024:p010:para500:007"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p010:para500:003",
+    "page": 10,
+    "score": 0.572569,
+    "region": "eastern_southern_africa"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p011:para500:004",
+    "page": 11,
+    "score": 0.554777,
+    "region": "eastern_southern_africa"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p010:para500:007",
+    "page": 10,
+    "score": 0.482158,
+    "region": "eastern_southern_africa"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q14",
+  "split": "dev",
+  "query": "What were the IBRD commitments in this region in fiscal 2024?",
+  "filter": {
+   "region": "east_asia_pacific"
+  },
+  "hit_at_1": false,
+  "hit_at_3": true,
+  "first_hit_rank": 2,
+  "hits": [
+   false,
+   true,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p015:para500:000",
+   "wb-ar-2024:p014:para500:001",
+   "wb-ar-2024:p015:para500:008"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p015:para500:000",
+    "page": 15,
+    "score": 0.542759,
+    "region": "east_asia_pacific"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p014:para500:001",
+    "page": 14,
+    "score": 0.530742,
+    "region": "east_asia_pacific"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p015:para500:008",
+    "page": 15,
+    "score": 0.499304,
+    "region": "east_asia_pacific"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "q15",
+  "split": "dev",
+  "query": "What was the value of the portfolio of operations under implementation in this region as of June 30, 2024?",
+  "filter": {
+   "region": "latin_america_caribbean"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p018:para500:000",
+   "wb-ar-2024:p019:para500:004",
+   "wb-ar-2024:p019:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p018:para500:000",
+    "page": 18,
+    "score": 0.452568,
+    "region": "latin_america_caribbean"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p019:para500:004",
+    "page": 19,
+    "score": 0.441162,
+    "region": "latin_america_caribbean"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p019:para500:000",
+    "page": 19,
+    "score": 0.439014,
+    "region": "latin_america_caribbean"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q01",
+  "split": "dev",
+  "query": "What was the total amount of World Bank Group commitments to partner countries and private businesses in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "hits": [
+   false,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p047:para500:012",
+   "wb-ar-2024:p008:para500:005",
+   "wb-ar-2024:p008:para500:002"
+  ],
+  "context_has_evidence": false,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p047:para500:012",
+    "page": 47,
+    "score": 11.210826,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p008:para500:005",
+    "page": 8,
+    "score": 9.845227,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p008:para500:002",
+    "page": 8,
+    "score": 9.829099,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q02",
+  "split": "dev",
+  "query": "By what year does the Bank Group want yearly guarantee issuance to reach $20 billion?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   true,
+   true
+  ],
+  "context_ids": [
+   "wb-ar-2024:p007:para500:006",
+   "wb-ar-2024:p031:para500:010",
+   "wb-ar-2024:p030:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p007:para500:006",
+    "page": 7,
+    "score": 16.366608,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p031:para500:010",
+    "page": 31,
+    "score": 16.349496,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p030:para500:000",
+    "page": 30,
+    "score": 12.88268,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q03",
+  "split": "dev",
+  "query": "How many institutions make up the GEMs Consortium?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p007:para500:010",
+   "wb-ar-2024:p037:para500:016",
+   "wb-ar-2024:p004:para500:003"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p007:para500:010",
+    "page": 7,
+    "score": 22.930739,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p037:para500:016",
+    "page": 37,
+    "score": 8.273092,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p004:para500:003",
+    "page": 4,
+    "score": 6.076615,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q04",
+  "split": "dev",
+  "query": "Under Climate Resilient Debt Clauses, what can small states do when a catastrophe hits?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": true,
+  "first_hit_rank": 2,
+  "hits": [
+   false,
+   true,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p043:para500:017",
+   "wb-ar-2024:p007:para500:011",
+   "wb-ar-2024:p043:para500:009"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p043:para500:017",
+    "page": 43,
+    "score": 24.812035,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p007:para500:011",
+    "page": 7,
+    "score": 22.555671,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p043:para500:009",
+    "page": 43,
+    "score": 18.554769,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q05",
+  "split": "dev",
+  "query": "How many jobs are expected to be created in the Global South over the next decade, while 1.2 billion young people reach working age?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p005:para500:000",
+   "wb-ar-2024:p033:para500:007",
+   "wb-ar-2024:p023:para500:009"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p005:para500:000",
+    "page": 5,
+    "score": 37.801814,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p033:para500:007",
+    "page": 33,
+    "score": 16.462631,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p023:para500:009",
+    "page": 23,
+    "score": 14.853484,
+    "region": "south_asia"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q06",
+  "split": "dev",
+  "query": "How much climate finance did the World Bank Group provide in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": true,
+  "first_hit_rank": 2,
+  "hits": [
+   false,
+   true,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p029:para500:004",
+   "wb-ar-2024:p029:para500:002",
+   "wb-ar-2024:p008:para500:004"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p029:para500:004",
+    "page": 29,
+    "score": 7.059892,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p029:para500:002",
+    "page": 29,
+    "score": 6.427798,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 6.36467,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q07",
+  "split": "dev",
+  "query": "How much concessional financing did the Hydrogen for Development Partnership facilitate in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p031:para500:004",
+   "wb-ar-2024:p008:para500:004",
+   "wb-ar-2024:p037:para500:019"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p031:para500:004",
+    "page": 31,
+    "score": 17.285052,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 9.091097,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p037:para500:019",
+    "page": 37,
+    "score": 8.93345,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q08",
+  "split": "dev",
+  "query": "In which countries are the recycling projects backed by IBRD's plastic waste outcome bond located?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p037:para500:000",
+   "wb-ar-2024:p037:para500:001",
+   "wb-ar-2024:p045:para500:007"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p037:para500:000",
+    "page": 37,
+    "score": 35.451064,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p037:para500:001",
+    "page": 37,
+    "score": 25.446025,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p045:para500:007",
+    "page": 45,
+    "score": 8.1996,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q09",
+  "split": "dev",
+  "query": "How much did IBRD raise through Sustainable Development Bonds in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p037:para500:003",
+   "wb-ar-2024:p037:para500:004",
+   "wb-ar-2024:p045:para500:007"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p037:para500:003",
+    "page": 37,
+    "score": 14.389801,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p037:para500:004",
+    "page": 37,
+    "score": 14.075855,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p045:para500:007",
+    "page": 45,
+    "score": 12.59376,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q10",
+  "split": "dev",
+  "query": "What target has the World Bank set for overall project preparation time, and by when?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p039:para500:001",
+   "wb-ar-2024:p004:para500:003",
+   "wb-ar-2024:p007:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p039:para500:001",
+    "page": 39,
+    "score": 18.977511,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p004:para500:003",
+    "page": 4,
+    "score": 9.000671,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p007:para500:000",
+    "page": 7,
+    "score": 8.242054,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q11",
+  "split": "dev",
+  "query": "How many global challenges did the World Bank identify in fiscal 2024 to prioritize in the next few years?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p043:para500:000",
+   "wb-ar-2024:p030:para500:013",
+   "wb-ar-2024:p031:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p043:para500:000",
+    "page": 43,
+    "score": 21.703639,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p030:para500:013",
+    "page": 30,
+    "score": 8.667215,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p031:para500:000",
+    "page": 31,
+    "score": 8.601684,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q12",
+  "split": "dev",
+  "query": "How much renewable energy capacity will the Europe and Central Asia Renewable Energy Scale-up Program provide?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p031:para500:000",
+   "wb-ar-2024:p017:para500:006",
+   "wb-ar-2024:p012:para500:007"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p031:para500:000",
+    "page": 31,
+    "score": 40.155519,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p017:para500:006",
+    "page": 17,
+    "score": 37.15949,
+    "region": "europe_central_asia"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p012:para500:007",
+    "page": 12,
+    "score": 20.626053,
+    "region": "western_central_africa"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q13",
+  "split": "dev",
+  "query": "How much did the World Bank approve in this region in fiscal 2024, and for how many operations?",
+  "filter": {
+   "region": "eastern_southern_africa"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p010:para500:003",
+   "wb-ar-2024:p011:para500:007",
+   "wb-ar-2024:p010:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p010:para500:003",
+    "page": 10,
+    "score": 6.131404,
+    "region": "eastern_southern_africa"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p011:para500:007",
+    "page": 11,
+    "score": 3.61966,
+    "region": "eastern_southern_africa"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p010:para500:000",
+    "page": 10,
+    "score": 2.851506,
+    "region": "eastern_southern_africa"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q14",
+  "split": "dev",
+  "query": "What were the IBRD commitments in this region in fiscal 2024?",
+  "filter": {
+   "region": "east_asia_pacific"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p014:para500:001",
+   "wb-ar-2024:p014:para500:000",
+   "wb-ar-2024:p015:para500:008"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p014:para500:001",
+    "page": 14,
+    "score": 8.50923,
+    "region": "east_asia_pacific"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p014:para500:000",
+    "page": 14,
+    "score": 5.622513,
+    "region": "east_asia_pacific"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p015:para500:008",
+    "page": 15,
+    "score": 4.640794,
+    "region": "east_asia_pacific"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "id": "q15",
+  "split": "dev",
+  "query": "What was the value of the portfolio of operations under implementation in this region as of June 30, 2024?",
+  "filter": {
+   "region": "latin_america_caribbean"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p018:para500:000",
+   "wb-ar-2024:p018:para500:009",
+   "wb-ar-2024:p018:para500:003"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p018:para500:000",
+    "page": 18,
+    "score": 17.507284,
+    "region": "latin_america_caribbean"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p018:para500:009",
+    "page": 18,
+    "score": 6.088491,
+    "region": "latin_america_caribbean"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p018:para500:003",
+    "page": 18,
+    "score": 5.210965,
+    "region": "latin_america_caribbean"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q01",
+  "split": "dev",
+  "query": "What was the total amount of World Bank Group commitments to partner countries and private businesses in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": false,
+  "first_hit_rank": null,
+  "hits": [
+   false,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p008:para500:004",
+   "wb-ar-2024:p043:para500:013",
+   "wb-ar-2024:p046:para500:014"
+  ],
+  "context_has_evidence": false,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 0.030886,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p043:para500:013",
+    "page": 43,
+    "score": 0.029514,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p046:para500:014",
+    "page": 46,
+    "score": 0.027885,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q02",
+  "split": "dev",
+  "query": "By what year does the Bank Group want yearly guarantee issuance to reach $20 billion?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p031:para500:010",
+   "wb-ar-2024:p037:para500:008",
+   "wb-ar-2024:p008:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p031:para500:010",
+    "page": 31,
+    "score": 0.031514,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p037:para500:008",
+    "page": 37,
+    "score": 0.030777,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p008:para500:000",
+    "page": 8,
+    "score": 0.02971,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q03",
+  "split": "dev",
+  "query": "How many institutions make up the GEMs Consortium?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p007:para500:010",
+   "wb-ar-2024:p008:para500:006",
+   "wb-ar-2024:p003:para500:002"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p007:para500:010",
+    "page": 7,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p008:para500:006",
+    "page": 8,
+    "score": 0.030366,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p003:para500:002",
+    "page": 3,
+    "score": 0.027619,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q04",
+  "split": "dev",
+  "query": "Under Climate Resilient Debt Clauses, what can small states do when a catastrophe hits?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": true,
+  "first_hit_rank": 2,
+  "hits": [
+   false,
+   true,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p043:para500:017",
+   "wb-ar-2024:p007:para500:011",
+   "wb-ar-2024:p037:para500:012"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p043:para500:017",
+    "page": 43,
+    "score": 0.032266,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p007:para500:011",
+    "page": 7,
+    "score": 0.032258,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p037:para500:012",
+    "page": 37,
+    "score": 0.031545,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q05",
+  "split": "dev",
+  "query": "How many jobs are expected to be created in the Global South over the next decade, while 1.2 billion young people reach working age?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p005:para500:000",
+   "wb-ar-2024:p023:para500:009",
+   "wb-ar-2024:p034:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p005:para500:000",
+    "page": 5,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p023:para500:009",
+    "page": 23,
+    "score": 0.032002,
+    "region": "south_asia"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p034:para500:000",
+    "page": 34,
+    "score": 0.029958,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q06",
+  "split": "dev",
+  "query": "How much climate finance did the World Bank Group provide in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p029:para500:002",
+   "wb-ar-2024:p008:para500:004",
+   "wb-ar-2024:p029:para500:005"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p029:para500:002",
+    "page": 29,
+    "score": 0.032522,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 0.032002,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p029:para500:005",
+    "page": 29,
+    "score": 0.027864,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q07",
+  "split": "dev",
+  "query": "How much concessional financing did the Hydrogen for Development Partnership facilitate in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p031:para500:004",
+   "wb-ar-2024:p047:para500:008",
+   "wb-ar-2024:p022:para500:007"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p031:para500:004",
+    "page": 31,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p047:para500:008",
+    "page": 47,
+    "score": 0.030366,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p022:para500:007",
+    "page": 22,
+    "score": 0.03031,
+    "region": "south_asia"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q08",
+  "split": "dev",
+  "query": "In which countries are the recycling projects backed by IBRD's plastic waste outcome bond located?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p037:para500:000",
+   "wb-ar-2024:p037:para500:001",
+   "wb-ar-2024:p037:para500:003"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p037:para500:000",
+    "page": 37,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p037:para500:001",
+    "page": 37,
+    "score": 0.032258,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p037:para500:003",
+    "page": 37,
+    "score": 0.029644,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q09",
+  "split": "dev",
+  "query": "How much did IBRD raise through Sustainable Development Bonds in fiscal 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p037:para500:003",
+   "wb-ar-2024:p037:para500:004",
+   "wb-ar-2024:p037:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p037:para500:003",
+    "page": 37,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p037:para500:004",
+    "page": 37,
+    "score": 0.032258,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p037:para500:000",
+    "page": 37,
+    "score": 0.03125,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q10",
+  "split": "dev",
+  "query": "What target has the World Bank set for overall project preparation time, and by when?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p039:para500:001",
+   "wb-ar-2024:p043:para500:020",
+   "wb-ar-2024:p043:para500:002"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p039:para500:001",
+    "page": 39,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p043:para500:020",
+    "page": 43,
+    "score": 0.028595,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p043:para500:002",
+    "page": 43,
+    "score": 0.027397,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q11",
+  "split": "dev",
+  "query": "How many global challenges did the World Bank identify in fiscal 2024 to prioritize in the next few years?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p043:para500:000",
+   "wb-ar-2024:p008:para500:004",
+   "wb-ar-2024:p006:para500:007"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p043:para500:000",
+    "page": 43,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 0.029462,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p006:para500:007",
+    "page": 6,
+    "score": 0.028543,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q12",
+  "split": "dev",
+  "query": "How much renewable energy capacity will the Europe and Central Asia Renewable Energy Scale-up Program provide?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p031:para500:000",
+   "wb-ar-2024:p017:para500:006",
+   "wb-ar-2024:p030:para500:002"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p031:para500:000",
+    "page": 31,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p017:para500:006",
+    "page": 17,
+    "score": 0.032258,
+    "region": "europe_central_asia"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p030:para500:002",
+    "page": 30,
+    "score": 0.030798,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q13",
+  "split": "dev",
+  "query": "How much did the World Bank approve in this region in fiscal 2024, and for how many operations?",
+  "filter": {
+   "region": "eastern_southern_africa"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p010:para500:003",
+   "wb-ar-2024:p010:para500:000",
+   "wb-ar-2024:p011:para500:004"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p010:para500:003",
+    "page": 10,
+    "score": 0.032787,
+    "region": "eastern_southern_africa"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p010:para500:000",
+    "page": 10,
+    "score": 0.031498,
+    "region": "eastern_southern_africa"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p011:para500:004",
+    "page": 11,
+    "score": 0.031054,
+    "region": "eastern_southern_africa"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q14",
+  "split": "dev",
+  "query": "What were the IBRD commitments in this region in fiscal 2024?",
+  "filter": {
+   "region": "east_asia_pacific"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p014:para500:001",
+   "wb-ar-2024:p015:para500:000",
+   "wb-ar-2024:p015:para500:008"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p014:para500:001",
+    "page": 14,
+    "score": 0.032522,
+    "region": "east_asia_pacific"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p015:para500:000",
+    "page": 15,
+    "score": 0.032018,
+    "region": "east_asia_pacific"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p015:para500:008",
+    "page": 15,
+    "score": 0.031746,
+    "region": "east_asia_pacific"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "q15",
+  "split": "dev",
+  "query": "What was the value of the portfolio of operations under implementation in this region as of June 30, 2024?",
+  "filter": {
+   "region": "latin_america_caribbean"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p018:para500:000",
+   "wb-ar-2024:p018:para500:003",
+   "wb-ar-2024:p018:para500:004"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p018:para500:000",
+    "page": 18,
+    "score": 0.032787,
+    "region": "latin_america_caribbean"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p018:para500:003",
+    "page": 18,
+    "score": 0.031498,
+    "region": "latin_america_caribbean"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p018:para500:004",
+    "page": 18,
+    "score": 0.030769,
+    "region": "latin_america_caribbean"
+   }
+  ]
+ }
+]

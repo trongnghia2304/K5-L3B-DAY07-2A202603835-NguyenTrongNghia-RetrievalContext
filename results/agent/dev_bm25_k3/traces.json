@@ -1,0 +1,2167 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "answerable": true,
+  "question": "What was the total amount of World Bank Group commitments to partner countries and private businesses in fiscal 2024?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The World Bank Group committed **$117.5 billion** in fiscal 2024, including $37.6 billion from IBRD, $31.2 billion from IDA, $31.7 billion from IFC, $8.2 billion from MIGA, and $8.9 billion in recipient-executed disbursing activities [wb-ar-2024:p006:para500:008]. These were in loans, grants, equity investments, and guarantees to partner countries and private businesses [wb-ar-2024:p008:para500:005].",
+  "citations": [
+   "wb-ar-2024:p006:para500:008",
+   "wb-ar-2024:p008:para500:005"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "total World Bank Group commitments fiscal 2024 partner countries private businesses",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p008:para500:005",
+      "page": 8,
+      "score": 9.845227
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p041:para500:003",
+      "page": 41,
+      "score": 9.391072
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p026:para500:011",
+      "page": 26,
+      "score": 9.14407
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "World Bank Group delivered record $117.5 billion fiscal 2024",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p006:para500:008",
+      "page": 6,
+      "score": 8.632956
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p032:para500:002",
+      "page": 32,
+      "score": 7.717891
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p032:para500:000",
+      "page": 32,
+      "score": 7.394844
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p008:para500:005",
+   "wb-ar-2024:p041:para500:003",
+   "wb-ar-2024:p026:para500:011",
+   "wb-ar-2024:p006:para500:008",
+   "wb-ar-2024:p032:para500:002",
+   "wb-ar-2024:p032:para500:000"
+  ],
+  "context_chars": 2336,
+  "usage": {
+   "prompt_tokens": 2731,
+   "completion_tokens": 213,
+   "prompt_cache_hit_tokens": 1664,
+   "calls": 3
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 3.85,
+  "first_search_labels": {
+   "hit_at_1": false,
+   "hit_at_3": false,
+   "first_hit_rank": null,
+   "hits": [
+    false,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p008:para500:005",
+    "page": 8,
+    "text": "(BILLION)\nin loans, grants, equity investments, and guarantees\nto partner countries and private businesses.\nAFRICA\n$38.0B\n(BILLION)\nEAST ASIA AND\nPACIFIC\n$12.5B\n(BILLION)\nEUROPE AND\nCENTRAL ASIA\n$24.7B\n(BILLION)\nLATIN AMERICA AND\nTHE CARIBBEAN\n$19.4B\n(BILLION)\nMIDDLE EAST AND\nNORTH AFRICA\n$6.5B\n(BILLION)\nSOUTH ASIA\n$15.9B\n(BILLION)\nGLOBAL\n$0.4B"
+   },
+   {
+    "id": "wb-ar-2024:p041:para500:003",
+    "page": 41,
+    "text": "In fiscal 2024, we surpassed our 2023 target to\ndouble our share of corporate procurement with\nspend from women-owned businesses to 7 percent,\nachieving 7.4 percent. We aim to reach 12 percent by\n2030. Additionally, we intend to increase the number\nof women-owned businesses to 15 percent of our\ntotal vendors (from a 9 percent baseline in 2023).\nWe continue to lead both private and governmental\nentities in this benchmark."
+   },
+   {
+    "id": "wb-ar-2024:p026:para500:011",
+    "page": 26,
+    "text": "To improve the health of women, children and\nadolescents, the Global Financing Facility (GFF), a\nglobal country-led partnership hosted at the World\nBank, continues to increase financing and technical\nassistance in GFF partner countries. As of June 2024,\nthe GFF has committed a total of $1.5 billion for grants\nin 38 countries."
+   },
+   {
+    "id": "wb-ar-2024:p006:para500:008",
+    "page": 6,
+    "text": "The world is increasingly unlikely to achieve\nthe 2030 Sustainable Development Goals, and climate\nchange, biodiversity loss, and escalating geopolitical\ntensions further threaten development. To help countries\naddress these intertwined challenges, the World Bank\nGroup committed $117.5 billion (including $37.6 billion\nfrom IBRD, $31.2 billion from IDA, $31.7 billion from IFC,\n$8.2 billion from MIGA, and $8.9 billion in recipient-executed disbursing activities) in fiscal 2024."
+   },
+   {
+    "id": "wb-ar-2024:p032:para500:002",
+    "page": 32,
+    "text": "To close the digital divide, we collaborate with\ngovernments in more than 100 developing countries to\nbuild strong and trusted foundations and enablers for\ndigital economies to thrive. The Digital lending portfolio\ncomprised a record 53 active projects, representing\n$5.6 billion in total net commitments as of June 2024."
+   },
+   {
+    "id": "wb-ar-2024:p032:para500:000",
+    "page": 32,
+    "text": "AT-A-GLANCE\nWe are enabling digitalization to\ntransform our world for the better.\nIn fiscal 2024:\n• Our Digital lending portfolio\ncomprised a record 53 active\nprojects, representing $5.6 billion\nin total net commitments as of\nJune 2024.\n• The inaugural Global Digital\nSummit brought together digital\nthought leaders, policymakers,\nand practitioners to explore\nthe emerging opportunities and\nrisks of digital transformation\nfor development."
+   }
+  ]
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "answerable": true,
+  "question": "By what year does the Bank Group want yearly guarantee issuance to reach $20 billion?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "By 2030 [wb-ar-2024:p007:para500:006] [wb-ar-2024:p031:para500:010].",
+  "citations": [
+   "wb-ar-2024:p007:para500:006",
+   "wb-ar-2024:p031:para500:010"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "guarantee issuance $20 billion per year target",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p007:para500:006",
+      "page": 7,
+      "score": 16.366608
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p031:para500:010",
+      "page": 31,
+      "score": 16.349496
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p030:para500:000",
+      "page": 30,
+      "score": 12.88268
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p007:para500:006",
+   "wb-ar-2024:p031:para500:010",
+   "wb-ar-2024:p030:para500:000"
+  ],
+  "context_chars": 933,
+  "usage": {
+   "prompt_tokens": 1302,
+   "completion_tokens": 77,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.78,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    true,
+    true
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p007:para500:006",
+    "page": 7,
+    "text": "GUARANTEE PLATFORM\nThis new platform is delivering\nsimplicity and improved access to our\nguarantee products, putting us on a\npath to boost our annual guarantee\nissuance to $20 billion by 2030—and\nmultiply our mobilization of private\ncapital many times."
+   },
+   {
+    "id": "wb-ar-2024:p031:para500:010",
+    "page": 31,
+    "text": "In fiscal 2024, we announced a major\noverhaul of our guarantee business with the goal of\nboosting annual guarantee issuance to $20 billion by\n2030. This will help mitigate risk and catalyze private\nfinance in development projects."
+   },
+   {
+    "id": "wb-ar-2024:p030:para500:000",
+    "page": 30,
+    "text": "AT-A-GLANCE\nWe are working to improve energy\nsystems, roads, and bridges. In fiscal\n2024, we:\n• Committed to provide electricity\naccess to 300 million people in\nSub-Saharan Africa by 2030\nin partnership with the African\nDevelopment Bank.\n• Announced a major overhaul of our\nguarantee business with the goal of\nboosting annual guarantee issuance\nto $20 billion by 2030. This will help\nmitigate risk and catalyze private\nfinance in development projects."
+   }
+  ]
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "answerable": true,
+  "question": "How many institutions make up the GEMs Consortium?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The GEMs Consortium comprises 25 multilateral development banks and development finance institutions [wb-ar-2024:p007:para500:010].",
+  "citations": [
+   "wb-ar-2024:p007:para500:010"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "GEMs Consortium institutions",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p007:para500:010",
+      "page": 7,
+      "score": 22.930739
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p007:para500:009",
+      "page": 7,
+      "score": 5.44365
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p039:para500:016",
+      "page": 39,
+      "score": 4.544012
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p007:para500:010",
+   "wb-ar-2024:p007:para500:009",
+   "wb-ar-2024:p039:para500:016"
+  ],
+  "context_chars": 1009,
+  "usage": {
+   "prompt_tokens": 1284,
+   "completion_tokens": 69,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.54,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p007:para500:010",
+    "page": 7,
+    "text": "CONSORTIUM\nThe GEMs Consortium comprises\n25 multilateral development\nbanks and development finance\ninstitutions. The World Bank Group\nand the GEMs Consortium are driving\ntransparency and mobilizing private\ninvestment in emerging markets\nby releasing comprehensive credit\nrisk data.\nCRISIS PREPAREDNESS"
+   },
+   {
+    "id": "wb-ar-2024:p007:para500:009",
+    "page": 7,
+    "text": "GROUP SCORECARD\nAccountability and focus underpin\nall our work. Our new Scorecard is\na yardstick of accountability and a\ncornerstone of our efforts for greater\nefficiency, impact, and results. This\ntool allows our shareholders and\ntaxpayers to clearly see the impact\nwe are making, rewarding their trust.\nGLOBAL EMERGING MARKETS\nRISK DATABASE (GEMS)"
+   },
+   {
+    "id": "wb-ar-2024:p039:para500:016",
+    "page": 39,
+    "text": "We train clients on SEA/SH risk management through\nregional capacity-building initiatives, and we work with\nother international financial institutions to combat\nSEA/SH in development operations. We continue\nto promote the advancing of the SEA/SH agenda,\ncoordination and learning among Multilateral Financial\nInstitutions by convening an SEA/SH working group."
+   }
+  ]
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "answerable": true,
+  "question": "Under Climate Resilient Debt Clauses, what can small states do when a catastrophe hits?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "When a catastrophe hits, Climate Resilient Debt Clauses allow small states to prioritize disaster recovery over debt repayment [wb-ar-2024:p007:para500:011]. Specifically, they allow eligible small-state borrowers to defer principal, interest, and fee payments for severe earthquakes and hurricanes [wb-ar-2024:p043:para500:009].",
+  "citations": [
+   "wb-ar-2024:p007:para500:011",
+   "wb-ar-2024:p043:para500:009"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Climate Resilient Debt Clauses small states catastrophe",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p043:para500:017",
+      "page": 43,
+      "score": 24.812035
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p007:para500:011",
+      "page": 7,
+      "score": 22.555671
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p043:para500:009",
+      "page": 43,
+      "score": 18.554769
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p043:para500:017",
+   "wb-ar-2024:p007:para500:011",
+   "wb-ar-2024:p043:para500:009"
+  ],
+  "context_chars": 1313,
+  "usage": {
+   "prompt_tokens": 1345,
+   "completion_tokens": 115,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.53,
+  "first_search_labels": {
+   "hit_at_1": false,
+   "hit_at_3": true,
+   "first_hit_rank": 2,
+   "hits": [
+    false,
+    true,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p043:para500:017",
+    "page": 43,
+    "text": "We also are intensifying our management focus on\nsmall states as they grapple with economic shocks and\nclimate change. The Crisis Preparedness and Response\nToolkit and the Climate Resilient Debt Clauses will\nenable small states, UN Small Island Developing States,\nand Small States Forum countries to better prepare\nfor and respond to shocks. In fiscal 2024, we published\na Country Climate and Development Report for the\nMaldives. We started work on reports for Comoros and\nthe Eastern Caribbean."
+   },
+   {
+    "id": "wb-ar-2024:p007:para500:011",
+    "page": 7,
+    "text": "AND RESPONSE TOOLKIT\nThe World Bank Group is rolling out\nan expanded Crisis Preparedness\nand Response Toolkit to help\ndeveloping countries better respond\nto crises and build resilience against\nfuture shocks. Climate Resilient\nDebt Clauses allow small states to\nprioritize disaster recovery over debt\nrepayment when catastrophes hit."
+   },
+   {
+    "id": "wb-ar-2024:p043:para500:009",
+    "page": 43,
+    "text": "The expanded toolkit includes a new Rapid Response\nOption to provide quick access to cash for emergency\nresponse by repurposing a portion of their unused Bank\nfinancing across their portfolio. This allows countries to\nswiftly address needs when a crisis occurs. The toolkit\nincludes expanded access to catastrophe insurance and\nClimate Resilient Debt Clauses that allow eligible small-state borrowers to defer principal, interest, and fee\npayments for severe earthquakes and hurricanes."
+   }
+  ]
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "answerable": true,
+  "question": "How many jobs are expected to be created in the Global South over the next decade, while 1.2 billion young people reach working age?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "424 million jobs are expected to be created in the same countries over the next 10 years, while 1.2 billion young people across the Global South will become working-age adults [wb-ar-2024:p005:para500:000].",
+  "citations": [
+   "wb-ar-2024:p005:para500:000"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "jobs created Global South next decade 1.2 billion young people working age",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.003,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p005:para500:000",
+      "page": 5,
+      "score": 34.630488
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p023:para500:009",
+      "page": 23,
+      "score": 14.853484
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p033:para500:007",
+      "page": 33,
+      "score": 13.48447
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p005:para500:000",
+   "wb-ar-2024:p023:para500:009",
+   "wb-ar-2024:p033:para500:007"
+  ],
+  "context_chars": 1165,
+  "usage": {
+   "prompt_tokens": 1364,
+   "completion_tokens": 100,
+   "prompt_cache_hit_tokens": 896,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.59,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p005:para500:000",
+    "page": 5,
+    "text": "MESSAGE FROM THE PRESIDENT\nWe are helping developing countries create jobs and\nemployment, the surest enablers of prosperity. In the\nnext 10 years, 1.2 billion young people across the Global\nSouth will become working-age adults. Yet, in the same\nperiod and the same countries, only 424 million jobs are\nexpected to be created. The cost of hundreds of millions\nof young people with no hope for a decent job or future\nis unimaginable, and we are working urgently to create\nopportunity for all."
+   },
+   {
+    "id": "wb-ar-2024:p023:para500:009",
+    "page": 23,
+    "text": "Enabling jobs to foster equality, prosperity,\nand resilience\nSouth Asia is not creating enough jobs to keep pace\nwith its rapidly growing working-age population. Our\nlatest South Asia Development Update shows that\nprivate investment and robust growth of businesses\nand firms are essential to create the number and quality\nof jobs the region needs. To help close this gap, we are\nsupporting countries through critical policy reforms,\nskills programs, and analytical work."
+   },
+   {
+    "id": "wb-ar-2024:p033:para500:007",
+    "page": 33,
+    "text": "No country provides equal opportunity for\nwomen, and closing gender gaps could raise global gross\ndomestic product by more than 20 percent—essentially\ndoubling the global growth rate over the next decade."
+   }
+  ]
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "answerable": true,
+  "question": "How much climate finance did the World Bank Group provide in fiscal 2024?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "In fiscal 2024, the World Bank Group provided **$40 billion** in climate finance, which helped harness clean energy, build sustainable cities, preserve forests, and ensure sustainable land use [wb-ar-2024:p029:para500:002].",
+  "citations": [
+   "wb-ar-2024:p029:para500:002"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "climate finance fiscal 2024 World Bank Group amount",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p047:para500:012",
+      "page": 47,
+      "score": 7.287715
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p029:para500:002",
+      "page": 29,
+      "score": 6.427798
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p039:para500:019",
+      "page": 39,
+      "score": 6.239926
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p047:para500:012",
+   "wb-ar-2024:p029:para500:002",
+   "wb-ar-2024:p039:para500:019"
+  ],
+  "context_chars": 930,
+  "usage": {
+   "prompt_tokens": 1313,
+   "completion_tokens": 97,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.9,
+  "first_search_labels": {
+   "hit_at_1": false,
+   "hit_at_3": true,
+   "first_hit_rank": 2,
+   "hits": [
+    false,
+    true,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p047:para500:012",
+    "page": 47,
+    "text": "Total Instruments of\nCommitment deposited to date amount to $23.5 billion,\nrepresenting 99 percent of the total pledge amount."
+   },
+   {
+    "id": "wb-ar-2024:p029:para500:002",
+    "page": 29,
+    "text": "Climate action\nIn fiscal 2024, the World Bank Group increased its\nresponse to climate change. Our $40 billion in climate\nfinance helped harness clean energy, build sustainable\ncities, preserve forests, and ensure sustainable land\nuse. Our operations are fully Paris aligned, and we are\nchanneling 45 percent of annual financing to climate\naction by 2025, deployed equally between mitigation\nand adaptation."
+   },
+   {
+    "id": "wb-ar-2024:p039:para500:019",
+    "page": 39,
+    "text": "Of this, $18 billion was for trust funds and $37.2 billion\nfor FIFs. Trust funds finance about two-thirds of World\nBank advisory services and analytics, and 86 percent\n($37.1 billion) of total trust fund disbursements went\nto member countries during fiscal 2020-24. Of this\namount, over $8.3 billion was disbursed to IDA and blend\ncountries (i.e., countries eligible for both IDA and IBRD\nlending)."
+   }
+  ]
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "answerable": true,
+  "question": "How much concessional financing did the Hydrogen for Development Partnership facilitate in fiscal 2024?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The Hydrogen for Development Partnership facilitated **$1.5 billion** in concessional financing in fiscal 2024, to ramp up clean hydrogen projects in India [wb-ar-2024:p031:para500:004].",
+  "citations": [
+   "wb-ar-2024:p031:para500:004"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Hydrogen for Development Partnership concessional financing fiscal 2024",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p031:para500:004",
+      "page": 31,
+      "score": 17.285052
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p018:para500:008",
+      "page": 18,
+      "score": 8.732409
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p022:para500:007",
+      "page": 22,
+      "score": 8.696964
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Hydrogen for Development Partnership H4D",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p031:para500:004",
+      "page": 31,
+      "score": 11.429726
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p018:para500:008",
+      "page": 18,
+      "score": 8.732409
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p022:para500:007",
+      "page": 22,
+      "score": 6.711888
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p031:para500:004",
+   "wb-ar-2024:p018:para500:008",
+   "wb-ar-2024:p022:para500:007"
+  ],
+  "context_chars": 1211,
+  "usage": {
+   "prompt_tokens": 1699,
+   "completion_tokens": 126,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.92,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p031:para500:004",
+    "page": 31,
+    "text": "Our\nHydrogen for Development Partnership, founded and\nsupported by the Energy Sector Management Assistance\nProgram, facilitated $1.5 billion in concessional financing\nin fiscal 2024—the largest hydrogen engagement\namong all multilateral development banks—to ramp\nup clean hydrogen projects in India. We released the\nreport The Critical Link: Empowering Utilities for the\nEnergy Transition, with recommendations on how to\nassess utilities’ ability to deliver reliable, clean, and\naffordable power."
+   },
+   {
+    "id": "wb-ar-2024:p018:para500:008",
+    "page": 18,
+    "text": "In Chile, which is rich in renewable resources,\nwe have approved a $150 million investment to\npromote in-country green hydrogen projects. This is\nour first loan to promote green hydrogen to support\nclimate change mitigation efforts. Chile expects\nto produce the lowest-cost hydrogen in the world\nby 2030 and to be among the world’s top three\nhydrogen exporters by 2040."
+   },
+   {
+    "id": "wb-ar-2024:p022:para500:007",
+    "page": 22,
+    "text": "The World Bank is supporting this transition\nwith two development policy operations worth\n$3 billion. This strategic financing is designed to\ncatalyze India’s development of low-carbon energy\nacross three interconnected areas: the emergence\nof a green hydrogen industry, the expansion\nof renewable energy, and the mobilization of\nclimate finance."
+   }
+  ]
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "answerable": true,
+  "question": "In which countries are the recycling projects backed by IBRD's plastic waste outcome bond located?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The recycling projects are in Ghana and Indonesia [wb-ar-2024:p037:para500:000].",
+  "citations": [
+   "wb-ar-2024:p037:para500:000"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "plastic waste reduction-linked bond recycling projects countries",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p037:para500:000",
+      "page": 37,
+      "score": 33.654778
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p037:para500:001",
+      "page": 37,
+      "score": 29.492444
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p015:para500:011",
+      "page": 15,
+      "score": 11.774641
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "plastic waste outcome bond IBRD",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p037:para500:000",
+      "page": 37,
+      "score": 26.263887
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p037:para500:001",
+      "page": 37,
+      "score": 17.189253
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p037:para500:002",
+      "page": 37,
+      "score": 6.88453
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p037:para500:000",
+   "wb-ar-2024:p037:para500:001",
+   "wb-ar-2024:p015:para500:011",
+   "wb-ar-2024:p037:para500:002"
+  ],
+  "context_chars": 1434,
+  "usage": {
+   "prompt_tokens": 1671,
+   "completion_tokens": 98,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.9,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p037:para500:000",
+    "page": 37,
+    "text": "INNOVATIVE FUNDING SOLUTIONS\nIBRD has continued to structure bonds that provide\nfinancing solutions for specific projects, in addition to\nraising financing for IBRD’s sustainable development\nactivities through the bond proceeds. For example, in\nJanuary 2024, IBRD issued a $100 million principal-protected outcome bond, the Plastic Waste Reduction-Linked Bond, to support two plastic waste collection\nand recycling projects in Ghana and Indonesia."
+   },
+   {
+    "id": "wb-ar-2024:p037:para500:001",
+    "page": 37,
+    "text": "This\nnew innovative bond provides investors with a financial\nreturn linked to Plastic Waste Collection Credits,\nPlastic Waste Recycling Credits, and Verified Carbon\nUnits expected to be generated by the two projects.\nIn addition to reducing plastic pollution and carbon\nemissions, the projects supported by the transaction\nimprove local pollution and air quality, reduce associated\nhealth impacts, and create jobs in often overlooked and\nmarginalized communities."
+   },
+   {
+    "id": "wb-ar-2024:p015:para500:011",
+    "page": 15,
+    "text": "Viet Nam: We aim to bring clean drinking water\nto 2 million children through our innovative\n$50 million emission-reduction linked bond that will\nfinance delivery of water purification systems in\n8,000 schools.\nCat-DDOs provide a rapid source of financing to respond\nto natural disasters and health emergencies."
+   },
+   {
+    "id": "wb-ar-2024:p037:para500:002",
+    "page": 37,
+    "text": "Promoting sustainable finance and capital markets\nIBRD has mobilized finance for middle-income countries\nfor more than 75 years, raising over $1 trillion from\nprivate investors since issuing its first bond in 1947."
+   }
+  ]
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "answerable": true,
+  "question": "How much did IBRD raise through Sustainable Development Bonds in fiscal 2024?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "In fiscal 2024, IBRD raised $53 billion through Sustainable Development Bonds issued in a variety of structures and maturities [wb-ar-2024:p037:para500:003].",
+  "citations": [
+   "wb-ar-2024:p037:para500:003"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "IBRD Sustainable Development Bonds fiscal 2024 amount raised",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p037:para500:003",
+      "page": 37,
+      "score": 19.269811
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p037:para500:004",
+      "page": 37,
+      "score": 12.724503
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p045:para500:007",
+      "page": 45,
+      "score": 11.242408
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p037:para500:003",
+   "wb-ar-2024:p037:para500:004",
+   "wb-ar-2024:p045:para500:007"
+  ],
+  "context_chars": 1451,
+  "usage": {
+   "prompt_tokens": 1405,
+   "completion_tokens": 86,
+   "prompt_cache_hit_tokens": 896,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.36,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p037:para500:003",
+    "page": 37,
+    "text": "In fiscal 2024, IBRD, which is rated triple-A by the\nmajor credit rating agencies, raised $53 billion through\nSustainable Development Bonds issued in a variety of\nstructures and maturities. IBRD is the largest issuer\nof sustainable bonds and uses the funds raised from\ncapital markets to support development activities\nin member countries. Please see the World Bank’s\nannual Impact Report for more information about\nhow funds raised in the capital markets support\nIBRD-financed projects."
+   },
+   {
+    "id": "wb-ar-2024:p037:para500:004",
+    "page": 37,
+    "text": "IDA also issues Sustainable\nDevelopment Bonds to scale up its development impact\nand in fiscal 2024, issued approximately $12 billion\nin bonds.\nSustainable development through capital markets\nAs part of their efforts to mobilize capital from financial\nmarkets, IBRD and IDA continued to work with bond\ninvestors in fiscal 2024 to explain the mainstreaming\nSUSTAINABLE\nFINANCE AND\nCAPITAL MARKETS\nFor more information,\nvisit treasury.worldbank.org.\ngreen bond issued by an emerging market sovereign."
+   },
+   {
+    "id": "wb-ar-2024:p045:para500:007",
+    "page": 45,
+    "text": "IBRD financial resources and financial model\nIBRD finances its loans from its own equity and from\nmoney borrowed in the capital markets through the\nissuance of IBRD bonds to fund development projects\nin member countries. IBRD is rated Aaa by Moody’s and\nAAA by Standard & Poor’s, and investors view its bonds\nas high-quality securities. IBRD’s funding approach\ncontinues to be aimed at achieving the best long-term\nvalue on a sustainable basis for borrowing members."
+   }
+  ]
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "answerable": true,
+  "question": "What target has the World Bank set for overall project preparation time, and by when?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The World Bank aims to reduce overall project preparation time to under 12 months by fiscal 2025, without compromising quality [wb-ar-2024:p039:para500:001].",
+  "citations": [
+   "wb-ar-2024:p039:para500:001"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "project preparation time target reduce",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p039:para500:001",
+      "page": 39,
+      "score": 17.119845
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p014:para500:002",
+      "page": 14,
+      "score": 6.385223
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p040:para500:002",
+      "page": 40,
+      "score": 6.344839
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "overall project preparation time days target by 2030",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p039:para500:001",
+      "page": 39,
+      "score": 18.977511
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p040:para500:002",
+      "page": 40,
+      "score": 9.993768
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p040:para500:001",
+      "page": 40,
+      "score": 9.652733
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p039:para500:001",
+   "wb-ar-2024:p014:para500:002",
+   "wb-ar-2024:p040:para500:002",
+   "wb-ar-2024:p040:para500:001"
+  ],
+  "context_chars": 1606,
+  "usage": {
+   "prompt_tokens": 1886,
+   "completion_tokens": 115,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.27,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p039:para500:001",
+    "page": 39,
+    "text": "Without compromising quality, the World Bank is on\na path to reduce the overall project preparation time\nto under 12 months by fiscal 2025. The Bank Group’s\nleadership are shaping the process with clear guardrails\nbased on rigorous analysis and consideration, and\nfurther engagement on issues of strategic relevance."
+   },
+   {
+    "id": "wb-ar-2024:p014:para500:002",
+    "page": 14,
+    "text": "Piloting sustainable farming methods\nto reduce methane and boost prosperity\nin Viet Nam\nThe Viet Nam Sustainable Agriculture\nTransformation Project (VnSAT) has successfully\npiloted new rice farming techniques to lower\nemissions, increase farmers’ net incomes, and can\nbe scaled and replicated in other countries."
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:002",
+    "page": 40,
+    "text": "headquarters 2.6 2.7 2.3 GRI 404; SDG 8\nAverage days of training per staff, in country offices 2.9 2.1 2.8\nNote: – = not available; FTE = full-time equivalent (staff); GRI = Global Reporting Initiative; SDG = Sustainable Development Goal.\n* Gender balance is defined as 50% men and 50% women, with a +/- 2% margin; 0% means we have met our gender balance target, while figures over 0% mean\nmen/women are overrepresented.\nTABLE 17: SELECTED WORLD BANK ENVIRONMENTAL IMPACTS, FISCAL 2019–23"
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:001",
+    "page": 40,
+    "text": "INDICATOR FY22 FY23 FY24 RELATED INDICATORS\nTotal full-time staff 12,778 13,122 13,492 GRI 401; SDG 8\nNon-U.S. based (%) 46 47 48\nShort-term consultants/temporaries (FTEs) 6,163 5,986 5,901\nDiversity index 0.89 0.90 0.91\n% represents the deviation from the gender balance target for a given category*\nAdministrative and support staff (%) 17.6 17.7 18\nEntry and junior technical (%) 2.7 2.7 2.9\nSenior technical (%) 4.7 3.8 2.9\nManagers (%) 4.7 3.4 2.8\nAverage days of training per staff, at"
+   }
+  ]
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "answerable": true,
+  "question": "How many global challenges did the World Bank identify in fiscal 2024 to prioritize in the next few years?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The World Bank identified **eight** global challenges to prioritize in the next few years in fiscal 2024: Climate Change Adaptation and Mitigation, Fragility and Conflict, Pandemic Prevention and Preparedness, Energy Access, Food and Nutrition Security, Water Security and Access, Enabling Digitalization, and Protecting Biodiversity and Nature [wb-ar-2024:p043:para500:000].",
+  "citations": [
+   "wb-ar-2024:p043:para500:000"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "global challenges identified fiscal 2024 prioritize next few years",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p043:para500:000",
+      "page": 43,
+      "score": 27.333395
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p031:para500:000",
+      "page": 31,
+      "score": 8.601684
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p043:para500:002",
+      "page": 43,
+      "score": 8.106077
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p043:para500:000",
+   "wb-ar-2024:p031:para500:000",
+   "wb-ar-2024:p043:para500:002"
+  ],
+  "context_chars": 1127,
+  "usage": {
+   "prompt_tokens": 1332,
+   "completion_tokens": 123,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.02,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p043:para500:000",
+    "page": 43,
+    "text": "STRATEGIC RESOURCE\nDEPLOYMENT\nIn fiscal 2024, the World Bank identified eight global\nchallenges to prioritize in the next few years: Climate\nChange Adaptation and Mitigation, Fragility and\nConflict, Pandemic Prevention and Preparedness,\nEnergy Access, Food and Nutrition Security, Water\nSecurity and Access, Enabling Digitalization, and\nProtecting Biodiversity and Nature. Addressing these\nwill be key to advancing our new vision and mission."
+   },
+   {
+    "id": "wb-ar-2024:p031:para500:000",
+    "page": 31,
+    "text": "In fiscal 2024, we launched innovative new programs\nto meet global energy challenges. The Europe and\nCentral Asia Renewable Energy Scale-up Program\nwill enhance energy security and affordability over\n10 years, providing 15 gigawatts of renewable energy\ncapacity and reducing 240 million metric tons of carbon\nemissions in the region."
+   },
+   {
+    "id": "wb-ar-2024:p043:para500:002",
+    "page": 43,
+    "text": "In April 2024, the Bank Group adopted a Framework\nfor Financial Incentives to support projects addressing\nglobal challenges with positive cross-border impact. The\nframework gives shareholders the opportunity to make\nvoluntary contributions to IBRD that are leveraged for\nmaximum impact and used to address the most urgent\nglobal challenges of our time."
+   }
+  ]
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "answerable": true,
+  "question": "How much renewable energy capacity will the Europe and Central Asia Renewable Energy Scale-up Program provide?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The Europe and Central Asia Renewable Energy Scale-up Program will provide **15 gigawatts** of renewable energy capacity, over 10 years, while reducing 240 million metric tons of carbon emissions [wb-ar-2024:p031:para500:000]. It also aims to create more than 900,000 renewable energy jobs [wb-ar-2024:p017:para500:006].",
+  "citations": [
+   "wb-ar-2024:p031:para500:000",
+   "wb-ar-2024:p017:para500:006"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Europe and Central Asia Renewable Energy Scale-up Program capacity",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p031:para500:000",
+      "page": 31,
+      "score": 29.642179
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p017:para500:006",
+      "page": 17,
+      "score": 28.730855
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p017:para500:000",
+      "page": 17,
+      "score": 17.001619
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "ECARES renewable energy gigawatts",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p031:para500:000",
+      "page": 31,
+      "score": 12.935067
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p017:para500:006",
+      "page": 17,
+      "score": 12.678107
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p015:para500:008",
+      "page": 15,
+      "score": 11.530492
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p031:para500:000",
+   "wb-ar-2024:p017:para500:006",
+   "wb-ar-2024:p017:para500:000",
+   "wb-ar-2024:p015:para500:008"
+  ],
+  "context_chars": 1296,
+  "usage": {
+   "prompt_tokens": 1666,
+   "completion_tokens": 157,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.9,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p031:para500:000",
+    "page": 31,
+    "text": "In fiscal 2024, we launched innovative new programs\nto meet global energy challenges. The Europe and\nCentral Asia Renewable Energy Scale-up Program\nwill enhance energy security and affordability over\n10 years, providing 15 gigawatts of renewable energy\ncapacity and reducing 240 million metric tons of carbon\nemissions in the region."
+   },
+   {
+    "id": "wb-ar-2024:p017:para500:006",
+    "page": 17,
+    "text": "We approved the Europe and\nCentral Asia Renewable Energy Scale-up Program with\nthe aim of adding 15 gigawatts of renewable energy\ncapacity, reducing 240 million metric tons of carbon\nemissions, and creating more than 900,000 renewable\nenergy jobs. Türkiye, the first country to borrow through\nthis program, is expanding the distributed solar energy\nmarket for businesses and households and piloting\ndistributed battery electricity storage."
+   },
+   {
+    "id": "wb-ar-2024:p017:para500:000",
+    "page": 17,
+    "text": "FIGURE 4: EUROPE AND CENTRAL ASIA\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024\nSHARE OF TOTAL OF $10.4 BILLION\nTABLE 9: EUROPE AND CENTRAL ASIA\nREGIONAL SNAPSHOT"
+   },
+   {
+    "id": "wb-ar-2024:p015:para500:008",
+    "page": 15,
+    "text": "Promoting sustainable energy and crisis response\nWe are launching a multiphase programmatic approach\nto accelerate the energy transition in the region. Financing\nthrough IBRD and IDA will enable the development of\n2.5 gigawatts of renewable energy generation capacity\nand result in a net reduction of 60 million tons of CO2\nequivalent of greenhouse gas emissions."
+   }
+  ]
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "answerable": true,
+  "question": "How much did the World Bank approve in this region in fiscal 2024, and for how many operations?",
+  "filter": {
+   "region": "eastern_southern_africa"
+  },
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "In fiscal 2024, the World Bank approved **$15.6 billion for 96 operations** in Eastern and Southern Africa, including $2.9 billion in IBRD commitments and $12.7 billion in IDA commitments [wb-ar-2024:p010:para500:003].",
+  "citations": [
+   "wb-ar-2024:p010:para500:003"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Eastern and Southern Africa fiscal 2024 approvals operations",
+    "filter": {
+     "region": "eastern_southern_africa"
+    },
+    "top_k": 3,
+    "seconds": 0.003,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p011:para500:000",
+      "page": 11,
+      "score": 15.882327
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p010:para500:000",
+      "page": 10,
+      "score": 13.836552
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p011:para500:004",
+      "page": 11,
+      "score": 13.373604
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Eastern and Southern Africa region approved billion operations fiscal year",
+    "filter": {
+     "region": "eastern_southern_africa"
+    },
+    "top_k": 3,
+    "seconds": 0.003,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p010:para500:003",
+      "page": 10,
+      "score": 18.440155
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p011:para500:000",
+      "page": 11,
+      "score": 15.882327
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p010:para500:000",
+      "page": 10,
+      "score": 14.432471
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p011:para500:000",
+   "wb-ar-2024:p010:para500:000",
+   "wb-ar-2024:p011:para500:004",
+   "wb-ar-2024:p010:para500:003"
+  ],
+  "context_chars": 1124,
+  "usage": {
+   "prompt_tokens": 1813,
+   "completion_tokens": 149,
+   "prompt_cache_hit_tokens": 893,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.02,
+  "first_search_labels": {
+   "hit_at_1": false,
+   "hit_at_3": false,
+   "first_hit_rank": null,
+   "hits": [
+    false,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p011:para500:000",
+    "page": 11,
+    "text": "TABLE 3: EASTERN AND SOUTHERN AFRICA\nREGIONAL SNAPSHOT"
+   },
+   {
+    "id": "wb-ar-2024:p010:para500:000",
+    "page": 10,
+    "text": "TABLE 2: EASTERN AND SOUTHERN AFRICA\nREGIONAL COMMITMENTS AND DISBURSEMENTS—FISCAL 2022–24\nCOMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS)\nFY22 FY23 FY24 FY22 FY23 FY24\nIBRD 2,907 2,364 2,914 2,441 1,690 3,126\nIDA 15,266 14,368 12,735 7,133 10,417 10,696\nPortfolio of operations under implementation as of June 30, 2024: $78.8 billion.\nEASTERN AND"
+   },
+   {
+    "id": "wb-ar-2024:p011:para500:004",
+    "page": 11,
+    "text": "a. The most current data available between 2018 and 2023; visit https:/ /data.worldbank.org for data updates.\nb. Data for Sub-Saharan Africa.\nFIGURE 1: EASTERN AND SOUTHERN AFRICA\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024"
+   },
+   {
+    "id": "wb-ar-2024:p010:para500:003",
+    "page": 10,
+    "text": "AT-A-GLANCE\nAcross Eastern and Southern Africa, we aim to improve access to quality\neducation, health, water, and sanitation facilities; sustainable and clean\nenergy; efficient government services; and digital connectivity. In fiscal\n2024, the World Bank approved $15.6 billion for 96 operations in the\nregion, including $2.9 billion in IBRD commitments and $12.7 billion in IDA\ncommitments. We also leveraged data and analytics to help countries in\nthe region reach their development potential."
+   }
+  ]
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "answerable": true,
+  "question": "What were the IBRD commitments in this region in fiscal 2024?",
+  "filter": {
+   "region": "east_asia_pacific"
+  },
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "In fiscal 2024, IBRD commitments in the East Asia and Pacific region were **$6,788 million (about $6.8 billion)** [wb-ar-2024:p014:para500:000] [wb-ar-2024:p014:para500:001]. This was part of $8 billion approved for 37 operations in the region, which also included $1.2 billion in IDA commitments [wb-ar-2024:p014:para500:001].",
+  "citations": [
+   "wb-ar-2024:p014:para500:000",
+   "wb-ar-2024:p014:para500:001"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "IBRD commitments East Asia and Pacific fiscal 2024",
+    "filter": {
+     "region": "east_asia_pacific"
+    },
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p015:para500:000",
+      "page": 15,
+      "score": 21.89695
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p014:para500:000",
+      "page": 14,
+      "score": 20.431187
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p014:para500:001",
+      "page": 14,
+      "score": 16.598558
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "East Asia and Pacific IBRD lending commitments fiscal year 2024 billion",
+    "filter": {
+     "region": "east_asia_pacific"
+    },
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p015:para500:000",
+      "page": 15,
+      "score": 27.583382
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p014:para500:000",
+      "page": 14,
+      "score": 21.793861
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p014:para500:001",
+      "page": 14,
+      "score": 19.027382
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p015:para500:000",
+   "wb-ar-2024:p014:para500:000",
+   "wb-ar-2024:p014:para500:001"
+  ],
+  "context_chars": 903,
+  "usage": {
+   "prompt_tokens": 1895,
+   "completion_tokens": 209,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.51,
+  "first_search_labels": {
+   "hit_at_1": false,
+   "hit_at_3": true,
+   "first_hit_rank": 3,
+   "hits": [
+    false,
+    false,
+    true
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p015:para500:000",
+    "page": 15,
+    "text": "FIGURE 3: EAST ASIA AND PACIFIC\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024\nSHARE OF TOTAL OF $8.0 BILLION\nTABLE 7: EAST ASIA AND PACIFIC\nREGIONAL SNAPSHOT"
+   },
+   {
+    "id": "wb-ar-2024:p014:para500:000",
+    "page": 14,
+    "text": "TABLE 6: EAST ASIA AND PACIFIC\nREGIONAL COMMITMENTS AND DISBURSEMENTS—FISCAL 2022–24\nCOMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS)\nFY22 FY23 FY24 FY22 FY23 FY24\nIBRD 5,482 6,636 6,788 5,439 4,350 5,492\nIDA 1,673 877 1,238 1,502 1,448 1,015\nPortfolio of operations under implementation as of June 30, 2024: $32.7 billion.\nEAST ASIA AND\nPACIFIC"
+   },
+   {
+    "id": "wb-ar-2024:p014:para500:001",
+    "page": 14,
+    "text": "AT-A-GLANCE\nAcross East Asia and Pacific, we aim to support economic development\nthat embeds solutions to build human capital, address climate change and\nthe need for crisis preparedness—and create opportunities for the private\nsector. In fiscal 2024, the World Bank approved $8 billion for 37 operations\nin the region, including $6.8 billion in IBRD commitments and $1.2 billion in\nIDA commitments."
+   }
+  ]
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "answerable": true,
+  "question": "What was the value of the portfolio of operations under implementation in this region as of June 30, 2024?",
+  "filter": {
+   "region": "latin_america_caribbean"
+  },
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The portfolio of operations under implementation in Latin America and the Caribbean as of June 30, 2024 was **$33.5 billion** [wb-ar-2024:p018:para500:000].",
+  "citations": [
+   "wb-ar-2024:p018:para500:000"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Latin America and Caribbean portfolio of operations under implementation as of June 30, 2024 value",
+    "filter": {
+     "region": "latin_america_caribbean"
+    },
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p018:para500:000",
+      "page": 18,
+      "score": 31.609578
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p019:para500:000",
+      "page": 19,
+      "score": 20.371603
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p018:para500:002",
+      "page": 18,
+      "score": 14.512486
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "portfolio under implementation billion fiscal year 2024 LCR commitments",
+    "filter": {
+     "region": "latin_america_caribbean"
+    },
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p018:para500:000",
+      "page": 18,
+      "score": 14.04448
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p019:para500:012",
+      "page": 19,
+      "score": 7.425885
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p018:para500:009",
+      "page": 18,
+      "score": 6.088491
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p018:para500:000",
+   "wb-ar-2024:p019:para500:000",
+   "wb-ar-2024:p018:para500:002",
+   "wb-ar-2024:p019:para500:012",
+   "wb-ar-2024:p018:para500:009"
+  ],
+  "context_chars": 1367,
+  "usage": {
+   "prompt_tokens": 1857,
+   "completion_tokens": 141,
+   "prompt_cache_hit_tokens": 896,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.18,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p018:para500:000",
+    "page": 18,
+    "text": "TABLE 10: LATIN AMERICA AND THE CARIBBEAN\nREGIONAL COMMITMENTS AND DISBURSEMENTS—FISCAL 2022–24\nCOMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS)\nFY22 FY23 FY24 FY22 FY23 FY24\nIBRD 9,407 9,828 9,463 8,911 8,216 6,305\nIDA 1,030 181 269 510 322 602\nPortfolio of operations under implementation as of June 30, 2024: $33.5 billion.\nLATIN AMERICA AND"
+   },
+   {
+    "id": "wb-ar-2024:p019:para500:000",
+    "page": 19,
+    "text": "FIGURE 5: LATIN AMERICA AND THE CARIBBEAN\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024\nSHARE OF TOTAL OF $9.7 BILLION\nTABLE 11: LATIN AMERICA AND THE CARIBBEAN\nREGIONAL SNAPSHOT"
+   },
+   {
+    "id": "wb-ar-2024:p018:para500:002",
+    "page": 18,
+    "text": "Our Learning can’t wait: Lessons\nfor Latin America and the Caribbean from PISA\n2022 report, produced jointly with the Inter-American\nDevelopment Bank, tackles the learning crisis affecting"
+   },
+   {
+    "id": "wb-ar-2024:p019:para500:012",
+    "page": 19,
+    "text": "This success is replicated in El Salvador, with over\n800 companies registered during the first five months\nof implementation of the S.A.S. this year, and 1,821\nregistration processes initiated online."
+   },
+   {
+    "id": "wb-ar-2024:p018:para500:009",
+    "page": 18,
+    "text": "1 Reimbursable Advisory Services (RAS) are an instrument to deliver advisory services to eligible clients in middle- and high-income countries requiring services\nthat cannot be fully funded from the Bank’s country program. Under RAS programs, the World Bank works with countries at their request, providing advisory\nservices, analytical services, and implementation support. The Bank is then reimbursed for the costs of delivering these advisory services."
+   }
+  ]
+ },
+ {
+  "query_id": "u01",
+  "split": "dev",
+  "answerable": false,
+  "question": "How much did the World Bank commit to Viet Nam in fiscal 2024?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "abstain",
+  "abstain_reason": "model_abstained",
+  "answer": "INSUFFICIENT_EVIDENCE: The search results mention Viet Nam projects (a $50 million emission-reduction linked bond and green bond work) but do not state the total World Bank commitment to Viet Nam in fiscal 2024.",
+  "citations": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Viet Nam commitment fiscal 2024",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p037:para500:005",
+      "page": 37,
+      "score": 17.103295
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p014:para500:002",
+      "page": 14,
+      "score": 14.300217
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p015:para500:011",
+      "page": 15,
+      "score": 9.583284
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Vietnam IBRD IDA lending amount",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p039:para500:019",
+      "page": 39,
+      "score": 10.492597
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p023:para500:000",
+      "page": 23,
+      "score": 8.53779
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p013:para500:000",
+      "page": 13,
+      "score": 8.287477
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "East Asia and Pacific regional snapshot fiscal 2024 total lending",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p015:para500:000",
+      "page": 15,
+      "score": 35.186746
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p023:para500:000",
+      "page": 23,
+      "score": 22.68681
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p021:para500:000",
+      "page": 21,
+      "score": 22.491302
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Viet Nam country lending fiscal 2024 million",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p037:para500:005",
+      "page": 37,
+      "score": 17.103295
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p014:para500:002",
+      "page": 14,
+      "score": 14.300217
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p015:para500:011",
+      "page": 15,
+      "score": 11.575271
+     }
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "model_abstained"
+   }
+  ],
+  "searches": 4,
+  "context_ids": [
+   "wb-ar-2024:p037:para500:005",
+   "wb-ar-2024:p014:para500:002",
+   "wb-ar-2024:p015:para500:011",
+   "wb-ar-2024:p039:para500:019",
+   "wb-ar-2024:p023:para500:000",
+   "wb-ar-2024:p013:para500:000",
+   "wb-ar-2024:p015:para500:000",
+   "wb-ar-2024:p021:para500:000"
+  ],
+  "context_chars": 2038,
+  "usage": {
+   "prompt_tokens": 3184,
+   "completion_tokens": 208,
+   "prompt_cache_hit_tokens": 896,
+   "calls": 3
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 3.14,
+  "context": [
+   {
+    "id": "wb-ar-2024:p037:para500:005",
+    "page": 37,
+    "text": "The proceeds will fund green transport projects,\ninfrastructure for disaster resilience, and reforestation\nplans. With our technical assistance, Viet Nam’s BIDV\n(Joint Stock Commercial Bank for Investment and\nDevelopment of Viet Nam)—a state-owned financial\ninstitution and Viet Nam’s oldest bank—became the\nfirst bank in Viet Nam to successfully issue a green bond\nin the domestic market."
+   },
+   {
+    "id": "wb-ar-2024:p014:para500:002",
+    "page": 14,
+    "text": "Piloting sustainable farming methods\nto reduce methane and boost prosperity\nin Viet Nam\nThe Viet Nam Sustainable Agriculture\nTransformation Project (VnSAT) has successfully\npiloted new rice farming techniques to lower\nemissions, increase farmers’ net incomes, and can\nbe scaled and replicated in other countries."
+   },
+   {
+    "id": "wb-ar-2024:p015:para500:011",
+    "page": 15,
+    "text": "Viet Nam: We aim to bring clean drinking water\nto 2 million children through our innovative\n$50 million emission-reduction linked bond that will\nfinance delivery of water purification systems in\n8,000 schools.\nCat-DDOs provide a rapid source of financing to respond\nto natural disasters and health emergencies."
+   },
+   {
+    "id": "wb-ar-2024:p039:para500:019",
+    "page": 39,
+    "text": "Of this, $18 billion was for trust funds and $37.2 billion\nfor FIFs. Trust funds finance about two-thirds of World\nBank advisory services and analytics, and 86 percent\n($37.1 billion) of total trust fund disbursements went\nto member countries during fiscal 2020-24. Of this\namount, over $8.3 billion was disbursed to IDA and blend\ncountries (i.e., countries eligible for both IDA and IBRD\nlending)."
+   },
+   {
+    "id": "wb-ar-2024:p023:para500:000",
+    "page": 23,
+    "text": "FIGURE 7: SOUTH ASIA\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024\nSHARE OF TOTAL OF $9.4 BILLION\nTABLE 15: SOUTH ASIA\nREGIONAL SNAPSHOT"
+   },
+   {
+    "id": "wb-ar-2024:p013:para500:000",
+    "page": 13,
+    "text": "FIGURE 2: WESTERN AND CENTRAL AFRICA\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024\nSHARE OF TOTAL OF $11.0 BILLION\nTABLE 5: WESTERN AND CENTRAL AFRICA\nREGIONAL SNAPSHOT"
+   },
+   {
+    "id": "wb-ar-2024:p015:para500:000",
+    "page": 15,
+    "text": "FIGURE 3: EAST ASIA AND PACIFIC\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024\nSHARE OF TOTAL OF $8.0 BILLION\nTABLE 7: EAST ASIA AND PACIFIC\nREGIONAL SNAPSHOT"
+   },
+   {
+    "id": "wb-ar-2024:p021:para500:000",
+    "page": 21,
+    "text": "FIGURE 6: MIDDLE EAST AND NORTH AFRICA\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024\nSHARE OF TOTAL OF $4.6 BILLION\nTABLE 13: MIDDLE EAST AND NORTH AFRICA\nREGIONAL SNAPSHOT"
+   }
+  ]
+ },
+ {
+  "query_id": "u02",
+  "split": "dev",
+  "answerable": false,
+  "question": "How much did Japan pledge to the IDA21 replenishment?",
+  "filter": null,
+  "config": {
+   "method": "bm25",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "abstain",
+  "abstain_reason": "model_abstained",
+  "answer": "INSUFFICIENT_EVIDENCE: The passages mention IDA21 replenishment discussions and donor contributions generally but do not state any specific pledge amount by Japan.",
+  "citations": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Japan pledge IDA21 replenishment",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.002,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p038:para500:005",
+      "page": 38,
+      "score": 10.470177
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p046:para500:013",
+      "page": 46,
+      "score": 9.399289
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p038:para500:008",
+      "page": 38,
+      "score": 7.721142
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "IDA21 replenishment contributions donors amount billion",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p006:para500:014",
+      "page": 6,
+      "score": 12.155116
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p038:para500:005",
+      "page": 38,
+      "score": 10.470177
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p046:para500:013",
+      "page": 46,
+      "score": 9.399289
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "bm25",
+    "query": "Japan contribution World Bank trust funds donor",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.001,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p032:para500:006",
+      "page": 32,
+      "score": 13.850051
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p039:para500:018",
+      "page": 39,
+      "score": 12.084769
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p039:para500:019",
+      "page": 39,
+      "score": 10.242649
+     }
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "model_abstained"
+   }
+  ],
+  "searches": 3,
+  "context_ids": [
+   "wb-ar-2024:p038:para500:005",
+   "wb-ar-2024:p046:para500:013",
+   "wb-ar-2024:p038:para500:008",
+   "wb-ar-2024:p006:para500:014",
+   "wb-ar-2024:p032:para500:006",
+   "wb-ar-2024:p039:para500:018",
+   "wb-ar-2024:p039:para500:019"
+  ],
+  "context_chars": 2561,
+  "usage": {
+   "prompt_tokens": 2785,
+   "completion_tokens": 151,
+   "prompt_cache_hit_tokens": 1536,
+   "calls": 3
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.57,
+  "context": [
+   {
+    "id": "wb-ar-2024:p038:para500:005",
+    "page": 38,
+    "text": "low- and middle-income countries and committed\nto an ambitious IDA21 replenishment. The World\nBank Group is leading on the implementation of\nrecommendations from the G20 Capital Adequacy\nFramework Review and the Independent Experts Group\nreport on strengthening multilateral development\nbanks."
+   },
+   {
+    "id": "wb-ar-2024:p046:para500:013",
+    "page": 46,
+    "text": "In addition, the\nBoard of Executive Directors approved a moratorium\non hardening of terms for all IDA countries in good\nstanding with the Sustainable Development Finance\npolicy to apply in fiscal 2024 and 2025, until IDA’s Grant\nAllocation Framework is reviewed during the IDA21\nreplenishment discussions."
+   },
+   {
+    "id": "wb-ar-2024:p038:para500:008",
+    "page": 38,
+    "text": "At the G7 Summit 2024, leaders welcomed the\nconsiderable progress that multilateral development\nbanks had already achieved to be better, bigger, and\nmore effective. G7 leaders committed to delivering\ninnovative instruments such as hybrid capital and\nportfolio guarantees, which will make it possible to\nfurther boost Bank Group lending by around $70 billion\nover the next 10 years. G7 leaders also supported a\nsuccessful IDA21 replenishment."
+   },
+   {
+    "id": "wb-ar-2024:p006:para500:014",
+    "page": 6,
+    "text": "Executive Directors anticipate the funding\ngenerated by these measures, coupled with strong\ndonor contributions for the December 2024 IDA\nreplenishment, will improve lives and equip nations to\ntackle immediate crises and long-term development\ngoals. Beyond financing, achieving these goals requires\nthe unwavering commitment of current and new donors,\nclient countries, and the World Bank."
+   },
+   {
+    "id": "wb-ar-2024:p032:para500:006",
+    "page": 32,
+    "text": "DIGITAL\nWe expanded our group of development partners\nthrough several trust funds—such as the Digital\nDevelopment Partnership, the associated Cybersecurity\nMulti Donor Trust Fund, the Identification for\nDevelopment and Government-to-Person Payments\ninitiatives—to accelerate inclusive, safe, and\nsustainable digitalization."
+   },
+   {
+    "id": "wb-ar-2024:p039:para500:018",
+    "page": 39,
+    "text": "Trust funds and financial intermediary funds\nTrust funds and financial intermediary funds (FIF),\nsuch as the Public-Private Infrastructure Advisory\nFacility and the Global Infrastructure Facility, are key\ncatalyzers of private investment, a crucial component\nfor addressing development challenges.\nAt the end of fiscal 2024, $57.5 billion was held in trust\nin the form of cash, investments, and promissory notes."
+   },
+   {
+    "id": "wb-ar-2024:p039:para500:019",
+    "page": 39,
+    "text": "Of this, $18 billion was for trust funds and $37.2 billion\nfor FIFs. Trust funds finance about two-thirds of World\nBank advisory services and analytics, and 86 percent\n($37.1 billion) of total trust fund disbursements went\nto member countries during fiscal 2020-24. Of this\namount, over $8.3 billion was disbursed to IDA and blend\ncountries (i.e., countries eligible for both IDA and IBRD\nlending)."
+   }
+  ]
+ }
+]

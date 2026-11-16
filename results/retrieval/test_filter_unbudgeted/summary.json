@@ -1,0 +1,42 @@
+{
+  "dense": {
+    "hit_at_1": {
+      "n": 4,
+      "N": 5,
+      "rate": 0.8
+    },
+    "evidence_hit_at_3": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "context_evidence_rate": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "missed_at_3": [],
+    "seconds_total": 0.54,
+    "cost_usd": 0
+  },
+  "hybrid_rrf": {
+    "hit_at_1": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "evidence_hit_at_3": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "context_evidence_rate": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "missed_at_3": [],
+    "seconds_total": 0.51,
+    "cost_usd": 0
+  }
+}

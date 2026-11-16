@@ -1,0 +1,446 @@
+[
+ {
+  "method": "dense",
+  "id": "t11",
+  "split": "test",
+  "query": "According to the regional snapshot table, what is the current total population of this region?",
+  "filter": {
+   "region": "europe_central_asia"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p017:para500:001",
+   "wb-ar-2024:p017:para500:000",
+   "wb-ar-2024:p017:para500:004"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p017:para500:001",
+    "page": 17,
+    "score": 0.527534,
+    "region": "europe_central_asia"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p017:para500:000",
+    "page": 17,
+    "score": 0.471774,
+    "region": "europe_central_asia"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p017:para500:004",
+    "page": 17,
+    "score": 0.466434,
+    "region": "europe_central_asia"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "t12",
+  "split": "test",
+  "query": "How many people does the World Bank aim to reach with adaptive social protection, by when, and what share of them should be women?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p026:para500:001",
+   "wb-ar-2024:p040:para500:010",
+   "wb-ar-2024:p031:para500:014"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p026:para500:001",
+    "page": 26,
+    "score": 0.653902,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p040:para500:010",
+    "page": 40,
+    "score": 0.650868,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p031:para500:014",
+    "page": 31,
+    "score": 0.649266,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "t13",
+  "split": "test",
+  "query": "In fiscal 2024, how much was lent for new road safety, logistics and transport connectivity projects, and how many projects were there?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p030:para500:001",
+   "wb-ar-2024:p032:para500:003",
+   "wb-ar-2024:p031:para500:011"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p030:para500:001",
+    "page": 30,
+    "score": 0.771111,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p032:para500:003",
+    "page": 32,
+    "score": 0.636397,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p031:para500:011",
+    "page": 31,
+    "score": 0.614586,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "t14",
+  "split": "test",
+  "query": "How many active projects did the digital lending portfolio comprise as of June 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p032:para500:000",
+   "wb-ar-2024:p032:para500:002",
+   "wb-ar-2024:p005:para500:007"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p032:para500:000",
+    "page": 32,
+    "score": 0.7884,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p032:para500:002",
+    "page": 32,
+    "score": 0.779964,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p005:para500:007",
+    "page": 5,
+    "score": 0.775182,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "id": "t15",
+  "split": "test",
+  "query": "With how many other multilateral development banks did the World Bank launch the Global Collaborative Co-Financing Platform?",
+  "filter": null,
+  "hit_at_1": false,
+  "hit_at_3": true,
+  "first_hit_rank": 2,
+  "hits": [
+   false,
+   true,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p008:para500:004",
+   "wb-ar-2024:p038:para500:002",
+   "wb-ar-2024:p038:para500:000"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 0.780434,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p038:para500:002",
+    "page": 38,
+    "score": 0.737531,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p038:para500:000",
+    "page": 38,
+    "score": 0.720873,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "t11",
+  "split": "test",
+  "query": "According to the regional snapshot table, what is the current total population of this region?",
+  "filter": {
+   "region": "europe_central_asia"
+  },
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p017:para500:001",
+   "wb-ar-2024:p017:para500:000",
+   "wb-ar-2024:p017:para500:003"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p017:para500:001",
+    "page": 17,
+    "score": 0.032522,
+    "region": "europe_central_asia"
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p017:para500:000",
+    "page": 17,
+    "score": 0.032522,
+    "region": "europe_central_asia"
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p017:para500:003",
+    "page": 17,
+    "score": 0.031258,
+    "region": "europe_central_asia"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "t12",
+  "split": "test",
+  "query": "How many people does the World Bank aim to reach with adaptive social protection, by when, and what share of them should be women?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p026:para500:001",
+   "wb-ar-2024:p005:para500:014",
+   "wb-ar-2024:p025:para500:001"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p026:para500:001",
+    "page": 26,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p005:para500:014",
+    "page": 5,
+    "score": 0.030777,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p025:para500:001",
+    "page": 25,
+    "score": 0.029116,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "t13",
+  "split": "test",
+  "query": "In fiscal 2024, how much was lent for new road safety, logistics and transport connectivity projects, and how many projects were there?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p030:para500:001",
+   "wb-ar-2024:p031:para500:011",
+   "wb-ar-2024:p046:para500:014"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p030:para500:001",
+    "page": 30,
+    "score": 0.032787,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p031:para500:011",
+    "page": 31,
+    "score": 0.032002,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p046:para500:014",
+    "page": 46,
+    "score": 0.028405,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "t14",
+  "split": "test",
+  "query": "How many active projects did the digital lending portfolio comprise as of June 2024?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p032:para500:000",
+   "wb-ar-2024:p032:para500:002",
+   "wb-ar-2024:p005:para500:007"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p032:para500:000",
+    "page": 32,
+    "score": 0.032522,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p032:para500:002",
+    "page": 32,
+    "score": 0.032522,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p005:para500:007",
+    "page": 5,
+    "score": 0.031746,
+    "region": null
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "id": "t15",
+  "split": "test",
+  "query": "With how many other multilateral development banks did the World Bank launch the Global Collaborative Co-Financing Platform?",
+  "filter": null,
+  "hit_at_1": true,
+  "hit_at_3": true,
+  "first_hit_rank": 1,
+  "hits": [
+   true,
+   false,
+   false
+  ],
+  "context_ids": [
+   "wb-ar-2024:p038:para500:002",
+   "wb-ar-2024:p008:para500:004",
+   "wb-ar-2024:p038:para500:005"
+  ],
+  "context_has_evidence": true,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wb-ar-2024:p038:para500:002",
+    "page": 38,
+    "score": 0.032522,
+    "region": null
+   },
+   {
+    "rank": 2,
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "score": 0.030092,
+    "region": null
+   },
+   {
+    "rank": 3,
+    "id": "wb-ar-2024:p038:para500:005",
+    "page": 38,
+    "score": 0.029911,
+    "region": null
+   }
+  ]
+ }
+]

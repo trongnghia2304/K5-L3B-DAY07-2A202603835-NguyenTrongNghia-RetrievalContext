@@ -1,0 +1,9 @@
+# Day 7: same embedding stack as Day 6 + lexical retrieval + DeepSeek API client.
+psycopg[binary]==3.3.8
+python-dotenv>=1,<2
+# Query embedding must match the Day 6 index: paraphrase-multilingual-MiniLM-L12-v2 (384 dims)
+sentence-transformers==6.3.0
+# BM25 lexical retrieval
+rank-bm25==0.2.2
+# Agent model: DeepSeek API (OpenAI-compatible); called over HTTPS with requests
+requests>=2.31,<3

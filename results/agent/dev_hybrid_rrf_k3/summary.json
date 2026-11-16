@@ -1,0 +1,72 @@
+{
+  "run_started_utc": "2026-11-16T03:34:18+00:00",
+  "split": "dev",
+  "config": {
+    "split": "dev",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "max_searches": 4,
+    "no_filter": false,
+    "tag": "hybrid_rrf_k3",
+    "only": ""
+  },
+  "model": [
+    "deepseek-flash"
+  ],
+  "errors": [],
+  "tool_use": {
+    "n": 17,
+    "N": 17,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 8,
+    "2": 7,
+    "4": 2
+  },
+  "context_evidence_rate": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  },
+  "first_search_hit_at_1": {
+    "n": 10,
+    "N": 15,
+    "rate": 0.667
+  },
+  "first_search_hit_at_3": {
+    "n": 14,
+    "N": 15,
+    "rate": 0.933
+  },
+  "answered_with_citation": {
+    "n": 15,
+    "N": 17,
+    "rate": 0.882
+  },
+  "answerable_refused": {
+    "n": 0,
+    "N": 15,
+    "rate": 0.0
+  },
+  "unanswerable_abstained": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "invalid_citation_ids": 0,
+  "usage": {
+    "prompt_tokens": 30284,
+    "completion_tokens": 2157,
+    "prompt_cache_hit_tokens": 14589,
+    "calls": 36
+  },
+  "seconds_total": 33.2,
+  "avg_context_chars": 1441,
+  "cost_usd_peak_upper_bound": 0.007384,
+  "cited_chunk_has_evidence": {
+    "n": 15,
+    "N": 15,
+    "rate": 1.0
+  }
+}

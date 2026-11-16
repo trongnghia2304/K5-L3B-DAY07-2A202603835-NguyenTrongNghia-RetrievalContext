@@ -1,0 +1,186 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "question": "What was the total amount of World Bank Group commitments to partner countries and private businesses in fiscal 2024?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "question": "By what year does the Bank Group want yearly guarantee issuance to reach $20 billion?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "question": "How many institutions make up the GEMs Consortium?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "question": "Under Climate Resilient Debt Clauses, what can small states do when a catastrophe hits?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "question": "How many jobs are expected to be created in the Global South over the next decade, while 1.2 billion young people reach working age?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "question": "How much climate finance did the World Bank Group provide in fiscal 2024?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "question": "How much concessional financing did the Hydrogen for Development Partnership facilitate in fiscal 2024?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "question": "In which countries are the recycling projects backed by IBRD's plastic waste outcome bond located?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "question": "How much did IBRD raise through Sustainable Development Bonds in fiscal 2024?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "question": "What target has the World Bank set for overall project preparation time, and by when?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "question": "How many global challenges did the World Bank identify in fiscal 2024 to prioritize in the next few years?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "question": "How much renewable energy capacity will the Europe and Central Asia Renewable Energy Scale-up Program provide?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "question": "How much did the World Bank approve in this region in fiscal 2024, and for how many operations?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "region": "eastern_southern_africa"
+  }
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "question": "What were the IBRD commitments in this region in fiscal 2024?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "region": "east_asia_pacific"
+  }
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "question": "What was the value of the portfolio of operations under implementation in this region as of June 30, 2024?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "region": "latin_america_caribbean"
+  }
+ },
+ {
+  "id": "t11",
+  "split": "test",
+  "question": "According to the regional snapshot table, what is the current total population of this region?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "region": "europe_central_asia"
+  }
+ },
+ {
+  "id": "t12",
+  "split": "test",
+  "question": "How many people does the World Bank aim to reach with adaptive social protection, by when, and what share of them should be women?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t13",
+  "split": "test",
+  "question": "In fiscal 2024, how much was lent for new road safety, logistics and transport connectivity projects, and how many projects were there?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t14",
+  "split": "test",
+  "question": "How many active projects did the digital lending portfolio comprise as of June 2024?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t15",
+  "split": "test",
+  "question": "With how many other multilateral development banks did the World Bank launch the Global Collaborative Co-Financing Platform?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "question": "How much did the World Bank commit to Viet Nam in fiscal 2024?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Viet Nam appears only in project examples (PDF pages 14, 15, 37, 42); no country-level commitment total for Viet Nam is given, and Viet Nam is not in the IBRD or IDA top-borrower tables (pages 45, 47). Checked by full-text search of all 49 PDF pages for 'Viet Nam'/'Vietnam'."
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "question": "How much did Japan pledge to the IDA21 replenishment?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "IDA21 is mentioned only as an upcoming/ambitious replenishment (pages 38, 46, 47) with no pledge amounts; 'Japan' appears only in unrelated contexts (pages 6, 26, 29, 37, 38). Checked by full-text search for 'IDA21' and 'Japan'."
+ },
+ {
+  "id": "u03",
+  "split": "test",
+  "question": "What lending spread does IBRD charge on its flexible loans?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "The word 'spread' never occurs; 'interest rate' appears only on pages 27 and 37 (rate hikes, fixing a client's rate, yen pricing adjusted) with no spread or rate value. Checked by full-text search."
+ },
+ {
+  "id": "u04",
+  "split": "test",
+  "question": "How many staff did IFC employ in fiscal 2024?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "absence_reason": "Staff data (Table 16, page 40) covers the World Bank (IBRD/IDA) only; there is no IFC staff count anywhere. Checked by full-text search for 'IFC staff' and reading Table 16."
+ }
+]

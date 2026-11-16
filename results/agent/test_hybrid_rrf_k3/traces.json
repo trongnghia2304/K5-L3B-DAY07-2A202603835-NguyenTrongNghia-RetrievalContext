@@ -1,0 +1,980 @@
+[
+ {
+  "query_id": "t11",
+  "split": "test",
+  "answerable": true,
+  "question": "According to the regional snapshot table, what is the current total population of this region?",
+  "filter": {
+   "region": "europe_central_asia"
+  },
+  "config": {
+   "method": "hybrid_rrf",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "abstain",
+  "abstain_reason": "no_valid_citation",
+  "answer": "The search results reference Table 9 (the regional snapshot) but do not include its contents, so the population figure is not available in the retrieved passages.\n\nINSUFFICIENT_EVIDENCE: The passages mention Table 9: Europe and Central Asia Regional Snapshot but do not contain the table's population figure.",
+  "citations": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "Europe and Central Asia regional snapshot total population",
+    "filter": {
+     "region": "europe_central_asia"
+    },
+    "top_k": 3,
+    "seconds": 0.095,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p017:para500:000",
+      "page": 17,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p016:para500:003",
+      "page": 16,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p016:para500:000",
+      "page": 16,
+      "score": 0.032002
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "regional snapshot table population millions Europe Central Asia",
+    "filter": {
+     "region": "europe_central_asia"
+    },
+    "top_k": 3,
+    "seconds": 0.054,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p017:para500:000",
+      "page": 17,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p016:para500:000",
+      "page": 16,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p016:para500:003",
+      "page": 16,
+      "score": 0.031746
+     }
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "no_valid_citation"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p017:para500:000",
+   "wb-ar-2024:p016:para500:003",
+   "wb-ar-2024:p016:para500:000"
+  ],
+  "context_chars": 937,
+  "usage": {
+   "prompt_tokens": 1895,
+   "completion_tokens": 155,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.98,
+  "first_search_labels": {
+   "hit_at_1": false,
+   "hit_at_3": false,
+   "first_hit_rank": null,
+   "hits": [
+    false,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": false,
+  "cited_has_evidence": false,
+  "context": [
+   {
+    "id": "wb-ar-2024:p017:para500:000",
+    "page": 17,
+    "text": "FIGURE 4: EUROPE AND CENTRAL ASIA\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024\nSHARE OF TOTAL OF $10.4 BILLION\nTABLE 9: EUROPE AND CENTRAL ASIA\nREGIONAL SNAPSHOT"
+   },
+   {
+    "id": "wb-ar-2024:p016:para500:003",
+    "page": 16,
+    "text": "AT-A-GLANCE\nAcross Europe and Central Asia, we aim to improve access to quality\neducation and health services, advance the energy transition and water\nmanagement, enhance economic prosperity and job creation, and improve\nphysical and digital connectivity. In fiscal 2024, the World Bank approved\n$10.4 billion for 50 operations in the region, including $9.3 billion in IBRD\ncommitments and $1.1 billion in IDA commitments."
+   },
+   {
+    "id": "wb-ar-2024:p016:para500:000",
+    "page": 16,
+    "text": "EUROPE AND\nCENTRAL ASIA\nTABLE 8: EUROPE AND CENTRAL ASIA\nREGIONAL COMMITMENTS AND DISBURSEMENTS—FISCAL 2022–24\nCOMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS)\nFY22 FY23 FY24 FY22 FY23 FY24\nIBRD 5,974 10,162 9,302 4,580 4,833 10,574\nIDA 2,511 1,098 1,100 764 2,385 1,187\nPortfolio of operations under implementation as of June 30, 2024: $44.0 billion."
+   }
+  ]
+ },
+ {
+  "query_id": "t12",
+  "split": "test",
+  "answerable": true,
+  "question": "How many people does the World Bank aim to reach with adaptive social protection, by when, and what share of them should be women?",
+  "filter": null,
+  "config": {
+   "method": "hybrid_rrf",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The World Bank aims to reach 500 million people with adaptive social protection by the end of 2030, with half of these beneficiaries intended to be women [wb-ar-2024:p026:para500:001].",
+  "citations": [
+   "wb-ar-2024:p026:para500:001"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "adaptive social protection reach people women share target",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.087,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p026:para500:001",
+      "page": 26,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p005:para500:014",
+      "page": 5,
+      "score": 0.032018
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p026:para500:000",
+      "page": 26,
+      "score": 0.031258
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "social protection target million people by 2030 women",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.066,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p026:para500:001",
+      "page": 26,
+      "score": 0.032266
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p005:para500:014",
+      "page": 5,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p025:para500:001",
+      "page": 25,
+      "score": 0.032018
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p026:para500:001",
+   "wb-ar-2024:p005:para500:014",
+   "wb-ar-2024:p026:para500:000",
+   "wb-ar-2024:p025:para500:001"
+  ],
+  "context_chars": 1234,
+  "usage": {
+   "prompt_tokens": 1601,
+   "completion_tokens": 124,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.07,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p026:para500:001",
+    "page": 26,
+    "text": "In fiscal 2024, we committed to work alongside\npartners to reach 500 million people with adaptive\nsocial protection by the end of 2030—aiming for half\nof these beneficiaries to be women. To achieve this\ngoal, we’re utilizing innovative digital cash transfer\nsystems to help those in need receive resources directly\nand efficiently."
+   },
+   {
+    "id": "wb-ar-2024:p005:para500:014",
+    "page": 5,
+    "text": "To help people withstand food-affected\nshocks and crises, we are strengthening social\nprotection services to support half a billion people by\nthe end of 2030—aiming for half of these beneficiaries\nto be women."
+   },
+   {
+    "id": "wb-ar-2024:p026:para500:000",
+    "page": 26,
+    "text": "Social protection and labor systems\nOver the last two decades we have built social\nprotection programs that are helping more than 280\nmillion poor and vulnerable people in 88 countries with\neffective social protection to withstand natural and\nman-made shocks that can exacerbate poverty and\nfood insecurity."
+   },
+   {
+    "id": "wb-ar-2024:p025:para500:001",
+    "page": 25,
+    "text": "In the\nfollowing section, we describe some of the ways our knowledge improved people’s\nlives in fiscal 2024.\nPEOPLE\nAT-A-GLANCE\nWe are supporting health, education,\nand social protection services to\nimprove people’s lives:\n• We are working alongside partners\non social protection programs to\nreach 500 million people by the end\nof 2030—aiming for half of these\nbeneficiaries to be women."
+   }
+  ]
+ },
+ {
+  "query_id": "t13",
+  "split": "test",
+  "answerable": true,
+  "question": "In fiscal 2024, how much was lent for new road safety, logistics and transport connectivity projects, and how many projects were there?",
+  "filter": null,
+  "config": {
+   "method": "hybrid_rrf",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "In fiscal 2024, the World Bank lent more than $5 billion to 33 new projects addressing road safety, logistics, climate-resilient connectivity and decarbonization [wb-ar-2024:p031:para500:011] [wb-ar-2024:p030:para500:001].",
+  "citations": [
+   "wb-ar-2024:p031:para500:011",
+   "wb-ar-2024:p030:para500:001"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "road safety logistics transport connectivity projects fiscal 2024 lending",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.18,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p030:para500:001",
+      "page": 30,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p031:para500:011",
+      "page": 31,
+      "score": 0.032258
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p017:para500:012",
+      "page": 17,
+      "score": 0.03101
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "transport projects new lending billion fiscal 2024",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.097,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p031:para500:011",
+      "page": 31,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p030:para500:001",
+      "page": 30,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p046:para500:014",
+      "page": 46,
+      "score": 0.031754
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p030:para500:001",
+   "wb-ar-2024:p031:para500:011",
+   "wb-ar-2024:p017:para500:012",
+   "wb-ar-2024:p046:para500:014"
+  ],
+  "context_chars": 1456,
+  "usage": {
+   "prompt_tokens": 1674,
+   "completion_tokens": 143,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.81,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p030:para500:001",
+    "page": 30,
+    "text": "• Lent more than $5 billion to 33\nnew projects addressing road\nsafety, logistics, climate-resilient\nconnectivity and decarbonization."
+   },
+   {
+    "id": "wb-ar-2024:p031:para500:011",
+    "page": 31,
+    "text": "Sustainable and resilient transport\nIn fiscal 2024, we lent more than $5 billion to 33 new\nprojects addressing road safety, logistics, climate-resilient connectivity and decarbonization. The Global\nFacility to Decarbonize Transport welcomed Spain as\na new member and received $3.8 million in funding,\nbringing the group’s total pledged funding to just over\n$13 million."
+   },
+   {
+    "id": "wb-ar-2024:p017:para500:012",
+    "page": 17,
+    "text": "Improving physical and digital connectivity\nOur research shows that with the right investment\nand policies, a transport route across the Middle Trade\nand Transport Corridor countries of Central Asia and\nthe Caucasus could triple trade volumes while halving\ntravel time by 2030. To expand digital infrastructure,\nwe allocated additional financing for the Digital Central\nAsia South Asia Project which provides internet access\nfor more than 800,000 people in the Kyrgyz Republic."
+   },
+   {
+    "id": "wb-ar-2024:p046:para500:014",
+    "page": 46,
+    "text": "In fiscal 2024, 75 countries were eligible for IDA\nassistance.3 New IDA lending commitments for fiscal\n2024 amounted to $31.2 billion for 235 operations, of\nwhich eight were IBRD and IDA blended operations.\nThese commitments included $23.1 billion in\ncredits and $8.1 billion in grants. In addition, three\nprojects for $550 million and three subprojects for\n$19.4 million were approved for support from the\nIDA20 IDA-IFC-MIGA Private Sector Window (PSW)\nduring the fiscal year."
+   }
+  ]
+ },
+ {
+  "query_id": "t14",
+  "split": "test",
+  "answerable": true,
+  "question": "How many active projects did the digital lending portfolio comprise as of June 2024?",
+  "filter": null,
+  "config": {
+   "method": "hybrid_rrf",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The Digital lending portfolio comprised a record 53 active projects, representing $5.6 billion in total net commitments as of June 2024 [wb-ar-2024:p032:para500:000][wb-ar-2024:p032:para500:002].",
+  "citations": [
+   "wb-ar-2024:p032:para500:000",
+   "wb-ar-2024:p032:para500:002"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "digital lending portfolio active projects as of June 2024",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.06,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p032:para500:000",
+      "page": 32,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p032:para500:002",
+      "page": 32,
+      "score": 0.032266
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p005:para500:007",
+      "page": 5,
+      "score": 0.032002
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p032:para500:000",
+   "wb-ar-2024:p032:para500:002",
+   "wb-ar-2024:p005:para500:007"
+  ],
+  "context_chars": 1163,
+  "usage": {
+   "prompt_tokens": 1325,
+   "completion_tokens": 101,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.43,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p032:para500:000",
+    "page": 32,
+    "text": "AT-A-GLANCE\nWe are enabling digitalization to\ntransform our world for the better.\nIn fiscal 2024:\n• Our Digital lending portfolio\ncomprised a record 53 active\nprojects, representing $5.6 billion\nin total net commitments as of\nJune 2024.\n• The inaugural Global Digital\nSummit brought together digital\nthought leaders, policymakers,\nand practitioners to explore\nthe emerging opportunities and\nrisks of digital transformation\nfor development."
+   },
+   {
+    "id": "wb-ar-2024:p032:para500:002",
+    "page": 32,
+    "text": "To close the digital divide, we collaborate with\ngovernments in more than 100 developing countries to\nbuild strong and trusted foundations and enablers for\ndigital economies to thrive. The Digital lending portfolio\ncomprised a record 53 active projects, representing\n$5.6 billion in total net commitments as of June 2024."
+   },
+   {
+    "id": "wb-ar-2024:p005:para500:007",
+    "page": 5,
+    "text": "Our digital lending portfolio\ntotaled $5.6 billion in commitments as of June 2024; and\nour new Digital Vice Presidency unit will lead our efforts\nto establish the foundations of a digital economy. Key\ninitiatives include building and enhancing digital and\ndata infrastructure, ensuring cybersecurity and data\nprivacy for institutions, businesses, and citizens, and\nadvancing digital government services."
+   }
+  ]
+ },
+ {
+  "query_id": "t15",
+  "split": "test",
+  "answerable": true,
+  "question": "With how many other multilateral development banks did the World Bank launch the Global Collaborative Co-Financing Platform?",
+  "filter": null,
+  "config": {
+   "method": "hybrid_rrf",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The World Bank launched the Global Collaborative Co-Financing Platform with nine other multilateral development banks [wb-ar-2024:p038:para500:002].",
+  "citations": [
+   "wb-ar-2024:p038:para500:002"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "Global Collaborative Co-Financing Platform launch multilateral development banks",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.074,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p038:para500:002",
+      "page": 38,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p006:para500:003",
+      "page": 6,
+      "score": 0.029324
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p038:para500:005",
+      "page": 38,
+      "score": 0.029206
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p038:para500:002",
+   "wb-ar-2024:p006:para500:003",
+   "wb-ar-2024:p038:para500:005"
+  ],
+  "context_chars": 1149,
+  "usage": {
+   "prompt_tokens": 1340,
+   "completion_tokens": 78,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.43,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p038:para500:002",
+    "page": 38,
+    "text": "Multilateral development banks\nWe work closely with other multilateral development\nbanks (MDBs) to advance shared development\npriorities. In fiscal 2024, we launched a new Global\nCollaborative Co-Financing Platform with nine other\nMDBs to improve coordination among our institutions\nand with other co-financing partners. In doing so, we\naim to fast-track solutions that can change the lives\nof people in developing countries."
+   },
+   {
+    "id": "wb-ar-2024:p006:para500:003",
+    "page": 6,
+    "text": "Wempi Saputra, Indonesia; Eugene Rhuggenaath, Netherlands; Roman Marshavin, Russian Federation; Tauqir Shah, Pakistan\nExecutive Directors welcome the Bank Group’s\ndeepening partnerships with multilateral development\nbanks and the private sector. The One World Bank\nGroup Partnership Charter, published in May 2024,\nhighlights the principles that define our work with\npartners and restates our vision of the partner we aspire\nto be."
+   },
+   {
+    "id": "wb-ar-2024:p038:para500:005",
+    "page": 38,
+    "text": "low- and middle-income countries and committed\nto an ambitious IDA21 replenishment. The World\nBank Group is leading on the implementation of\nrecommendations from the G20 Capital Adequacy\nFramework Review and the Independent Experts Group\nreport on strengthening multilateral development\nbanks."
+   }
+  ]
+ },
+ {
+  "query_id": "u03",
+  "split": "test",
+  "answerable": false,
+  "question": "What lending spread does IBRD charge on its flexible loans?",
+  "filter": null,
+  "config": {
+   "method": "hybrid_rrf",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "abstain",
+  "abstain_reason": "model_abstained",
+  "answer": "INSUFFICIENT_EVIDENCE: The retrieved passages describe IBRD's funding model and pricing adjustments but do not state the lending spread charged on its flexible loans.",
+  "citations": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "IBRD flexible loans lending spread",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.069,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p045:para500:007",
+      "page": 45,
+      "score": 0.032018
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p044:para500:009",
+      "page": 44,
+      "score": 0.032018
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p045:para500:012",
+      "page": 45,
+      "score": 0.031514
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "IBRD loan pricing spread over reference rate",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.051,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p037:para500:007",
+      "page": 37,
+      "score": 0.029727
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p047:para500:004",
+      "page": 47,
+      "score": 0.028543
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p037:para500:002",
+      "page": 37,
+      "score": 0.028219
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "IBRD lending spread basis points flexible loan terms",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.091,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p045:para500:008",
+      "page": 45,
+      "score": 0.032522
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p045:para500:007",
+      "page": 45,
+      "score": 0.032266
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p044:para500:010",
+      "page": 44,
+      "score": 0.028783
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "loan pricing terms maturity grace period IBRD loans",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.088,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p045:para500:008",
+      "page": 45,
+      "score": 0.031258
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p045:para500:007",
+      "page": 45,
+      "score": 0.031099
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p045:para500:012",
+      "page": 45,
+      "score": 0.031054
+     }
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "model_abstained"
+   }
+  ],
+  "searches": 4,
+  "context_ids": [
+   "wb-ar-2024:p045:para500:007",
+   "wb-ar-2024:p044:para500:009",
+   "wb-ar-2024:p045:para500:012",
+   "wb-ar-2024:p037:para500:007",
+   "wb-ar-2024:p047:para500:004",
+   "wb-ar-2024:p037:para500:002",
+   "wb-ar-2024:p045:para500:008",
+   "wb-ar-2024:p044:para500:010"
+  ],
+  "context_chars": 3054,
+  "usage": {
+   "prompt_tokens": 3447,
+   "completion_tokens": 190,
+   "prompt_cache_hit_tokens": 1024,
+   "calls": 3
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 3.15,
+  "context": [
+   {
+    "id": "wb-ar-2024:p045:para500:007",
+    "page": 45,
+    "text": "IBRD financial resources and financial model\nIBRD finances its loans from its own equity and from\nmoney borrowed in the capital markets through the\nissuance of IBRD bonds to fund development projects\nin member countries. IBRD is rated Aaa by Moody’s and\nAAA by Standard & Poor’s, and investors view its bonds\nas high-quality securities. IBRD’s funding approach\ncontinues to be aimed at achieving the best long-term\nvalue on a sustainable basis for borrowing members."
+   },
+   {
+    "id": "wb-ar-2024:p044:para500:009",
+    "page": 44,
+    "text": "IBRD\nFinancial commitments and services\nIBRD is a global development cooperative owned by\nits 189 member countries. As the largest multilateral\ndevelopment bank in the world, it provides loans,\nguarantees, risk-management products, and advisory\nFor monitoring, reporting, and better decision-making\nabout its commitments, the Bank applies a taxonomy\nof codes to all lending operations to reflect the sectors\nand themes to which it directs resources."
+   },
+   {
+    "id": "wb-ar-2024:p045:para500:012",
+    "page": 45,
+    "text": "One summary measure of IBRD’s risk profile is the ratio of\nequity to loans, which is closely managed in line with its\nfinancial and risk outlook. As of June 30, 2024, this ratio\nwas 21.5 percent, and the cumulative subscribed capital\nof IBRD totaled $323.1 billion, including $22.5 billion in\npaid-in capital.\nFor more information,\nvisit www.worldbank.org/ibrd."
+   },
+   {
+    "id": "wb-ar-2024:p037:para500:007",
+    "page": 37,
+    "text": "We helped over 20 countries manage financial risk for a\ntotal amount of $13.4 billion. For example, we helped the\nPhilippines protect itself against interest-rate volatility\nby fixing the interest rate on almost its entire IBRD\nU.S. dollar portfolio. We also adjusted our pricing for\nIBRD loans in Japanese yen as of April 1, 2024, thereby\nenhancing the terms available to our clients."
+   },
+   {
+    "id": "wb-ar-2024:p047:para500:004",
+    "page": 47,
+    "text": "c. As of June 30, 2024, ratio was calculated using an enhanced Board-approved methodology.\n4 The Financing Framework for the IDA20 Replenishment is managed predominantly in Special Drawing Rights (SDRs). U.S. dollar equivalent figures given here\nare calculated using IDA20 reference exchange rates."
+   },
+   {
+    "id": "wb-ar-2024:p037:para500:002",
+    "page": 37,
+    "text": "Promoting sustainable finance and capital markets\nIBRD has mobilized finance for middle-income countries\nfor more than 75 years, raising over $1 trillion from\nprivate investors since issuing its first bond in 1947."
+   },
+   {
+    "id": "wb-ar-2024:p045:para500:008",
+    "page": 45,
+    "text": "IBRD’s ability to intermediate the funds it raises in\ninternational capital markets to developing member\ncountries is important in helping achieve its goals.\nIBRD’s approach has enabled it to borrow at favorable\nmarket terms and pass the savings on to its borrowing\nmembers. Funds not immediately deployed for lending\nare held in IBRD’s investment portfolio to provide\nliquidity for its operations. In fiscal 2024, IBRD\nraised about $53 billion by issuing bonds in a variety\nof currencies."
+   },
+   {
+    "id": "wb-ar-2024:p044:para500:010",
+    "page": 44,
+    "text": "Sector codes\nreflect high-level groupings of economic activities based\non the types of goods and services produced and are\nservices to middle-income and creditworthy low-income countries, and coordinates responses to\nregional and global challenges. In fiscal 2024, new\nIBRD lending commitments amounted to $37.6 billion\nfor 126 operations, of which eight were IBRD and IDA\nblended operations."
+   }
+  ]
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "How many staff did IFC employ in fiscal 2024?",
+  "filter": null,
+  "config": {
+   "method": "hybrid_rrf",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "abstain",
+  "abstain_reason": "model_abstained",
+  "answer": "INSUFFICIENT_EVIDENCE: The passages give World Bank Group-wide staff figures (13,492 full-time staff; 18,300 full-time staff in 140 locations) but no IFC-specific staff count for fiscal 2024.",
+  "citations": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "IFC staff number fiscal 2024 employees",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.069,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p040:para500:016",
+      "page": 40,
+      "score": 0.031514
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p040:para500:014",
+      "page": 40,
+      "score": 0.030798
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p040:para500:001",
+      "page": 40,
+      "score": 0.029907
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "IFC full-time staff FY24 total number",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.069,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p040:para500:001",
+      "page": 40,
+      "score": 0.032787
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p040:para500:002",
+      "page": 40,
+      "score": 0.032002
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p040:para500:010",
+      "page": 40,
+      "score": 0.032002
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "hybrid_rrf",
+    "query": "IFC workforce headcount fiscal 2024",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.06,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p047:para500:000",
+      "page": 47,
+      "score": 0.029437
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p046:para500:002",
+      "page": 46,
+      "score": 0.027864
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p039:para500:005",
+      "page": 39,
+      "score": 0.027826
+     }
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "model_abstained"
+   }
+  ],
+  "searches": 3,
+  "context_ids": [
+   "wb-ar-2024:p040:para500:016",
+   "wb-ar-2024:p040:para500:014",
+   "wb-ar-2024:p040:para500:001",
+   "wb-ar-2024:p040:para500:002",
+   "wb-ar-2024:p040:para500:010",
+   "wb-ar-2024:p047:para500:000",
+   "wb-ar-2024:p046:para500:002",
+   "wb-ar-2024:p039:para500:005"
+  ],
+  "context_chars": 3098,
+  "usage": {
+   "prompt_tokens": 3304,
+   "completion_tokens": 174,
+   "prompt_cache_hit_tokens": 1792,
+   "calls": 3
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 3.11,
+  "context": [
+   {
+    "id": "wb-ar-2024:p040:para500:016",
+    "page": 40,
+    "text": "Staff Association\nThe World Bank Group’s Staff Association represents\nthe rights and interests of all staff, no matter what their\ncontract type, to senior management and the Board. In\nfiscal 2024, the Staff Association Delegate Assembly\nentered the first year of its two-year term, with focus\nareas including compensation and health insurance\n(particularly in country offices), employment visas, and\nflexible work."
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:014",
+    "page": 40,
+    "text": "In fiscal 2024, more than 2,800 staff turned to Ethics\nand Internal Justice Services for help. EIJ reviewed\n191 allegations of misconduct; responded to 1,150\nstaff requests for ethics advice on potential conflicts\nof interest or other compliance issues; received 282\ncases related to harassment, sexual harassment, or\nother inappropriate behaviors, and 29 cases related\nto racism or racial discrimination."
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:001",
+    "page": 40,
+    "text": "INDICATOR FY22 FY23 FY24 RELATED INDICATORS\nTotal full-time staff 12,778 13,122 13,492 GRI 401; SDG 8\nNon-U.S. based (%) 46 47 48\nShort-term consultants/temporaries (FTEs) 6,163 5,986 5,901\nDiversity index 0.89 0.90 0.91\n% represents the deviation from the gender balance target for a given category*\nAdministrative and support staff (%) 17.6 17.7 18\nEntry and junior technical (%) 2.7 2.7 2.9\nSenior technical (%) 4.7 3.8 2.9\nManagers (%) 4.7 3.4 2.8\nAverage days of training per staff, at"
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:002",
+    "page": 40,
+    "text": "headquarters 2.6 2.7 2.3 GRI 404; SDG 8\nAverage days of training per staff, in country offices 2.9 2.1 2.8\nNote: – = not available; FTE = full-time equivalent (staff); GRI = Global Reporting Initiative; SDG = Sustainable Development Goal.\n* Gender balance is defined as 50% men and 50% women, with a +/- 2% margin; 0% means we have met our gender balance target, while figures over 0% mean\nmen/women are overrepresented.\nTABLE 17: SELECTED WORLD BANK ENVIRONMENTAL IMPACTS, FISCAL 2019–23"
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:010",
+    "page": 40,
+    "text": "Our People\nOur diverse and global talent is our most important\nasset. At the end of fiscal 2024, the World Bank Group\nemployed 18,300 full-time staff in 140 locations\nrepresenting 184 nationalities. Women accounted for\n54 percent of our workforce, reflecting our commitment\nto accelerate gender equality. We continually evaluate\nand improve our employer value proposition to\nremain competitive."
+   },
+   {
+    "id": "wb-ar-2024:p047:para500:000",
+    "page": 47,
+    "text": "TABLE 28: IDA TOP COUNTRY BORROWERS, FISCAL 2024\nMILLIONS OF DOLLARS\nNote: Amounts are net of full terminations and cancellations relating to commitments approved in the same fiscal year. Excludes IDA-IFC-MIGA PSW activities.\nTABLE 29: IDA KEY FINANCIAL INDICATORS, FISCAL 2020–24\nMILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES"
+   },
+   {
+    "id": "wb-ar-2024:p046:para500:002",
+    "page": 46,
+    "text": "cancellations relating to commitments approved in the same fiscal year.\na. Excludes IDA-IFC-MIGA PSW activities.\nTABLE 25: IDA DISBURSEMENTS BY REGION, FISCAL 2020–24\nMILLIONS OF DOLLARS"
+   },
+   {
+    "id": "wb-ar-2024:p039:para500:005",
+    "page": 39,
+    "text": "Our new Scorecard for fiscal 2024–30 was approved\nby the Board in December 2023. Putting the Bank’s\nfocus squarely on impact, the slimmed-down, focused\nScorecard will allow shareholders and citizens to clearly\nsee the development outcomes the World Bank Group\nis supporting. And for the first time, all World Bank\nGroup institutions—IBRD, IDA, IFC, MIGA—will use the\nsame metrics."
+   }
+  ]
+ }
+]

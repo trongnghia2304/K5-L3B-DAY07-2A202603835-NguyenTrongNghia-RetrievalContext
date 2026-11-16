@@ -1,0 +1,78 @@
+{
+  "dense": {
+    "hit_at_1": {
+      "n": 9,
+      "N": 15,
+      "rate": 0.6
+    },
+    "evidence_hit_at_3": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.667
+    },
+    "context_evidence_rate": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.667
+    },
+    "missed_at_3": [
+      "q01",
+      "q02",
+      "q13",
+      "q14",
+      "q15"
+    ],
+    "seconds_total": 2.1,
+    "cost_usd": 0
+  },
+  "bm25": {
+    "hit_at_1": {
+      "n": 9,
+      "N": 15,
+      "rate": 0.6
+    },
+    "evidence_hit_at_3": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8
+    },
+    "context_evidence_rate": {
+      "n": 12,
+      "N": 15,
+      "rate": 0.8
+    },
+    "missed_at_3": [
+      "q01",
+      "q14",
+      "q15"
+    ],
+    "seconds_total": 0.08,
+    "cost_usd": 0
+  },
+  "hybrid_rrf": {
+    "hit_at_1": {
+      "n": 9,
+      "N": 15,
+      "rate": 0.6
+    },
+    "evidence_hit_at_3": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.667
+    },
+    "context_evidence_rate": {
+      "n": 10,
+      "N": 15,
+      "rate": 0.667
+    },
+    "missed_at_3": [
+      "q01",
+      "q02",
+      "q13",
+      "q14",
+      "q15"
+    ],
+    "seconds_total": 2.49,
+    "cost_usd": 0
+  }
+}

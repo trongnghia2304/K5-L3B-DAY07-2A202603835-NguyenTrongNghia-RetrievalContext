@@ -1,5 +1,39 @@
 # Day 7 — Agentic RAG
 
+> ## Bài làm — Nguyễn Trọng Nghĩa (2A202603835, L3B)
+>
+> - **Dữ liệu:** dùng lại corpus, chunk (strategy C), pgvector và embedding MiniLM của [bài Day 6](https://github.com/trongnghia2304/K5-L3B-DAY06-2A202603835-DataIngestion).
+> - **Agent:** DeepSeek `deepseek-chat`; server trả về tên model thật là `deepseek-flash`.
+> - **Retrieval:** dense (baseline), BM25, hybrid RRF; cấu hình chọn là hybrid_rrf, top-3.
+> - **Báo cáo:** [report/individual/2A202603835_NguyenTrongNghia.md](report/individual/2A202603835_NguyenTrongNghia.md).
+> - **Kết quả:** [results/README.md](results/README.md).
+> - **Benchmark:** [benchmark/README.md](benchmark/README.md).
+>
+> **Cách chạy** (Python 3.11, Windows PowerShell; trên macOS/Linux đổi đường dẫn venv cho phù hợp):
+>
+> ```bash
+> # 1. Bật Postgres + pgvector của Day 6 (đã ingest; chạy trong thư mục starter/ của repo Day 6)
+> docker compose -p day6_student_starter up -d --wait
+> # 2. Môi trường Day 7
+> python -m venv .venv
+> .venv\Scripts\python -m pip install -r requirements.txt
+> Copy-Item .env.example .env        # rồi điền DEEPSEEK_API_KEY vào .env
+> # 3. Dữ liệu và benchmark
+> .venv\Scripts\python src/export_day6.py
+> .venv\Scripts\python src/verify_benchmark.py
+> # 4. Retrieval-only (không gọi LLM)
+> .venv\Scripts\python src/eval_retrieval.py --split dev --methods dense,bm25,hybrid_rrf,dense+nbr1,hybrid_rrf+nbr1 --budget 100000 --tag filter_unbudgeted
+> # 5. Agent (gọi DeepSeek API, có tốn phí)
+> .venv\Scripts\python src/run_agent.py --split dev --method hybrid_rrf --top-k 3 --tag hybrid_rrf_k3
+> .venv\Scripts\python src/run_agent.py --split test --method hybrid_rrf --top-k 3 --tag hybrid_rrf_k3
+> # 6. Chấm thủ công: tạo bảng chấm, điền nhãn, rồi tổng hợp qua starter/agent_metrics.py
+> .venv\Scripts\python src/review_sheet.py summarize
+> # Unit test của starter (cần chế độ UTF-8 trên Windows)
+> $env:PYTHONUTF8=1; .venv\Scripts\python -m unittest discover -s tests -v
+> ```
+>
+> `starter/data/` (toàn văn các chunk, giấy phép NoDerivatives) không được commit; bước 3 sẽ tạo lại. Không commit `.env`.
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

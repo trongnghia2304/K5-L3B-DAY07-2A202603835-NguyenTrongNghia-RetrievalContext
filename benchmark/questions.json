@@ -1,0 +1,324 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "type": "direct",
+  "question": "What was the total amount of World Bank Group commitments to partner countries and private businesses in fiscal 2024?",
+  "expected_answer": "$117.5 billion in loans, grants, equity investments, and guarantees",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 8,
+    "evidence": "$117.5B (BILLION) in loans, grants, equity investments, and guarantees to partner countries and private businesses."
+   },
+   {
+    "source_id": "wb-ar-2024",
+    "page": 6,
+    "evidence": "the World Bank Group committed $117.5 billion"
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "By what year does the Bank Group want yearly guarantee issuance to reach $20 billion?",
+  "expected_answer": "By 2030",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 7,
+    "evidence": "putting us on a path to boost our annual guarantee issuance to $20 billion by 2030"
+   },
+   {
+    "source_id": "wb-ar-2024",
+    "page": 30,
+    "evidence": "goal of boosting annual guarantee issuance to $20 billion by 2030"
+   },
+   {
+    "source_id": "wb-ar-2024",
+    "page": 31,
+    "evidence": "goal of boosting annual guarantee issuance to $20 billion by 2030"
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "type": "direct",
+  "question": "How many institutions make up the GEMs Consortium?",
+  "expected_answer": "25 multilateral development banks and development finance institutions",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 7,
+    "evidence": "The GEMs Consortium comprises 25 multilateral development banks and development finance institutions."
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "type": "conditional",
+  "question": "Under Climate Resilient Debt Clauses, what can small states do when a catastrophe hits?",
+  "expected_answer": "Prioritize disaster recovery over debt repayment",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 7,
+    "evidence": "Climate Resilient Debt Clauses allow small states to prioritize disaster recovery over debt repayment when catastrophes hit."
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "How many jobs are expected to be created in the Global South over the next decade, while 1.2 billion young people reach working age?",
+  "expected_answer": "Only 424 million jobs",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 5,
+    "evidence": "only 424 million jobs are expected to be created"
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "type": "direct",
+  "question": "How much climate finance did the World Bank Group provide in fiscal 2024?",
+  "expected_answer": "$40 billion",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 29,
+    "evidence": "Our $40 billion in climate finance helped harness clean energy, build sustainable cities, preserve forests, and ensure sustainable land use."
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "type": "direct",
+  "question": "How much concessional financing did the Hydrogen for Development Partnership facilitate in fiscal 2024?",
+  "expected_answer": "$1.5 billion",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 31,
+    "evidence": "facilitated $1.5 billion in concessional financing in fiscal 2024"
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "In which countries are the recycling projects backed by IBRD's plastic waste outcome bond located?",
+  "expected_answer": "Ghana and Indonesia",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 37,
+    "evidence": "to support two plastic waste collection and recycling projects in Ghana and Indonesia."
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "type": "direct",
+  "question": "How much did IBRD raise through Sustainable Development Bonds in fiscal 2024?",
+  "expected_answer": "$53 billion",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 37,
+    "evidence": "raised $53 billion through Sustainable Development Bonds"
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "type": "conditional",
+  "question": "What target has the World Bank set for overall project preparation time, and by when?",
+  "expected_answer": "Under 12 months by fiscal 2025, without compromising quality",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 39,
+    "evidence": "the World Bank is on a path to reduce the overall project preparation time to under 12 months by fiscal 2025."
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "type": "direct",
+  "question": "How many global challenges did the World Bank identify in fiscal 2024 to prioritize in the next few years?",
+  "expected_answer": "Eight",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 43,
+    "evidence": "the World Bank identified eight global challenges to prioritize in the next few years"
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "How much renewable energy capacity will the Europe and Central Asia Renewable Energy Scale-up Program provide?",
+  "expected_answer": "15 gigawatts over 10 years, reducing 240 million metric tons of carbon emissions",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 31,
+    "evidence": "providing 15 gigawatts of renewable energy capacity and reducing 240 million metric tons of carbon emissions in the region."
+   }
+  ],
+  "origin": "day6-dev"
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "How much did the World Bank approve in this region in fiscal 2024, and for how many operations?",
+  "expected_answer": "$15.6 billion for 96 operations",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 10,
+    "evidence": "the World Bank approved $15.6 billion for 96 operations in the region"
+   }
+  ],
+  "origin": "day6-dev",
+  "filter": {
+   "region": "eastern_southern_africa"
+  }
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "What were the IBRD commitments in this region in fiscal 2024?",
+  "expected_answer": "$6.8 billion (plus $1.2 billion in IDA commitments)",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 14,
+    "evidence": "including $6.8 billion in IBRD commitments and $1.2 billion in IDA commitments."
+   }
+  ],
+  "origin": "day6-dev",
+  "filter": {
+   "region": "east_asia_pacific"
+  }
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "What was the value of the portfolio of operations under implementation in this region as of June 30, 2024?",
+  "expected_answer": "$33.5 billion",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 18,
+    "evidence": "Portfolio of operations under implementation as of June 30, 2024: $33.5 billion."
+   }
+  ],
+  "origin": "day6-dev",
+  "filter": {
+   "region": "latin_america_caribbean"
+  }
+ },
+ {
+  "id": "t11",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "According to the regional snapshot table, what is the current total population of this region?",
+  "expected_answer": "247.5 million (current data column; 216.0 million in 2000 and 232.7 million in 2012)",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 17,
+    "evidence": "Total population (millions) 216.0 232.7 247.5"
+   }
+  ],
+  "filter": {
+   "region": "europe_central_asia"
+  }
+ },
+ {
+  "id": "t12",
+  "split": "test",
+  "type": "conditional",
+  "question": "How many people does the World Bank aim to reach with adaptive social protection, by when, and what share of them should be women?",
+  "expected_answer": "500 million people by the end of 2030, aiming for half of the beneficiaries to be women",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 26,
+    "evidence": "reach 500 million people with adaptive social protection by the end of 2030—aiming for half of these beneficiaries to be women"
+   }
+  ]
+ },
+ {
+  "id": "t13",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "In fiscal 2024, how much was lent for new road safety, logistics and transport connectivity projects, and how many projects were there?",
+  "expected_answer": "More than $5 billion to 33 new projects",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 30,
+    "evidence": "Lent more than $5 billion to 33 new projects addressing road safety, logistics, climate-resilient connectivity and decarbonization."
+   }
+  ]
+ },
+ {
+  "id": "t14",
+  "split": "test",
+  "type": "direct",
+  "question": "How many active projects did the digital lending portfolio comprise as of June 2024?",
+  "expected_answer": "A record 53 active projects ($5.6 billion in total net commitments)",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 32,
+    "evidence": "Our Digital lending portfolio comprised a record 53 active projects, representing $5.6 billion in total net commitments as of June 2024."
+   }
+  ]
+ },
+ {
+  "id": "t15",
+  "split": "test",
+  "type": "direct",
+  "question": "With how many other multilateral development banks did the World Bank launch the Global Collaborative Co-Financing Platform?",
+  "expected_answer": "Nine other MDBs",
+  "gold": [
+   {
+    "source_id": "wb-ar-2024",
+    "page": 38,
+    "evidence": "we launched a new Global Collaborative Co-Financing Platform with nine other MDBs"
+   }
+  ]
+ }
+]

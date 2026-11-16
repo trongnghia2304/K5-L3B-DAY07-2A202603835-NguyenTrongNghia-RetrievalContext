@@ -1,0 +1,985 @@
+[
+ {
+  "query_id": "t11",
+  "split": "test",
+  "answerable": true,
+  "question": "According to the regional snapshot table, what is the current total population of this region?",
+  "filter": {
+   "region": "europe_central_asia"
+  },
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "According to Table 9 (Europe and Central Asia Regional Snapshot), the current total population is **247.5 million** [wb-ar-2024:p017:para500:001].",
+  "citations": [
+   "wb-ar-2024:p017:para500:001"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "Europe and Central Asia regional snapshot total population",
+    "filter": {
+     "region": "europe_central_asia"
+    },
+    "top_k": 3,
+    "seconds": 0.058,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p017:para500:000",
+      "page": 17,
+      "score": 0.664541
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p016:para500:003",
+      "page": 16,
+      "score": 0.527847
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p016:para500:000",
+      "page": 16,
+      "score": 0.501731
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "Europe Central Asia population million table",
+    "filter": {
+     "region": "europe_central_asia"
+    },
+    "top_k": 3,
+    "seconds": 0.047,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p017:para500:000",
+      "page": 17,
+      "score": 0.663069
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p016:para500:000",
+      "page": 16,
+      "score": 0.622653
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p016:para500:003",
+      "page": 16,
+      "score": 0.561798
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "Table 9 regional snapshot population life expectancy poverty rate",
+    "filter": {
+     "region": "europe_central_asia"
+    },
+    "top_k": 3,
+    "seconds": 0.053,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p017:para500:001",
+      "page": 17,
+      "score": 0.641194
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p017:para500:002",
+      "page": 17,
+      "score": 0.500436
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p017:para500:003",
+      "page": 17,
+      "score": 0.418478
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "population 2023 million Europe Central Asia snapshot indicators",
+    "filter": {
+     "region": "europe_central_asia"
+    },
+    "top_k": 3,
+    "seconds": 0.059,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p017:para500:000",
+      "page": 17,
+      "score": 0.644223
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p016:para500:003",
+      "page": 16,
+      "score": 0.566649
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p016:para500:000",
+      "page": 16,
+      "score": 0.543515
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 4,
+  "context_ids": [
+   "wb-ar-2024:p017:para500:000",
+   "wb-ar-2024:p016:para500:003",
+   "wb-ar-2024:p016:para500:000",
+   "wb-ar-2024:p017:para500:001",
+   "wb-ar-2024:p017:para500:002",
+   "wb-ar-2024:p017:para500:003"
+  ],
+  "context_chars": 2323,
+  "usage": {
+   "prompt_tokens": 4087,
+   "completion_tokens": 246,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 3
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 3.48,
+  "first_search_labels": {
+   "hit_at_1": false,
+   "hit_at_3": false,
+   "first_hit_rank": null,
+   "hits": [
+    false,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p017:para500:000",
+    "page": 17,
+    "text": "FIGURE 4: EUROPE AND CENTRAL ASIA\nIBRD AND IDA LENDING BY SECTOR • FISCAL 2024\nSHARE OF TOTAL OF $10.4 BILLION\nTABLE 9: EUROPE AND CENTRAL ASIA\nREGIONAL SNAPSHOT"
+   },
+   {
+    "id": "wb-ar-2024:p016:para500:003",
+    "page": 16,
+    "text": "AT-A-GLANCE\nAcross Europe and Central Asia, we aim to improve access to quality\neducation and health services, advance the energy transition and water\nmanagement, enhance economic prosperity and job creation, and improve\nphysical and digital connectivity. In fiscal 2024, the World Bank approved\n$10.4 billion for 50 operations in the region, including $9.3 billion in IBRD\ncommitments and $1.1 billion in IDA commitments."
+   },
+   {
+    "id": "wb-ar-2024:p016:para500:000",
+    "page": 16,
+    "text": "EUROPE AND\nCENTRAL ASIA\nTABLE 8: EUROPE AND CENTRAL ASIA\nREGIONAL COMMITMENTS AND DISBURSEMENTS—FISCAL 2022–24\nCOMMITMENTS ($ MILLIONS) DISBURSEMENTS ($ MILLIONS)\nFY22 FY23 FY24 FY22 FY23 FY24\nIBRD 5,974 10,162 9,302 4,580 4,833 10,574\nIDA 2,511 1,098 1,100 764 2,385 1,187\nPortfolio of operations under implementation as of June 30, 2024: $44.0 billion."
+   },
+   {
+    "id": "wb-ar-2024:p017:para500:001",
+    "page": 17,
+    "text": "INDICATOR 2000 2012 CURRENT DATAa\nTotal population (millions) 216.0 232.7 247.5\nPopulation growth (annual %) 0.4 0.8 0.2\nGNI per capita (Atlas method, current US$) 1,847.3 6,825.7 7,691.9\nGDP per capita growth (annual %) 6.4 3.2 4.4\nPopulation living below $2.15 a day (millions) 43.3 4.2 2.3\nLife expectancy at birth, females (years) 73.0 76.2 77.6\nLife expectancy at birth, males (years) 65.0 69.0 70.7\nCarbon dioxide emissions (megatons) 2,577.2 2,959.7 2,830.7\nExtreme poverty (% of population"
+   },
+   {
+    "id": "wb-ar-2024:p017:para500:002",
+    "page": 17,
+    "text": "below $2.15 a day, 2017 PPP) 9.2 0.9 0.5\nDebt service as a proportion of exports of goods, services, and primary income 18.9 14.9 17.8\nRatio of female to male labor force participation rate (%) (modeled ILO estimate) 68.2 67.2 64.7\nVulnerable employment, total (% of total employment) (modeled ILO estimate) 33.7 30.2 29.0\nUnder-5 mortality rate per 1,000 live births 42.8 19.7 13.1\nPrimary completion rate (% of relevant age group) 95.9 97.5 99.8\nIndividuals using the internet (% of population)"
+   },
+   {
+    "id": "wb-ar-2024:p017:para500:003",
+    "page": 17,
+    "text": "1.7 39.5 81.0\nAccess to electricity (% of population) 99.0 99.7 100.0\nRenewable energy consumption (% of total final energy consumption) 7.6 7.5 10.1\nPeople using at least basic drinking water services (% of population) 91.3 93.5 95.6\nPeople using at least basic sanitation services (% of population) 89.9 94.9 97.8\nNote: ILO = International Labour Organization; PPP = purchasing power parity."
+   }
+  ]
+ },
+ {
+  "query_id": "t12",
+  "split": "test",
+  "answerable": true,
+  "question": "How many people does the World Bank aim to reach with adaptive social protection, by when, and what share of them should be women?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The World Bank aims to reach 500 million people (half a billion) with adaptive social protection by the end of 2030, with the aim that half of these beneficiaries be women [wb-ar-2024:p026:para500:001][wb-ar-2024:p005:para500:014].",
+  "citations": [
+   "wb-ar-2024:p026:para500:001",
+   "wb-ar-2024:p005:para500:014"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "adaptive social protection reach people women share target",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.077,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p005:para500:014",
+      "page": 5,
+      "score": 0.628188
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p026:para500:001",
+      "page": 26,
+      "score": 0.6178
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p026:para500:000",
+      "page": 26,
+      "score": 0.551944
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "social protection target million people women 2030",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.075,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p026:para500:001",
+      "page": 26,
+      "score": 0.713352
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p005:para500:014",
+      "page": 5,
+      "score": 0.687754
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p031:para500:014",
+      "page": 31,
+      "score": 0.622808
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 2,
+  "context_ids": [
+   "wb-ar-2024:p005:para500:014",
+   "wb-ar-2024:p026:para500:001",
+   "wb-ar-2024:p026:para500:000",
+   "wb-ar-2024:p031:para500:014"
+  ],
+  "context_chars": 1020,
+  "usage": {
+   "prompt_tokens": 1552,
+   "completion_tokens": 142,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.01,
+  "first_search_labels": {
+   "hit_at_1": false,
+   "hit_at_3": true,
+   "first_hit_rank": 2,
+   "hits": [
+    false,
+    true,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p005:para500:014",
+    "page": 5,
+    "text": "To help people withstand food-affected\nshocks and crises, we are strengthening social\nprotection services to support half a billion people by\nthe end of 2030—aiming for half of these beneficiaries\nto be women."
+   },
+   {
+    "id": "wb-ar-2024:p026:para500:001",
+    "page": 26,
+    "text": "In fiscal 2024, we committed to work alongside\npartners to reach 500 million people with adaptive\nsocial protection by the end of 2030—aiming for half\nof these beneficiaries to be women. To achieve this\ngoal, we’re utilizing innovative digital cash transfer\nsystems to help those in need receive resources directly\nand efficiently."
+   },
+   {
+    "id": "wb-ar-2024:p026:para500:000",
+    "page": 26,
+    "text": "Social protection and labor systems\nOver the last two decades we have built social\nprotection programs that are helping more than 280\nmillion poor and vulnerable people in 88 countries with\neffective social protection to withstand natural and\nman-made shocks that can exacerbate poverty and\nfood insecurity."
+   },
+   {
+    "id": "wb-ar-2024:p031:para500:014",
+    "page": 31,
+    "text": "Going forward, we will use the World\nBank Gender Strategy, published in June 2024, to\nincrease the number of women in transportation\nleadership roles to equalize the sector."
+   }
+  ]
+ },
+ {
+  "query_id": "t13",
+  "split": "test",
+  "answerable": true,
+  "question": "In fiscal 2024, how much was lent for new road safety, logistics and transport connectivity projects, and how many projects were there?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "In fiscal 2024, the World Bank lent more than $5 billion to 33 new projects addressing road safety, logistics, climate-resilient connectivity and decarbonization [wb-ar-2024:p031:para500:011] [wb-ar-2024:p030:para500:001].",
+  "citations": [
+   "wb-ar-2024:p031:para500:011",
+   "wb-ar-2024:p030:para500:001"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "fiscal 2024 road safety logistics transport connectivity projects lending",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.061,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p030:para500:001",
+      "page": 30,
+      "score": 0.608893
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p031:para500:007",
+      "page": 31,
+      "score": 0.548043
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p031:para500:011",
+      "page": 31,
+      "score": 0.547674
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p030:para500:001",
+   "wb-ar-2024:p031:para500:007",
+   "wb-ar-2024:p031:para500:011"
+  ],
+  "context_chars": 784,
+  "usage": {
+   "prompt_tokens": 1283,
+   "completion_tokens": 109,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.67,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p030:para500:001",
+    "page": 30,
+    "text": "• Lent more than $5 billion to 33\nnew projects addressing road\nsafety, logistics, climate-resilient\nconnectivity and decarbonization."
+   },
+   {
+    "id": "wb-ar-2024:p031:para500:007",
+    "page": 31,
+    "text": "Infrastructure finance\nInfrastructure connects people with employment\nopportunities, promotes economic growth, and improves\nlivelihoods. It also impacts our planet’s livability,\nas infrastructure both generates climate-changing\nemissions and is vulnerable to climate change effects."
+   },
+   {
+    "id": "wb-ar-2024:p031:para500:011",
+    "page": 31,
+    "text": "Sustainable and resilient transport\nIn fiscal 2024, we lent more than $5 billion to 33 new\nprojects addressing road safety, logistics, climate-resilient connectivity and decarbonization. The Global\nFacility to Decarbonize Transport welcomed Spain as\na new member and received $3.8 million in funding,\nbringing the group’s total pledged funding to just over\n$13 million."
+   }
+  ]
+ },
+ {
+  "query_id": "t14",
+  "split": "test",
+  "answerable": true,
+  "question": "How many active projects did the digital lending portfolio comprise as of June 2024?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The digital lending portfolio comprised a record 53 active projects, representing $5.6 billion in total net commitments as of June 2024 [wb-ar-2024:p032:para500:000][wb-ar-2024:p032:para500:002].",
+  "citations": [
+   "wb-ar-2024:p032:para500:000",
+   "wb-ar-2024:p032:para500:002"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "digital lending portfolio active projects as of June 2024",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.07,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p032:para500:000",
+      "page": 32,
+      "score": 0.76851
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p005:para500:007",
+      "page": 5,
+      "score": 0.766619
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p032:para500:002",
+      "page": 32,
+      "score": 0.741403
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p032:para500:000",
+   "wb-ar-2024:p005:para500:007",
+   "wb-ar-2024:p032:para500:002"
+  ],
+  "context_chars": 1163,
+  "usage": {
+   "prompt_tokens": 1325,
+   "completion_tokens": 101,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.77,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p032:para500:000",
+    "page": 32,
+    "text": "AT-A-GLANCE\nWe are enabling digitalization to\ntransform our world for the better.\nIn fiscal 2024:\n• Our Digital lending portfolio\ncomprised a record 53 active\nprojects, representing $5.6 billion\nin total net commitments as of\nJune 2024.\n• The inaugural Global Digital\nSummit brought together digital\nthought leaders, policymakers,\nand practitioners to explore\nthe emerging opportunities and\nrisks of digital transformation\nfor development."
+   },
+   {
+    "id": "wb-ar-2024:p005:para500:007",
+    "page": 5,
+    "text": "Our digital lending portfolio\ntotaled $5.6 billion in commitments as of June 2024; and\nour new Digital Vice Presidency unit will lead our efforts\nto establish the foundations of a digital economy. Key\ninitiatives include building and enhancing digital and\ndata infrastructure, ensuring cybersecurity and data\nprivacy for institutions, businesses, and citizens, and\nadvancing digital government services."
+   },
+   {
+    "id": "wb-ar-2024:p032:para500:002",
+    "page": 32,
+    "text": "To close the digital divide, we collaborate with\ngovernments in more than 100 developing countries to\nbuild strong and trusted foundations and enablers for\ndigital economies to thrive. The Digital lending portfolio\ncomprised a record 53 active projects, representing\n$5.6 billion in total net commitments as of June 2024."
+   }
+  ]
+ },
+ {
+  "query_id": "t15",
+  "split": "test",
+  "answerable": true,
+  "question": "With how many other multilateral development banks did the World Bank launch the Global Collaborative Co-Financing Platform?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "answered",
+  "abstain_reason": null,
+  "answer": "The World Bank launched the Global Collaborative Co-Financing Platform with nine other multilateral development banks [wb-ar-2024:p038:para500:002].",
+  "citations": [
+   "wb-ar-2024:p038:para500:002"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "Global Collaborative Co-Financing Platform launch multilateral development banks",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.078,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p038:para500:002",
+      "page": 38,
+      "score": 0.785549
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p038:para500:000",
+      "page": 38,
+      "score": 0.667562
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p008:para500:004",
+      "page": 8,
+      "score": 0.645726
+     }
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "searches": 1,
+  "context_ids": [
+   "wb-ar-2024:p038:para500:002",
+   "wb-ar-2024:p038:para500:000",
+   "wb-ar-2024:p008:para500:004"
+  ],
+  "context_chars": 1305,
+  "usage": {
+   "prompt_tokens": 1368,
+   "completion_tokens": 78,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 2
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 1.66,
+  "first_search_labels": {
+   "hit_at_1": true,
+   "hit_at_3": true,
+   "first_hit_rank": 1,
+   "hits": [
+    true,
+    false,
+    false
+   ]
+  },
+  "context_has_evidence": true,
+  "cited_has_evidence": true,
+  "context": [
+   {
+    "id": "wb-ar-2024:p038:para500:002",
+    "page": 38,
+    "text": "Multilateral development banks\nWe work closely with other multilateral development\nbanks (MDBs) to advance shared development\npriorities. In fiscal 2024, we launched a new Global\nCollaborative Co-Financing Platform with nine other\nMDBs to improve coordination among our institutions\nand with other co-financing partners. In doing so, we\naim to fast-track solutions that can change the lives\nof people in developing countries."
+   },
+   {
+    "id": "wb-ar-2024:p038:para500:000",
+    "page": 38,
+    "text": "Partnerships—with multilateral institutions, civil society\norganizations, the private sector, foundations, think\ntanks, and others—strengthen the impact of the World\nBank and the global development community. Our One\nWorld Bank Group Partnership Charter, published in\nMay 2024, highlights the principles underpinning our\nwork with partners and reinforces our vision of the\npartner we aspire to be."
+   },
+   {
+    "id": "wb-ar-2024:p008:para500:004",
+    "page": 8,
+    "text": "GLOBAL COMMITMENTS\nIn fiscal 2024, the World Bank Group provided much-needed financing,\nconducted research and analysis, and partnered with governments,\nthe private sector, and other institutions to address global\ndevelopment challenges.\nTotal includes multiregional and global operations. Regional totals reflect IFC commitments that were recalculated to\nmatch the World Bank’s regional classifications by aggregating country-level commitments within each World Bank region.\n$117.5B"
+   }
+  ]
+ },
+ {
+  "query_id": "u03",
+  "split": "test",
+  "answerable": false,
+  "question": "What lending spread does IBRD charge on its flexible loans?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "abstain",
+  "abstain_reason": "model_abstained",
+  "answer": "INSUFFICIENT_EVIDENCE: The search results describe IBRD's funding model and bond issuance but contain no figure for the lending spread charged on its flexible loans.",
+  "citations": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "IBRD flexible loans lending spread",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.05,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p045:para500:007",
+      "page": 45,
+      "score": 0.683715
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p045:para500:008",
+      "page": 45,
+      "score": 0.667041
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p037:para500:000",
+      "page": 37,
+      "score": 0.61465
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "IBRD loan pricing spread over reference rate",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.071,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p045:para500:012",
+      "page": 45,
+      "score": 0.7104
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p045:para500:007",
+      "page": 45,
+      "score": 0.669544
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p045:para500:008",
+      "page": 45,
+      "score": 0.649713
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "IBRD lending spread basis points flexible loan terms",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.065,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p045:para500:007",
+      "page": 45,
+      "score": 0.664579
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p045:para500:008",
+      "page": 45,
+      "score": 0.639809
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p037:para500:000",
+      "page": 37,
+      "score": 0.600459
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "loan pricing terms maturity grace period IBRD loans",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.075,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p045:para500:007",
+      "page": 45,
+      "score": 0.581226
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p045:para500:012",
+      "page": 45,
+      "score": 0.5725
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p045:para500:008",
+      "page": 45,
+      "score": 0.550921
+     }
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "model_abstained"
+   }
+  ],
+  "searches": 4,
+  "context_ids": [
+   "wb-ar-2024:p045:para500:007",
+   "wb-ar-2024:p045:para500:008",
+   "wb-ar-2024:p037:para500:000",
+   "wb-ar-2024:p045:para500:012"
+  ],
+  "context_chars": 1763,
+  "usage": {
+   "prompt_tokens": 3677,
+   "completion_tokens": 191,
+   "prompt_cache_hit_tokens": 768,
+   "calls": 3
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.86,
+  "context": [
+   {
+    "id": "wb-ar-2024:p045:para500:007",
+    "page": 45,
+    "text": "IBRD financial resources and financial model\nIBRD finances its loans from its own equity and from\nmoney borrowed in the capital markets through the\nissuance of IBRD bonds to fund development projects\nin member countries. IBRD is rated Aaa by Moody’s and\nAAA by Standard & Poor’s, and investors view its bonds\nas high-quality securities. IBRD’s funding approach\ncontinues to be aimed at achieving the best long-term\nvalue on a sustainable basis for borrowing members."
+   },
+   {
+    "id": "wb-ar-2024:p045:para500:008",
+    "page": 45,
+    "text": "IBRD’s ability to intermediate the funds it raises in\ninternational capital markets to developing member\ncountries is important in helping achieve its goals.\nIBRD’s approach has enabled it to borrow at favorable\nmarket terms and pass the savings on to its borrowing\nmembers. Funds not immediately deployed for lending\nare held in IBRD’s investment portfolio to provide\nliquidity for its operations. In fiscal 2024, IBRD\nraised about $53 billion by issuing bonds in a variety\nof currencies."
+   },
+   {
+    "id": "wb-ar-2024:p037:para500:000",
+    "page": 37,
+    "text": "INNOVATIVE FUNDING SOLUTIONS\nIBRD has continued to structure bonds that provide\nfinancing solutions for specific projects, in addition to\nraising financing for IBRD’s sustainable development\nactivities through the bond proceeds. For example, in\nJanuary 2024, IBRD issued a $100 million principal-protected outcome bond, the Plastic Waste Reduction-Linked Bond, to support two plastic waste collection\nand recycling projects in Ghana and Indonesia."
+   },
+   {
+    "id": "wb-ar-2024:p045:para500:012",
+    "page": 45,
+    "text": "One summary measure of IBRD’s risk profile is the ratio of\nequity to loans, which is closely managed in line with its\nfinancial and risk outlook. As of June 30, 2024, this ratio\nwas 21.5 percent, and the cumulative subscribed capital\nof IBRD totaled $323.1 billion, including $22.5 billion in\npaid-in capital.\nFor more information,\nvisit www.worldbank.org/ibrd."
+   }
+  ]
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "How many staff did IFC employ in fiscal 2024?",
+  "filter": null,
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "max_searches": 4
+  },
+  "status": "abstain",
+  "abstain_reason": "model_abstained",
+  "answer": "INSUFFICIENT_EVIDENCE: The passages give World Bank Group-wide staff figures (18,300 full-time staff; 13,492 total full-time staff) but do not state IFC-specific staff numbers.",
+  "citations": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "IFC staff number fiscal 2024 employees",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.048,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p040:para500:001",
+      "page": 40,
+      "score": 0.639457
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p040:para500:010",
+      "page": 40,
+      "score": 0.504515
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p040:para500:014",
+      "page": 40,
+      "score": 0.500486
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "IFC full-time staff 13,492",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.075,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p040:para500:001",
+      "page": 40,
+      "score": 0.651186
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p040:para500:002",
+      "page": 40,
+      "score": 0.47408
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p040:para500:016",
+      "page": 40,
+      "score": 0.43246
+     }
+    ]
+   },
+   {
+    "event": "search",
+    "tool": "search",
+    "method": "dense",
+    "query": "IFC workforce number of staff employed",
+    "filter": null,
+    "top_k": 3,
+    "seconds": 0.059,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wb-ar-2024:p040:para500:001",
+      "page": 40,
+      "score": 0.653399
+     },
+     {
+      "rank": 2,
+      "id": "wb-ar-2024:p040:para500:010",
+      "page": 40,
+      "score": 0.534523
+     },
+     {
+      "rank": 3,
+      "id": "wb-ar-2024:p040:para500:016",
+      "page": 40,
+      "score": 0.53169
+     }
+    ]
+   },
+   {
+    "event": "abstain",
+    "reason": "model_abstained"
+   }
+  ],
+  "searches": 3,
+  "context_ids": [
+   "wb-ar-2024:p040:para500:001",
+   "wb-ar-2024:p040:para500:010",
+   "wb-ar-2024:p040:para500:014",
+   "wb-ar-2024:p040:para500:002",
+   "wb-ar-2024:p040:para500:016"
+  ],
+  "context_chars": 2191,
+  "usage": {
+   "prompt_tokens": 3368,
+   "completion_tokens": 166,
+   "prompt_cache_hit_tokens": 1792,
+   "calls": 3
+  },
+  "model": [
+   "deepseek-flash"
+  ],
+  "seconds": 2.95,
+  "context": [
+   {
+    "id": "wb-ar-2024:p040:para500:001",
+    "page": 40,
+    "text": "INDICATOR FY22 FY23 FY24 RELATED INDICATORS\nTotal full-time staff 12,778 13,122 13,492 GRI 401; SDG 8\nNon-U.S. based (%) 46 47 48\nShort-term consultants/temporaries (FTEs) 6,163 5,986 5,901\nDiversity index 0.89 0.90 0.91\n% represents the deviation from the gender balance target for a given category*\nAdministrative and support staff (%) 17.6 17.7 18\nEntry and junior technical (%) 2.7 2.7 2.9\nSenior technical (%) 4.7 3.8 2.9\nManagers (%) 4.7 3.4 2.8\nAverage days of training per staff, at"
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:010",
+    "page": 40,
+    "text": "Our People\nOur diverse and global talent is our most important\nasset. At the end of fiscal 2024, the World Bank Group\nemployed 18,300 full-time staff in 140 locations\nrepresenting 184 nationalities. Women accounted for\n54 percent of our workforce, reflecting our commitment\nto accelerate gender equality. We continually evaluate\nand improve our employer value proposition to\nremain competitive."
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:014",
+    "page": 40,
+    "text": "In fiscal 2024, more than 2,800 staff turned to Ethics\nand Internal Justice Services for help. EIJ reviewed\n191 allegations of misconduct; responded to 1,150\nstaff requests for ethics advice on potential conflicts\nof interest or other compliance issues; received 282\ncases related to harassment, sexual harassment, or\nother inappropriate behaviors, and 29 cases related\nto racism or racial discrimination."
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:002",
+    "page": 40,
+    "text": "headquarters 2.6 2.7 2.3 GRI 404; SDG 8\nAverage days of training per staff, in country offices 2.9 2.1 2.8\nNote: – = not available; FTE = full-time equivalent (staff); GRI = Global Reporting Initiative; SDG = Sustainable Development Goal.\n* Gender balance is defined as 50% men and 50% women, with a +/- 2% margin; 0% means we have met our gender balance target, while figures over 0% mean\nmen/women are overrepresented.\nTABLE 17: SELECTED WORLD BANK ENVIRONMENTAL IMPACTS, FISCAL 2019–23"
+   },
+   {
+    "id": "wb-ar-2024:p040:para500:016",
+    "page": 40,
+    "text": "Staff Association\nThe World Bank Group’s Staff Association represents\nthe rights and interests of all staff, no matter what their\ncontract type, to senior management and the Board. In\nfiscal 2024, the Staff Association Delegate Assembly\nentered the first year of its two-year term, with focus\nareas including compensation and health insurance\n(particularly in country offices), employment visas, and\nflexible work."
+   }
+  ]
+ }
+]
